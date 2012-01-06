@@ -1,9 +1,12 @@
 require 'will_paginate'
 require 'will_paginate/array'
+require 'will_paginate/view_helpers/sinatra'
 
 module Nesta
   class App
     use Rack::Static, :urls => ['/js','/img','/css'], :root => 'themes/aws2012/public'
+
+    helpers WillPaginate::Sinatra::Helpers
 
     helpers do
       def body_class
