@@ -1,0 +1,73 @@
+Date: Sun, 13 Dec 2009 17:22:38 +0000
+Categories: journal
+Tags: address book,espresso,ical,iterm,klok,mac,mail,netnewswire,photoshop,software,tweetdeck,writeroom
+Permalink: http://arborwebsolutions.com/2009/12/my-ultimate-mac-software-setup/
+Summary: The tools I use to do what it is that I do.
+
+# My Ultimate Mac Software Setup
+
+![Mac apps][]I got my first Mac, a unibody 13" Macbook (aluminum, just
+before they became Macbook Pros), a little over a year ago. In that
+time, I've fallen in love with the quality of the hardware, the
+usefulness of Mac OS X, and - especially - the software available for
+the platform. In this post I'll show you the software that I've come to
+rely on in my daily work.
+
+1.  [Espresso][] - I picked up a copy of this program as part of the
+    MacHeist bundle. It's an IDE for web design, handling HTML/CSS
+    editing (with autocompletion), a built-in WebKit browser for
+    previews as you work, FTP syncing, and project organization. Plugins
+    called "sugars" even let you extend Espresso's support for other
+    languages. If they added preview support for PHP, it would be even
+    better, but as is it's still hard to beat for productivity.
+2.  Mail.app / iCal / Address Book - The Mac OS dream team. Newer
+    versions of Mail.app finally have solid support for Gmail over IMAP,
+    and it integrates smoothly with iCal and Address Book for managing
+    tasks, appointments, and contacts. Together they do everything I
+    might use a more heavyweight program or webapp for.
+3.  [Photoshop CS4][] - Some designers prefer to use Fireworks for
+    creating site mockups and graphical elements, but Photoshop is the
+    tool I turn to again and again. I usually start by creating a mockup
+    in Photoshop, and then slicing out discrete graphical elements,
+    tiling backgrounds, and gradient fills for use in Espresso.
+4.  [NetNewsWire][] - This program quickly became my RSS feed reader of
+    choice. It syncs with my Google Reader account, and it has fast and
+    intuitive keyboard controls that let me get through mountains of
+    news in a fraction of the time it would take with even Google
+    Reader's webapp.
+5.  [TweetDeck][] - If you're a Twitter power user, you will use this
+    program. End of story.
+6.  [iTerm][] - A fast and flexible replacement for the built-in
+    Terminal.app, iTerm supports tabbed terminal windows, a fullscreen
+    mode, and keyboard shortcuts for switching between tabs, letting you
+    turn your Mac into something much closer to bare Unix when you need
+    to work with a remote server, without having to boot a Linux virtual
+    machine.
+7.  [WriteRoom][] - A distraction-free writing environment, WriteRoom
+    hides all of the clutter of your computer and lets you focus on
+    writing - without even having to worry about formatting. Great for
+    when you just want to get words out and edit them later.
+8.  [Klok][] - This program isn't perfect, but it's still the best
+    time-tracking program I've ever used. Set up projects and then click
+    a button to start tracking time for that project; click again to
+    stop. Klok will then automatically make weekly and monthly
+    timesheets for you, along with pie charts showing you the ratio of
+    time spent on your various projects. Having all of this work done
+    for you makes invoicing a snap.
+
+These eight programs are far from the only software I use on my Mac, but
+I'd consider them the "must-have" list that I would rush to install on a
+new computer. What software can you not live without? Whether Windows,
+Mac, or Linux, leave your own list in the comments below; I'll make a
+round-up of crowd favorites in a later post. *Photo by
+[guidosportaal][]*
+
+  [Mac apps]: /attachments/macapps.jpg "Mac apps"
+  [Espresso]: http://macrabbit.com/espresso/
+  [Photoshop CS4]: http://www.adobe.com/products/photoshop/family/?promoid=BPDEK
+  [NetNewsWire]: http://www.newsgator.com/individuals/netnewswire/default.aspx
+  [TweetDeck]: http://tweetdeck.com/
+  [iTerm]: http://iterm.sourceforge.net/
+  [WriteRoom]: http://www.hogbaysoftware.com/products/writeroom
+  [Klok]: http://klok.mcgraphix.com/klok/index.htm
+  [guidosportaal]: http://www.flickr.com/photos/guidosportaal/

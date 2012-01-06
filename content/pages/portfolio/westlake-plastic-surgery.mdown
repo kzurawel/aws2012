@@ -1,0 +1,22 @@
+Date: Mon, 28 Feb 2011 14:57:11 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+site_link: http://westlakeplasticsurgery.com
+thumb_image: westlake.jpg
+full_image: westlakeplasticsurgery.jpg
+year: 2010
+featured_project: true
+Permalink: http://arborwebsolutions.com/2011/02/westlake-plastic-surgery/
+
+# Westlake Plastic Surgery
+
+Dr. Robert Caridi of Westlake Plastic Surgery had a vast amount of
+content (nearly 100 pages), but his site's design was seriously
+outdated. The designers at [Logic By Design][] created a striking,
+modern design. Arbor Web Solutions then built a functioning site from
+LBD's graphic design work and migrated all of Dr. Caridi's content. The
+live site includes jQuery features like a scrolling sidebar and image
+carousel, as well as backend features that let the staff at Westlake
+Plastic Surgery update their complicated home page easily.
+
+  [Logic By Design]: http://logicbydesign.com

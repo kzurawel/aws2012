@@ -1,0 +1,114 @@
+Date: Wed, 11 Nov 2009 22:38:19 +0000
+Categories: articles
+Tags: design,libraries
+Permalink: http://arborwebsolutions.com/2009/11/helping-your-users/
+Summary: Making customer service a priority.
+
+# Helping Your Users
+
+Today is Veterans' Day in the US, and as a result many government
+offices are closed. This includes the [Miami-Dade Public Library
+System][] (MDPLS). All 47 library branches in the Miami area were closed
+today. Nonetheless, a line of people formed in front of the South Miami
+branch this afternoon at 12:30, the normal opening time of that branch.
+I know this because I was there with them, waiting for the library to
+open. You may be asking yourself "wait... if you knew it was Veterans'
+Day, why did you go to the library?" Well, quite simply I forgot. The
+only reason I knew it was Veterans' Day was because of Google's special
+logo drawing (even then, I had to hover over the graphic to find out
+what it was for). Plus, Veterans' Day is not a holiday on the order of
+Thanksgiving or even Labor Day; for 99% of businesses, it's just another
+day, or at most an excuse to hold a sale. I forgot that the library
+might be closed, and so did everyone else waiting in front of the
+building this afternoon.
+
+### How the library could have helped
+
+Public libraries face a crisis in the modern era; fewer and fewer adults
+in the US read books, and research that might have required a library's
+collected knowledge in the past can now usually happen on the Internet,
+without even saying "hello" to a librarian. Smart libraries are doing
+everything in their power to be convenient and helpful for their users -
+lending music and DVD's in addition to books, teaching classes, and
+offering activities for children. Many libraries, however, still treat
+the Web as a second-class citizen. MDPLS could have avoided that line of
+people if it had just put a simple notice on its home page that all
+library branches would be closed today. I actually went to the library's
+website this morning to see if items I had requested were available for
+pick-up, and I never once saw a notice that the library was closed.
+(They also could have avoided the line by taping a sign to the front
+door with the same information, but that's another matter.) 
+
+To be fair,
+the MDPLS site did contain the information that the library was closed.
+That information was placed, though, in an out-of-the-way corner that no
+user would ever reach unless they were specifically searching for what
+days the library closed for - exactly the opposite approach that most
+users like myself would take. Clicking "Find a library" gave me a list
+of all branches, and I clicked the branch closest to me and clicked
+"Hours." I found that the library opened at 12:30 on Wednesdays, and
+failed to see the note saying "Closed Sunday and holidays," in which
+"holidays" was a link to a page listing which holidays they would be
+closed for. Instead, a note on the home page would have stopped me from
+even looking at hours and saved me a lot of time and frustration.
+
+### The general problem
+
+Walking to a library that isn't open is certainly not catastrophic; if
+anything it gave me some exercise. But there are many examples of
+systems that could help users, but choose not to. When was the last time
+you visited a health-related website (doctor, dentist, etc.) where the
+office hours listed were actually correct, or where the appointment time
+you were given was actually met when you got there? How many times have
+you visited a government office to do something simple, like renewing
+your driver's license, only to find out that the forms you filled out
+from their website are not the right forms? All of us encounter
+"afterthought" systems in our daily lives, especially on the web - sites
+that were thrown together in an effort to "have an online presence" but
+which have been left to rot in the basement. Is this the fault of the
+site designer, or of the site owner, or both?
+
+I would argue that the
+problem in general is the entire attitude of the web design industry.
+Too often, web design is sold as a commodity, an impersonal service that
+results in a deliverable of average quality for a set price. We, as
+designers, have taught our clients that designers are interchangeable
+and that "design" itself is just cranking a lever on some fancy web
+design machinery. Clients, in turn, generally want nothing to do with
+the process of design, feeling that design is what they hired the
+designer for in the first place. The end result is a site that works and
+(hopefully) has the designer's best intentions, but which the client has
+no connection to and no inclination to maintain. It's like giving
+someone a beautiful potted plant, only to have them keep it in the
+closet "until they really need it." By the time they want to make
+updates, the site is already dead.
+
+Instead, designers need to promote
+the idea that design is something a client and designer do **together**.
+Clients have to know that they have responsibility for the site just as
+much as the designer. Clients need to fully present their message to the
+designer - what exactly their company offers, who would be helped by it,
+what the company's attitude is like - and the designer has to take all
+of that information and craft it into a design that gets that message
+across. (The designer can, of course, help the client find the answers
+to those questions, but he/she can't just make up the answers out of
+whole cloth.) **We, as designers, cannot afford to have clients think
+that hiring a designer is the extent of their responsibilities.**The end
+results will not be our best work, and the clients will only have us to
+blame.
+
+### Back to the library
+
+To return to today's situation, MDPLS most likely built its website for
+the same reason that so many companies do - because everyone else has
+one. But that seems to be about as far as they are willing to go;
+everything beyond having a website that exists and lets people manage
+their library card accounts is "not my job." Companies and organizations
+with this attitude should know that yes, it most certainly is your job.
+And if you are not willing to make it your job, there are plenty of
+others who are more than happy to take your place. Granted, I'm sure no
+one is itching to replace MDPLS, but even among public libraries there
+are [strong examples][] of websites that do more than just exist.
+
+  [Miami-Dade Public Library System]: http://mdpls.org/
+  [strong examples]: http://aadl.org "Ann Arbor District Library"

@@ -1,0 +1,13 @@
+Date: Sun, 27 Mar 2011 02:18:07 +0000
+Categories: journal
+Tags: testing,usability
+dsq_thread_id: 426274633
+Permalink: http://arborwebsolutions.com/2011/03/on-testing-your-competitors/
+
+# On Testing Your Competitors
+
+> Somebody went to the trouble of building a full-scale working prototype
+> of a different design approach to what you're doing and they left it out
+> - they left the keys in the car for you to use. Do some testing!
+
+_Steve Krug_

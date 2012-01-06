@@ -1,0 +1,117 @@
+Date: Fri, 13 Nov 2009 22:45:58 +0000
+Categories: misc
+Tags: browser grading,browsers,design,yahoo
+Categories: articles
+dsq_thread_id: 421962320
+Permalink: http://arborwebsolutions.com/2009/11/controlling-your-design-on-the-web-part-1-browser-grading/
+Summary: Focus your A-game where it counts.
+
+# Controlling Your Design on the Web, Part 1: Browser Grading
+
+Designers generally like to have control over all aspects of a design -
+colors, layout, imagery, fonts, the list goes on and on. Part of what
+makes designing for the Web so frustrating, then, is that there is so
+little that the designer can directly control. There are an endless
+combination of browsers, browser versions, and operating systems that
+run those browsers, and as a result it is impossible to predict what a
+user will actually see when they visit your site. What looks perfect on
+Safari 4 on a Mac may look like garbage on Internet Explorer 7 on a
+Windows machine, and it may have an entirely separate set of display
+quirks on Firefox 3 on Linux (or on the iPhone's built-in WebKit
+browser). How do designers deal with all of this uncertainty without
+flipping out and killing everyone around them? The answer is a set of
+three related ideas: browser grading, progressive enhancement, and
+graceful degradation. Taken together, these three ideas help designers
+come to terms with their utter impotence in the face of the Web, and
+create sites that look beautiful on any device that views them, even
+screen readers.
+
+### Start with Semantic HTML
+
+Before we get started, it's important to point out that all of these
+techniques ultimately come back to **using semantic HTML**. If the
+browser can't make any sense of what your content actually means, your
+job as a designer is going to become much, much harder. If you're not
+sure what I'm talking about, be sure to check out [my earlier article][]
+on the topic.
+
+### The Old Browser Problem
+
+If there's one tenet of the Web that will always remain true, it's that
+**old browsers take a long time to die**. Microsoft, Mozilla, and Apple
+come out with new browsers at least once a year, each better than the
+last, each encouraging users of the existing version of their browser to
+upgrade. Yet, generally speaking, people tend to upgrade their browser
+only when they buy a new computer - because it comes with a new browser
+pre-installed. Witness, for example, Internet Explorer 6. IE6 was a bold
+new advance when it came out with Windows XP. Microsoft had won the
+"browser war" with Netscape, and for the first time since the start of
+the browser wars, sites could be built that more or less worked the same
+everywhere. Then, as designers started adopting CSS to do all of a
+site's presentation (as opposed to the older, table-based approach),
+IE6's flaws started to appear. IE6 had inherited a bunch of strange
+behaviors from IE5.5 before it, and designers got upset. Firefox
+appeared from nowhere and started gaining market share; Apple started
+making the Safari browser to replace IE for Mac; Google developed Chrome
+off of the same WebKit codebase; there was massive growth everywhere in
+the browser landscape. Microsoft realized that it was losing the Web it
+had worked so hard to lock down, and so it created IE7, and made IE7 a
+"High Priority" Windows update - meaning that users who were receiving
+automatic updates would get the new version automatically. The following
+year, Microsoft produced IE8, with even more improvements, and again it
+was to be made a "High Priority" update. Now that IE8 has been released,
+and IE7 has been around for over a year, one would expect that no one
+would still use IE6. But you would be wrong. IE6 is still used by about
+40% of Internet users, and it's still the most popular browser in the
+world. IE6 will only truly die when developers and designers around the
+world decide to piss off those 40% of users and stop making sites that
+work in it. Why? Because users don't like to upgrade their software,
+because Microsoft (and other companies as well) has too often released
+software updates that break more than they fix. So users turn off
+automatic updates, and stop updating at all for good measure. No updates
+means no new browsers, which means more headaches for designers.
+
+### Browser Grading
+
+Enter **browser grading**. The folks at Yahoo had the smart idea that
+old browsers would be around forever, and you couldn't really expect to
+support every browser ever made going forward. There would have to be a
+cutoff point where Yahoo could say "So sorry" to a user with an ancient
+browser, but that line in the sand would have to be drawn very carefully
+so as not to drive away potential customers just because of their
+browser. So they [made a list][] of what they considered "A-grade"
+browsers, which they would do everything in their power to support,
+along with a "C-grade" browser list that should expressly be given the
+most toned-down, simple version of the site possible. Every other
+browser is treated as "sink-or-swim" - the browser will be given the
+"A-grade" version of the site, but if it doesn't look right, that's the
+browser's fault, not Yahoo's. As long as your site works in all of the
+A-grade browsers, you as a designer don't need to worry about testing
+your site on every combination of browser and hardware in the world.
+Obviously, as new operating systems and new browser versions come out,
+Yahoo revisits their browser gradings to keep everything up-to-date.
+Some designers, upon hearing about graded browser support, think about
+the "C-grade" category and say "This sounds like more work - I have to
+make two versions of every page now?" The answer is no, and the reason
+why is semantic HTML. Just serve your HTML page with no CSS or
+JavaScript to the C-grade browsers. If your site has been properly
+written with progressive enhancement and graceful degradation, the
+C-grade browsers will be able to use your site just fine. It won't look
+pretty, and it won't have any of the behavior that JavaScript provides,
+but it will be functional enough to use. (HTML5 may throw a bit of a
+wrench into this idea, but we've all got at least ten years before it
+becomes a final standard.) Semantic HTML, and the concepts of
+progressive enhancement and graceful degradation, demand an entirely
+different way of looking at how sites are built. Again, please be sure
+to read my earlier article for an introduction to semantic HTML and its
+benefits. Because PE and GD are such a large topic, I'm going to close
+here for today. Just remember that no matter how many browsers are
+created, or how many devices your sites are viewed on, it's OK to make
+your own dividing line of which browsers you will fully support and
+which browsers will get the "My Site for Dummies" experience. As long as
+you're not cutting off users of older browser entirely, the experience
+of the "A-grade" site might just persuade your users to upgrade to a
+browser that didn't come out when the Hamster Dance page was popular.
+
+  [my earlier article]: http://arborwebsolutions.com/blog/2009/11/semantic-html-from-the-ground-up/
+  [made a list]: http://developer.yahoo.com/yui/articles/gbs/

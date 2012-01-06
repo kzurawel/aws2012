@@ -1,0 +1,87 @@
+Date: Sun, 23 May 2010 16:48:27 +0000
+Categories: articles
+Tags: accessibility,libraries,mdpls,misc,section 508
+dsq_thread_id: 440660205
+Permalink: http://arborwebsolutions.com/2010/05/miami-dade-public-library-system-and-accessibility-nightmares/
+Summary: A new website that is actually a step back.
+
+# Miami-Dade Public Library System and Accessibility Nightmares [Updated]
+
+_[Update: I received a response from MDPLS earlier this week. The library
+system states that the faults I found with their particular system are
+endemic to library IT as a whole, and that my comments will be passed on
+to the vendor. I am glad that this is being addressed, but I still find
+it a bit shocking that the tech-savvy library and information sciences
+field does not have better solutions available.]_
+
+Hello, dear readers.
+I'd like to start with a message I just sent to the [Miami-Dade Public
+Library System][]. MDPLS recently spent months integrating a new
+web-based catalog and backend circulation system, and the results are...
+well, just read my message:
+
+> For the past few weeks, I have been excited to see your new catalog
+> system, but I must admit I am a bit appalled at the results. As the
+> Polaris ILS website proudly proclaims, MDPLS is a "world-class
+> library," and yet your new website system is third-rate at best. 
+>
+> 1.
+> The catalog site uses a table-based layout. CSS layouts have been
+> widely supported in all major browsers for at least six years.
+> Table-based layouts use nearly twice as much "code" as CSS layouts to
+> achieve the same result, making table-based layouts much more
+> difficult for machines (including both Google and screen reader
+> software for disabled users) to understand. 
+>
+> 2. Worse, portions of your
+> new site's source code reference "Office 2007". How is the software
+> for a world-class library system built using a word processor? Likely
+> as a result of this, parts of the website (such as the drop-down menu
+> buttons on the lists of bestsellers) do not seem to work properly in
+> any browser other than Internet Explorer. Users of Mac OS X computers
+> cannot download Internet Explorer and are therefore out of luck. In
+> today's internet, it is extremely rare to find websites that only work
+> in one browser, and the fact that your new site is tied to Internet
+> Explorer is troubling. 
+>
+> 3. The catalog is almost entirely unusable for
+> disabled users! Most links on the page are images without ALT text,
+> and the page includes large amounts of inline JavaScript, which are
+> not only non-compliant with web standards but also unusable by screen
+> reader software. Some areas of your site are only accessible by users
+> who can visually see where the mouse pointer is on the screen. Even on
+> a more subtle level, the "tab" headings of the catalog system use dark
+> blue text against a slightly lighter blue background, a lack of color
+> contrast which makes reading difficult for users without perfect
+> vision. The overall lack of accessibility is blatant and in violation
+> of Section 508 of the Rehabilitation Act of 1973. Section 508 has lead
+> to large judgements against corporations who disregard accessibility;
+> see e.g. the $6 million dollar settlement in National Federation of
+> the Blind v. Target Corporation in 2006. I am amazed that a large
+> municipal entity like MDPLS apparently did not even attempt to verify
+> the usability of their website for disabled patrons. How much did this
+> new software installation, which is decidedly behind the times, cost?
+> 
+>
+> Many other library systems around the country have created stellar
+> examples of usable, accessible, and fully-integrated websites. I
+> realize that they are a much smaller system, but I urge you to
+> evaluate the Ann Arbor, MI library website at http://www.aadl.org - a
+> site created entirely with the open-source (and therefore
+> free-of-cost) Drupal software, which also runs major corporate and
+> organizational websites around the world. Drupal is obviously not the
+> only way to create a highly functional and usable website, but AADL
+> serves as a strong example of what library websites can do. As a
+> regular MDPLS patron, I am deeply disappointed with the new catalog
+> system, and I look forward to your response to these problems.
+
+MDPLS is the largest library system I have ever had the pleasure of
+using. They have an incredibly large collection and I haven't had many
+problems with their services. However, their website has always been
+sub-par, and my hopes for improvement with their new system have been
+dashed. I hope that someone at MDPLS reads my message, and I urge you,
+dear readers, to write to them yourselves through their [contact
+form][].
+
+  [Miami-Dade Public Library System]: http://mdpls.org
+  [contact form]: http://www.mdpls.org/catalog/contactForm.asp

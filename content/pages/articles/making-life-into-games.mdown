@@ -1,0 +1,41 @@
+Date: Thu, 20 Aug 2009 12:48:28 +0000
+Categories: articles
+Tags: games,prius
+Permalink: http://arborwebsolutions.com/2009/08/making-life-into-games/
+Summary: Even the most boring tasks become easier when there are points attached.
+
+# Making life into games
+
+Earlier today, Web Worker Daily ran a fascinating article about [beating
+procrastination][] by making your work into a game:
+
+> There’s been some interesting discussion recently on using gaming
+> metaphors to change behavior — everything from the [RPG-like metaphors
+> of Weight Watchers][], to the [underlying psychology of Nike Plus,][]
+> to the MPG readout of Toyota’s Prius and [smart meters in homes
+> reducing energy consumption][]. The first step in changing your
+> behavior is generally to “instrument” and measure it.
+
+The trend is only accelerating. Newer games (largely on Nintendo
+platforms) like ["Wii Fit"][] or even ["My Stop Smoking Coach with Allen
+Carr"][] already use the concept of bringing the player's real-world
+life into a **literal** game, rather than the self-imposed games of the
+Nike Plus or Toyota Prius. I think this is an idea that is just
+screaming for more attention on the web. Find a way to plug real-life
+homework completion into tangible benefits in an MMORPG and you'll have
+a new set of straight-A students in record time. For companies buying
+their own islands in Second Life, why not implement a "points" system
+for task completion, or for coming up with truly great, new ideas?
+Granted, anything like this would require careful study before rushing
+to implementation; there would be nothing worse than to create an entire
+culture of living by the game's rules, when the game may fail to keep up
+with the realities it is simulating. Nonetheless, this field seems set
+to become the new definition of "serious games".
+
+  [beating procrastination]: http://webworkerdaily.com/2009/08/19/postponed-procrastination/
+    "Web Worker Daily | Postponed: Procrastination"
+  [RPG-like metaphors of Weight Watchers]: http://www.wired.com/gaming/virtualworlds/commentary/games/2008/08/gamesfrontiers_0811
+  [underlying psychology of Nike Plus,]: http://www.wired.com/techbiz/media/news/2009/05/games_wired
+  [smart meters in homes reducing energy consumption]: http://earth2tech.com/2009/01/26/faq-smart-grid/
+  ["Wii Fit"]: http://www.amazon.com/dp/B000VJRU44
+  ["My Stop Smoking Coach with Allen Carr"]: http://www.amazon.com/dp/B001EJZ9MK/

@@ -1,0 +1,104 @@
+Date: Wed, 07 Oct 2009 21:00:37 +0000
+Tags: finding good designers
+Categories: articles
+Permalink: http://arborwebsolutions.com/2009/10/finding-good-designers-part-2-site-goals/
+Summary: More tips to separate decorators from designers.
+
+# Finding Good Designers, Part 2: Site Goals
+
+In [part 1][] of this series, I talked about the value of consistency in
+a site design. Today, I'll be talking about the importance of a thorough
+question-and-answer session between the designer and client.
+
+### Design is not pretty pictures
+
+Generally, the first topic that a designer should ask their client about
+is the site's **goals**. "But what about the site's colors?" you say, or
+"We haven't even talked about my company's logo!" Those are about the
+least important aspects of your site design. There's a saying that "art
+is about inspiration; design is about communication." Color, layout,
+logos, these are all aspects of **packaging your particular message**
+before you ship it out to your audience. Does packaging help you to
+achieve your goals? Certainly. But packaging alone isn't going to get
+people to do what you want them to. There has to be some underlying
+message, a feeling that someone actually spent the time to think about
+what they wanted you to take away from their website. Otherwise, the
+result is just art - it may be pretty, and it may get attention, but it
+won't drive people to action in the same way that a great design can.
+
+### Getting people to do what you want them to
+
+As I was saying, your first interaction with your designer should be all
+about goals. There are several ways to get to the heart of this, but
+here are some of the questions I've found most useful in creating sites
+for my clients:
+
+-   *"What **one** thing do you want people to do after visiting your
+    site?"* - This strikes directly at the heart of it. Ideally, a
+    website should be catered toward making its users pursue one clear
+    course of action. What that action is can certainly vary from site
+    to site - one site may want users to buy products directly from
+    their website; another may want users to pick up the phone to talk
+    to a representative; a third might really just want you to sign up
+    for their newsletter so that they can sell to you through email; and
+    a fourth might not care about any of the above, as long as you share
+    the site with everyone you know on Facebook or Twitter. Whatever the
+    main action, it gives the designer a clear message to get across to
+    the user - "if you do nothing else after seeing this site, at least
+    do X."
+-   *"If your site were a film, how would you sum it up in a single
+    sentence?"* - This might sound bizarre - "how is my business site
+    like a film?" - but with a little thought it can be very valuable.
+    Take for example this post about [UX Themes][] over at Boxes &
+    Arrows. The designers needed to create a site for fans of All My
+    Children. The site's goal seemed clear - "be an interactive video
+    hub for AMC fans" - but the design team broke this down into
+    different "themes" that could each be used to create an excellent
+    site, but each targeting a different goal. Would the site be "an
+    interactive biography of series creator Agnes Nixon's life told
+    through the show", "a personal time machine for show fans to relive
+    their favorite moments", or "the history of a highly-successful soap
+    opera"? In terms of film or television, these three themes are the
+    biopic, the clips episode, and the VH1 documentary. They all cover
+    the same material, and they all seek to entertain the viewer, but
+    the message they each communicate is very different. Look at
+    Amazon.com; their one action is certainly "buy something from us,"
+    but their theme sentence is "A place to find whatever you're looking
+    for, with a community where users give each other reviews of the
+    things we sell."
+-   *"Who do you expect to use your site? What do they expect to find
+    when they get there?"* - These questions ask about your site's
+    audience, both who they are and what they like. If you sell a
+    product with wide appeal, you're going to design your site (and your
+    message) very differently if your expected audience is 20-something
+    men vs. 30-something soccer moms. The answer to this one question is
+    going to get you a much better website for your needs than arguing
+    about colors and logos.
+
+### Putting it all together
+
+So, how does everything fit together? Let's take a look at a sample
+client in the construction industry. We'll call the client "Bob's
+Builders." Bob is a relatively new business, and he wants to promote
+himself to clients with a website. His one action that he wants users to
+take is to contact him about work opportunities, whether through email
+or phone. His one-sentence summary is "a place that shows clients that I
+may be new, but I know what I'm doing and I'm eager to work with you."
+His expected audience is homeowners looking to hire a small contracting
+firm to do home remodeling. What does this tell the designer? Right off
+the bat, the designer knows that the most important pieces of the site
+will be a work portfolio and making it easy for people to contact Bob.
+The site should be friendly, to appeal to homeowners who might have
+never hired a contractor before, but professional to show off Bob's
+knowledge of his craft. Anything that appears on the site should be
+geared toward making Bob look like a professional and getting people to
+contact him. That means no Flash animations unless it's a video of Bob
+explaining how to do something, and no business-speak in the site's
+writing unless it's shop talk. These kinds of questions may seem like a
+waste of time, but **every element of a successful design flows from a
+solid understanding of goals.**If your designer never asks about your
+goals for the site, run, don't walk, to find a real designer.
+
+  [part 1]: http://arborwebsolutions.com/blog/2009/09/finding-good-designers-part-1-consistency/
+    "Finding Good Designers, Part 1: Consistency"
+  [UX Themes]: http://www.boxesandarrows.com/view/experience-themes

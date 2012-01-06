@@ -1,0 +1,14 @@
+Title: Portfolio - Arbor Web Solutions
+
+%section
+  %h2 Selections from our portfolio:
+  %ul
+    - unless @page.articles.empty?
+      - @page.articles.each do |item|
+        %li
+          %div
+            - if item.metadata('thumb_image')
+              %img{:src => "/attachments/" + item.metadata('thumb_image'), :alt => ""}
+            %h3
+              %a{:href => "/portfolio/" + item.permalink}= item.heading
+

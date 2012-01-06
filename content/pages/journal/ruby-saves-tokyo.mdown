@@ -1,0 +1,17 @@
+Date: Mon, 14 Mar 2011 16:23:13 +0000
+Categories: journal
+Tags: earthquake,japan,misc,python,ruby
+_thumbnail_id: 465
+dsq_thread_id: 421962373
+Permalink: http://arborwebsolutions.com/2011/03/ruby-saves-tokyo/
+
+# Ruby Saves Tokyo
+
+Apparently Tokyo Gas uses a Ruby app called "[SUPREME][]" (SUPer-dense
+REaltime Monitoring of Earthquakes) to automatically shut off natural
+gas lines when an earthquake happens. Ruby probably saved thousands of
+lives in the aftermath of the 9.0 magnitude earthquake a few days ago. I
+have not heard of any cases where Python has done the same. I'll be sure
+to post here if I do!
+
+  [SUPREME]: http://www.slideshare.net/ossaj/ruby-6029382

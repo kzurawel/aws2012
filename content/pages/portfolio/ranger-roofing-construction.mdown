@@ -1,0 +1,21 @@
+Date: Mon, 28 Feb 2011 14:50:31 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+year: 2010
+site_link: http://www.rangerroof.com/
+thumb_image: rangerroof.jpg
+full_image: rangerroofingconstruction.jpg
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/ranger-roofing-construction/
+
+# Ranger Roofing & Construction
+
+This roofing and construction company wasn't getting the results they
+wanted with their old site, and so they contacted [Logic By Design][] to
+build a site that was still friendly but more professional. LBD designed
+a sophisticated take on Ranger's cowboy-themed site design, and Arbor
+Web Solutions brought that vision to life. The site helps Ranger Roofing
+keep its customers informed about specials and news items, attracting
+business from both new and existing clients.
+
+  [Logic By Design]: http://logicbydesign.com

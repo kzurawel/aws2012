@@ -1,0 +1,29 @@
+Date: Mon, 28 Feb 2011 17:16:47 +0000
+Categories: journal
+Tags: news
+Permalink: http://arborwebsolutions.com/2011/02/its-alive/
+Summary: Arbor Web Solutions enters the responsive era.
+
+# It's Alive!
+
+If you've ever visited Arbor Web Solutions before, you'll know that what
+you are seeing now is something very different. This new theme is the
+result of four months of planning and work. I decided in October that I
+needed to create a theme to show off my skills - something more
+complicated than just new graphic design work. That led to
+investigations into HTML5, CSS3, and responsive web design. Arbor Web
+Solutions is now a responsive design, switching from a slim, linear
+design for narrow-width windows and devices to a three-column layout.
+Both layouts scale with the width of the browser - including images!
+
+
+With some help from [Modernizr.js][], fancy CSS3 effects like transforms
+and transitions trigger on supported browsers - and are totally omitted
+on browsers that don't support them. I'm very happy with the new design,
+but my work isn't done yet. In particular, IE is limited to the "mobile"
+base stylesheet, and my IE testing has been minimal (but there are no
+showstopping bugs on IE7). I'll be continuing to work on the design this
+week, and I hope to be finished by Sunday. Thanks for reading, and
+please enjoy the results of my work!
+
+  [Modernizr.js]: http://modernizr.js "Modernizr.js"

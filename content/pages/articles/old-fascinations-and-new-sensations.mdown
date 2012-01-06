@@ -1,0 +1,53 @@
+Date: Sun, 29 Nov 2009 22:45:37 +0000
+Categories: articles
+Tags: d&amp;d,dos,games,thanksgiving
+Permalink: http://arborwebsolutions.com/2009/11/old-fascinations-and-new-sensations/
+Summary: How to make DOS and Dungeons and Dragons relevant to your web work.
+
+# Old Fascinations and New Sensations
+
+Like many Americans, I spent last week visiting my family for
+Thanksgiving. Since moving to Miami put me within driving distance of my
+parents for the first time since their move many years ago, I brought
+back with me a few boxes of books and knick-knacks I had accumulated
+during high school. The boxes work as a sort of time capsule -
+archaeological relics of a bygone era that inspire equal measures of awe
+and head-scratching.
+
+Dungeons & Dragons might have given me a stockpile
+of fond memories and a solid grasp of world mythology, but at the same
+time the books represent a pretty significant outlay of money for what
+amounts to a work of fiction. Essentially, there are two ways of looking
+at the boxes. One way is to look at the assembled whole and say "what
+was I thinking?"and throw the entire lot of it into some kind of mental
+(and physical) garbage can - "out with the old, in with the new." The
+other way is to embrace that history, to recognize what about it made it
+so special and to take that forward into new experiences in the future.
+
+
+In thinking about all of this stuff and what it actually means to me, I
+think my personal reaction is to take a middle path. I installed that
+big box of DOS games using [Boxer][] on my Mac, and as I play through
+them here and there, I study them - what was it that made me enjoy them
+so much, and what parts of them should have been done differently? What
+were the truly timeless games, and what games should be forgotten? 
+
+The
+same applies to nearly everything we come across in our daily lives. We
+can endlessly analyze the things around us in terms of what does and
+does not make them "work" in a functional or aesthetic sense. The trick
+is to always be questioning, and to always look for influences that can
+be put to use in future work. 
+
+*For the record, definite classics
+include* TIE Fighter, X-COM: UFO Defense, Syndicate*, and
+SSI's* Stronghold*; weak games include* Magic Carpet *(though it was
+certainly revolutionary for its time) and* Cyberia *(with a "C"), even
+though it did have a pretty good soundtrack by Thomas Dolby.* What about
+you, reader? Anything interesting influencing your work lately? Any
+recollections of DOS games or AD&D that you'd like to share? Leave a
+comment below and tell us about it. *P.S. - The title of this post comes
+from the song "Fascination" by La Roux. Another way, besides DOS and
+D&D, that the 80's are coming back into my life.*
+
+  [Boxer]: http://boxerapp.com/

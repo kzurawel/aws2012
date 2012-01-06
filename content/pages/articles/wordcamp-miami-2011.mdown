@@ -1,0 +1,69 @@
+Date: Sat, 05 Mar 2011 17:03:57 +0000
+Categories: misc
+Tags: 2011,css3,media queries,mobile design,modernizr,news,responsive design,techniques,tutorials,wcmia,wordcamp miami
+_thumbnail_id: 440
+dsq_thread_id: 421962361
+Permalink: http://arborwebsolutions.com/2011/03/wordcamp-miami-2011/
+
+# WordCamp Miami 2011
+
+Thanks to everyone who was able to attend my presentation this morning
+on responsive web design. Here's a set of links and resources for
+responsive web design, feature detection, and CSS3:
+
+-   My slides from this morning on [SlideShare][]. There are links in
+    the presentation to statistics and more.
+-   [Modernizr.js][], for detecting what features a browser supports.
+    Custom-build your own Modernizr with only the tests you need to make
+    it even more lightweight.
+-   [Yepnope.js][] for conditional loading of CSS/JavaScript. Note: This
+    is already bundled in to Modernizr - just use "Modernizr.load()" in
+    your JavaScript instead of "yepnope()".
+-   A nice overview of [CSS3 transforms][].
+-   A great look at [CSS3 transforms, transitions, and animations][],
+    with some great demos.
+
+Here's also a list of people to look into:
+
+-   Ethan Marcotte, author of the original "Responsive Web Design"
+    article for [A List Apart][]. Check him out on Twitter ([@beep][])
+    or his blog, [Unstoppable Robot Ninja][].
+-   Luke Wroblewski, originator of "Mobile First". On Twitter he's
+    [@lukew][], and his site is [lukew.com][].
+-   Jeremy Keith, author of "HTML5 for Web Designers" and responsive web
+    advocate. See [@adactio][] or [adactio.com][].
+-   Bryan Rieger, whose presentations on the mobile web originally
+    inspired me to do all this work. Check out his site at
+    [yiibu.com][], and especially check out his presentation
+    "[Rethinking the Mobile Web][]".
+
+#### But wait! There's more!
+
+For even more links, see my previous post, "[WordCamp Miami 2011 Sneak
+Preview][]". Again, thanks if you were able to make it to my
+presentation, and please read through at least a few of these articles!
+Mobile (in all shapes and sizes) is at the tipping point, and even if
+you have no interest in mobile, responsive design can have real effects
+on your user interface and overall design.
+
+  [SlideShare]: http://www.slideshare.net/arborwebsolutions/practical-beyond-responsive-web-design
+    "(Practical) Beyond "Responsive Web Design""
+  [Modernizr.js]: http://www.modernizr.com/ "Modernizr.js"
+  [Yepnope.js]: http://yepnopejs.com "yepnope.js"
+  [CSS3 transforms]: http://www.zenelements.com/blog/css3-transform/
+    "CSS3 2D Transforms"
+  [CSS3 transforms, transitions, and animations]: http://css3.bradshawenterprises.com/
+    "CSS3 Transitions / Transforms / Animations"
+  [A List Apart]: http://alistapart.com "A List Apart"
+  [@beep]: http://twitter.com/beep "@beep"
+  [Unstoppable Robot Ninja]: http://unstoppablerobotninja.com
+    "Unstoppable Robot Ninja"
+  [@lukew]: http://twitter.com/lukew "@lukew"
+  [lukew.com]: http://lukew.com/ "Luke Wroblewski"
+  [@adactio]: http://twitter.com/adactio "@adactio"
+  [adactio.com]: http://adactio.com "Adactio"
+  [yiibu.com]: http://yiibu.com "Yiibu"
+  [Rethinking the Mobile Web]: http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu
+    "Rethinking the Mobile Web"
+  [WordCamp Miami 2011 Sneak Preview]: http://arborwebsolutions.com/2011/03/wordcamp-miami-2011-sneak-preview/
+    "WordCamp Miami 2011 Sneak Preview"

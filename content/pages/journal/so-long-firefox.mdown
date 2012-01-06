@@ -1,0 +1,71 @@
+Date: Tue, 19 Jan 2010 02:49:09 +0000
+Categories: journal
+Tags: browsers,chrome,firefox,google,mozilla
+dsq_thread_id: 421962342
+Permalink: http://arborwebsolutions.com/2010/01/so-long-firefox/
+Summary: Choice is a good thing.
+
+# So Long, Firefox?
+
+![image][] I first began using Linux on a regular basis in 2003 (when
+[Gentoo][] was all the rage), and with it I began using Mozilla's
+Firefox browser. Firefox grew and evolved from its pre-1.0 releases over
+the years, adding powerful extensions like [Firebug][] and the [Web
+Developer Toolbar][], gaining inscrutable memory leaks, and picking up
+support for new features like HTML5 and CSS3. Along the way, I installed
+and used Firefox on the Windows PC's I had to work with - upgrading from
+1.5 to 2.0 to the 3.0 series and beyond - and it became my browser of
+choice on my new MacBook. 
+
+But Firefox has always had its issues. The
+great Firefox memory hole has consistently shrunk with each new release,
+but it still exists, bringing the browser to a grinding halt with
+disturbing regularity. Page rendering speeds have improved over the
+years, but they haven't necessarily kept pace with the increasing
+complexity of application-weight websites. 
+
+I want a browser that gets
+out of my way. Pages should load quickly and render perfectly, there
+shouldn't be any delays switching between tabs, and the browser should
+have useful tools for analyzing and inspecting site source code - all
+while remaining stable and using a minimum of operating system
+resources. So, lately I've been doing all of my browsing (and
+development) with Google Chrome. I started using Chrome last year on
+Windows out of sheer curiosity, but quickly dropped it and returned to
+Firefox. 
+
+But Chrome, too, has been growing and evolving, along with the
+WebKit engine that it runs on. WebKit has the best CSS3 support of any
+browser, letting me test out all the newest techniques without waiting
+for Firefox to add support. Chrome is now quite solid, even in its
+developer releases, and incredibly fast. And while there are times that
+I miss the Firebug extension for Firefox, WebKit's "Inspect Element"
+pane has evolved into a quite capable replacement for my purposes,
+especially when combined with new Chrome extensions like [Pendule][]. 
+
+Am
+I done with Firefox? Certainly not. Firefox is the world's second most
+popular browser, and for good reason; Firefox dramatically raised the
+bar for what users could expect from a web browser, and it continues to
+improve through regular releases year after year. It is still the
+browser that I would recommend to anyone for general use, and I will
+continue to test every site I create in Firefox (along with Safari,
+Opera, and Internet Explorer). When using Chrome, I miss the ability to
+search Google, Wikipedia, and more from a tiny search box in the upper
+right (Update: I just needed to "[Edit Search Engines][]"), and
+Firefox's add-ons feel a lot more robust than Chrome's extensions. But
+at this time, for my own use, Chrome has supplanted Firefox. (P.S. - I'm
+still looking forward to the [impending Firefox 3.6][]. I may be
+switching back if I'm suitably impressed. It's so wonderful to live in a
+time where we have real competition between browser makers!) *Image
+from*[*Google Blogoscoped*][]
+
+  [image]: /attachments/chrome-logo-elements-300x248.png
+    "chrome-logo-elements"
+  [Gentoo]: http://www.gentoo.org
+  [Firebug]: http://www.getfirebug.com/
+  [Web Developer Toolbar]: https://addons.mozilla.org/en-US/firefox/addon/60
+  [Pendule]: https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi
+  [Edit Search Engines]: http://www.chromeplugins.org/tips-tricks/custom-search-engines-in-google-chrome/
+  [impending Firefox 3.6]: http://www.mozilla.com/en-US/firefox/all-beta.html
+  [*Google Blogoscoped*]: http://www.blogoscoped.com

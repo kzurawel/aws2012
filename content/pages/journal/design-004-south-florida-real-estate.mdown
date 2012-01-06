@@ -1,0 +1,44 @@
+Date: Fri, 22 Jan 2010 01:20:25 +0000
+Tags: 104 designs for 2010,condos,cufon,jquery tools,photoshop,real estate,sketchup
+Categories: journal
+dsq_thread_id: 491175076
+Permalink: http://arborwebsolutions.com/2010/01/design-004-south-florida-real-estate/
+Summary: A two-way slider to show off luxury condos.
+
+# Design 004: South Florida Real Estate
+
+[![image][]][]It's a bit late in the week, but luckily Design 004 is
+good enough to compensate. This design is for a fictional South Florida
+real estate firm, "Heart of Miami," selling condos and homes in and
+around the beaches. I created the firm's logo in Photoshop (since I
+don't own a copy of Illustrator) by piecing together photos of
+skyscrapers, a neon sign in the shape of a heart, and Photoshop's
+stroke, outer glow, and inner glow blending filters. I had originally
+intended to create the logo using [Google SketchUp][], but learning to
+use SketchUp was taking too much time. I'm definitely interested in that
+program, though, and I hope to add elements designed in SketchUp to a
+future design. On to the technology. The main feature of this site is
+the combined vertical and horizontal scroll box featuring photos of each
+condo complex. This was achieved using the [jQuery Tools][] library from
+FlowPlayer and its "scrollable" plugin. The vertical column on the left
+is a single scrollable which acts as the navigation for the "pages", and
+each "page" is a horizontal scrollable. This setup could be expanded for
+additional properties by allowing the vertical scrollable to work in the
+same way as the horizontal scrollables - displaying four properties at a
+time, and having "next" and "previous" buttons to show additional
+properties. This site also uses [Cufón][] to show headings and links in
+Futura. I am certainly interested in CSS3's @font-face property, but I'm
+waiting for the dust to settle before embracing it wholeheartedly. As
+always, you can interact with this new design on my separate [portfolio
+site][![image][]]. I'm working on integrating the portfolio site into
+the current site's "Portfolio" page. Be sure to check out the keyboard
+navigation - up/down to change pages, and left/right to change photos.
+Well, we're 21 days into January and I have four designs to show for it.
+I think the year is off to a great start, and I look forward to bringing
+you more designs as I finish them.
+
+  [image]: /attachments/Heart-of-Miami-300x176.jpg "Heart of Miami"
+  [![image][]]: http://portfolio.arborwebsolutions.com/004
+  [Google SketchUp]: http://sketchup.google.com/
+  [jQuery Tools]: http://flowplayer.org/tools/index.html
+  [Cufón]: http://cufon.shoqolate.com/generate/

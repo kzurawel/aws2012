@@ -1,0 +1,33 @@
+Date: Sun, 27 Feb 2011 22:04:31 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+full_image: floridagrandoperalettheseductionbegin.jpg
+thumb_image: flgrandopera.jpg
+site_link: http://portfolio.arborwebsolutions.com/001/
+year: 2010
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/001-florida-grand-opera/
+Summary: Putting a focus on what's on stage.
+
+# 001: Florida Grand Opera
+
+As the first full week of 2010 comes to a close, I have one new design
+to add to my portfolio. I set two new designs per week as my New Years’
+resolution for this year, and I plan to fulfill my original goal of 104
+new designs this year even if I don’t strictly stick to the 2-per-week
+scheme. On to the design itself. For my first design, I re-did the
+website for the Florida Grand Opera. The original FGO site was quite
+good, but it didn’t do much to inform interested ticket buyers about
+what was currently being performed or how to buy tickets. My re-worked
+design moves the side navigation to a horizontal bar across the top of
+the site, using the freed-up space to display news items instead and
+leaving the main content area for displaying information about the
+currently-scheduled performance. Click the image to interact with the
+new design; you can also see the original site. Is this design perfect?
+Hardly. There are a large number of items from the original site that I
+left out in creating this new design which would have to be added back –
+sponsor logos across the bottom, links to Facebook and other social
+media sites, and the PDF brochure (which, compared to the original
+website, is simply stunning – I was very surprised that more of the
+PDF’s assets were not used to create their website). But for a week of
+on-and-off effort, I’m pleased with the result.

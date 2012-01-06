@@ -1,0 +1,22 @@
+Date: Thu, 09 Jun 2011 15:16:52 +0000
+Categories: journal
+_thumbnail_id: 562
+dsq_thread_id: 423918577
+Permalink: http://arborwebsolutions.com/2011/06/digital-publishing-with-epub/
+Summary: Follow-up on my Design Miami talk.
+
+# Digital Publishing with EPUB
+
+I would like to thank everyone who came to hear me talk about EPUB last
+night at Miami Design. We had a great turnout, mostly from people who I
+hadn't met before, which is (almost) always a good thing. I got some
+great feedback and many questions about marketing digital books that I
+wasn't really prepared to answer. Based on the questions I was getting
+last night, this would be an excellent topic for someone to make a
+Refresh Miami presentation on. (Hint hint, dear blog readers.) In any
+case, if you missed last night's talk or if there was something from my
+presentation that you forgot to write down, you can get my slide deck on
+SlideShare [here][]. Thanks again for coming, and I look forward to
+seeing you all again around Miami!
+
+  [here]: http://wr4.us/epub "Digital Publishing with ePub - SlideShare"

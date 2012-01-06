@@ -1,0 +1,11 @@
+%section
+  %h2 Tutorials, analysis, and more.
+  - posts = @page.articles
+  - posts.paginate(:page => params[:page] ? params[:page] : 1, :per_page => 6)
+  - posts.each do |post|
+    %article
+      %div
+        %h3
+          %a(href="#{post.permalink}")= post.title
+        = post.summary
+        %a(href="#{post.permalink}")= post.read_more

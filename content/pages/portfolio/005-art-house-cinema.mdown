@@ -1,0 +1,40 @@
+Date: Sun, 27 Feb 2011 22:13:14 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+full_image: miamibeachcinematheque.jpg
+thumb_image: mbcinema.jpg
+site_link: http://portfolio.arborwebsolutions.com/005
+year: 2010
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/005-art-house-cinema/
+Summary: More CSS3 - rotation, RGBA color modes, and more.
+
+# 005: Art House Cinema
+
+Today, I present Design 005, a re-imagining of the Miami Beach
+Cinematheque‘s website. The MBC currently has a Flash-powered website
+that also links in a boilerplate ticket ordering site from Tix.com. I
+liked the style of the existing site, but the use of Flash didn’t add
+anything to the site, while simultaneously making the site harder to
+update and totally unusable on the iPhone. So, I sought to re-work the
+site’s overall feel using only CSS3 and JavaScript, while updating the
+layout to entice new visitors. The site’s title in the upper-left is
+positioned using CSS3 Transforms, rotating the headers -5 degrees and
+giving them 20 pixels of top margin to keep them legible. This solution
+degrades nicely in browsers that don’t support (all of) CSS3, appearing
+as standard, horizontal headers. The headers are also given a
+transparent background with RGBA color. The site uses the excellent
+Museo font for its headers thanks to Cufón. The site navigation in the
+upper right has rounded corners thanks to border-radius, and the same
+transparent background as the headers. The current film section is set
+to a fixed height with overflow: auto to get vertical scrolling. I chose
+this setup because it allows visitors not as interested in the current
+film to see that there is additional content underneath without
+scrolling, while allowing interested readers to learn more about the
+film without clicking to a new page. Upcoming films are presented with
+their film posters and the dates of their showings below the current
+film. The background image for the site comes from the 1923 Harold Lloyd
+film “Safety Last!“, chosen because I feel it evokes a sense of whimsy
+and a connection to film history. The original image from the film was
+given a color overlay layer and some artistic filters in Photoshop to
+help it blend into the background.

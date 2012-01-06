@@ -1,0 +1,47 @@
+Date: Tue, 01 Mar 2011 20:02:41 +0000
+Categories: journal
+Tags: css3,css3 animation,css3 transforms,css3 transitions,fluid grids,fluid images,media queries,mobile first,responsive design,wcmia
+dsq_thread_id: 478349848
+Permalink: http://arborwebsolutions.com/2011/03/wordcamp-miami-2011-sneak-preview/
+Summary: What's coming this weekend at WordCamp.
+
+# WordCamp Miami 2011 Sneak Preview
+
+This Saturday (March 5th), I'll be presenting Beyond "Responsive Web
+Design" at [WordCamp Miami 2011][]. If you plan on coming to the talk
+and want a head-start, or if you're attending one of my fellow speakers'
+talks at the same time, here's a brief look at what I'll be talking
+about:
+
+-   Responsive Web Design. Check out [Ethan Marcotte's original article
+    for A List Apart][].
+-   Examples of "[switchy][]" and [fully responsive][] websites.
+-   A brief look at worldwide Internet and mobile statistics.
+-   Fluid and flexible [grids][].
+-   [Flexible][] and [responsive][] images.
+-   CSS3 [Media Queries][].
+-   Designing for [mobile first][].
+-   The "Beyond" part of the title - Feature detection with
+    [Modernizr.js][].
+-   CSS3 transitions, transforms, and animations.
+
+That's about it, and believe it or not I'll be shoehorning all of that
+into about 30 minutes. Hopefully I'll see you this Saturday, and if I
+don't, make your next design responsive anyway!
+
+  [WordCamp Miami 2011]: http://wordcampmia.com "WordCamp Miami"
+  [Ethan Marcotte's original article for A List Apart]: http://www.alistapart.com/articles/responsive-web-design/
+    "Responsive Web Design (A List Apart)"
+  [switchy]: http://colly.com "Simon Collison"
+  [fully responsive]: http://hicksdesign.co.uk "Hicksdesign"
+  [grids]: http://www.alistapart.com/articles/fluidgrids/
+    "Fluid Grids (A List Apart)"
+  [Flexible]: http://unstoppablerobotninja.com/entry/fluid-images
+    "Fluid Images (Unstoppable Robot Ninja)"
+  [responsive]: http://unstoppablerobotninja.com/entry/responsive-images/
+    "Responsive Images (Unstoppable Robot Ninja)"
+  [Media Queries]: http://www.w3.org/TR/css3-mediaqueries/
+    "CSS3 Media Queries (W3C Candidate Recommendation)"
+  [mobile first]: http://www.lukew.com/presos/preso.asp?26
+    "Mobile First (Luke Wroblewski)"
+  [Modernizr.js]: http://modernizr.com "Modernizr.js"

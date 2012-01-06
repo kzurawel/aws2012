@@ -1,0 +1,13 @@
+Date: Sun, 16 Aug 2009 17:56:39 +0000
+Categories: journal
+Tags: news
+Permalink: http://arborwebsolutions.com/2009/08/hello-world/
+
+# Hello, world!
+
+After a long delay and a move of over 1,400 miles, the new home of Arbor
+Web Solutions is now available. Much like the city I find myself in
+(Miami, FL), the new Arbor Web Solutions is bright, sunny, and filled
+with happy thoughts. Please pardon my dust as I get everything up and
+running, and I hope you enjoy and learn from the posts to come in this
+space!

@@ -1,0 +1,169 @@
+Date: Sun, 31 Jan 2010 16:43:51 +0000
+Categories: articles
+Tags: apple,flash,ipad,iphone,ipod
+Permalink: http://arborwebsolutions.com/2010/01/the-apple-ipad-flash-and-the-future-of-computing/
+Summary: The iPad is locked down and lacks features - but it will succeed all the same.
+
+# The Apple iPad, Flash, and the Future of Computing
+
+On Wednesday, months of rumor and speculation came to an abrupt end when
+Apple chief Steve Jobs formally unveiled his "latest creation," the
+Apple iPad. The death of rumor relating to the device ushered in an
+entirely new wave of speculation. Is this really the thing that Apple
+spent years developing? Will it actually sell? Do we really need a
+"third device" between laptops and smartphones? Who came up with the
+name? 
+
+Most of the negative assessments of the device fall into one of
+two camps. The first camp says that the iPad isn't anywhere near as
+innovative as rumor and speculation had indicated, and that the iPad is
+really nothing more than "a giant iPod Touch." The second camp says that
+the iPad is too locked down to be attractive, since it only runs
+applications that Apple has blessed with inclusion in the App Store -
+notably excluding any version of Adobe's Flash runtime. I'd like to
+address both camps in this post. 
+
+**The iPad doesn't have a camera / wash
+my car / cook me breakfast.** First, Apple products rarely live up to
+their pre-launch hype, but that doesn't make them any less compelling or
+significant over the long haul. Look back to the iPod; when it was first
+released, I was happy with my portable MiniDisc player / recorder (which
+is still, to me anyways, the true successor of the cassette tape). The
+iPod was like any other MP3 player on the market when it was released,
+and while the Apple hype machine might not have been in full gear at the
+time, there certainly wasn't much to be enthused about at the time. 
+
+But as release followed release, the iPod became a thousand-ton juggernaut
+in the portable audio market. Apple refined iTunes until it was the best
+music management software available, on any platform, not to mention the
+premier online store for buying content. Apple invented the "podcast,"
+the sonic equivalent of blogging. The iPod itself became ever more
+capacious, and when it reached 40GB in its third generation, even I was
+tempted enough to ditch my minidisc collection for a device that could
+hold my entire music library (at that time, anyways... it's become much
+larger since then). The initial product may have disappointed, but it
+quickly grew into something much bigger than even the most outlandish
+hype could have predicted. 
+
+The cycle repeated itself with the iPhone.
+Remember the Motorola ROKR? 100-song hardware limit, with a clumsy
+music-playing interface - an abomination that was quickly forgotten in
+Cupertino. Then Steve Jobs announced the iPhone. The hype was incredible
+- desktop-like web surfing, innovative new multi-touch screen, a whole
+new way of interacting with an iPod. Then the criticism began. Mobile
+Safari doesn't have a Flash plugin; the phone is too expensive; there's
+no way to write real applications for it; you're stuck in a two-year
+contract with AT&T; it's too slow. Within two years, Apple had
+introduced the blazing-fast iPhone 3GS at nearly half the cost of the
+original iPhone, the App Store had outperformed any analyst's
+expectations, and Flash started its decline in popularity. 
+
+I predict a
+similar cycle with the iPad. Every "major" concern that would supposedly
+keep people from buying an iPad - its lack of a camera, the inability to
+make phone calls on 3G-equipped models, or the continuing lack of Flash
+support - will become a non-issue within two years. Sure, entirely new
+issues will arise during that time; witness the complaints about the App
+Store approvals process or the outrage at AT&T's service that
+accompanied the growth of the iPhone. But the iPad will in all
+likelihood sell like hotcakes within one to two years, even if its
+initial launch is underwhelming, simply because Apple doesn't sit around
+on their laurels when they release a new product line. Apple tweaks,
+prods, and perfects their devices, and if they still don't sell well,
+only then does Apple lose interest (see the AppleTV or Mac Mini). 
+
+**The
+iPad is a locked-down DRM love-fest.** Sad but true. The only way to get
+an application onto a standard-issue iPad will be through the iTunes App
+Store, meaning that if you consider the iPad a computer, it's about the
+most locked-down computer to be sold in the history of computing. If
+Apple doesn't like your app, it will not find its way to an unmodified
+iPad, period. The lack of a disc drive or even a USB port further
+solidifies that, and the iPad's non-traditional filesystem won't even
+let you shoehorn an unauthorized application onto the device. Note that
+I haven't even mentioned content yet, the traditional place for talk
+about DRM. No, the iPad's DRM limits what can come into the device as
+much as (if not more than) what you can copy off of it. No wonder the
+Free Software Foundation is up in arms. 
+
+All the same, devices like the
+iPad really are the future of computing. It's certainly powerful enough
+to run nearly any traditional desktop application, along with relatively
+complex games (though it's not any real competition to something like
+the Xbox 360 or PlayStation 3). It has the world's easiest application
+installation process; click a button, potentially charge your credit
+card, and the application is on your device and ready to use. And since
+every developer in the world is forced to use *the same* application
+installer, you will never see the confused jumble that is Windows (or,
+to a lesser extent, even Mac) application installs, with product
+activation, serial numbers, and actual installer *programs*. 
+
+The iPad
+"just works," in an actually meaningful way, and that's all most people
+care about. If the Web conforms more closely to Apple's vision, which,
+thankfully for Apple, is also the vision of Google and others, then many
+users may not even need a "real" computer to complement their iPad. The
+stereotypical computer-literate family member who keeps all the family's
+computers in good working order will become a thing of the past, because
+the iPad is built so that ***it cannot be broken***. It can crash now
+and then, sure, but no one will ever need to "re-install iPhone OS" or
+make sure that they have the most recent browser or plugins. 
+
+I make only
+one caveat to the above paragraph: Apple, and computer manufacturers in
+general, cannot use the iPad approach for everyone. Plenty of people use
+computers because they enjoy keeping a well-maintained system, much like
+car enthusiasts who truly enjoy fixing up their cars with their own two
+hands. And specialists - designers, developers, and researchers - will
+always need the unparalleled flexibility of a general-purpose operating
+system. **The geeks will be all too happy to recommend the iPad to their
+relatives, so long as they can keep the shiny toys for themselves.**
+
+**Yeah, but what about Flash?** Over the years, I've had a love/hate
+relationship with Adobe. I first learned web design by using my school's
+copy of Dreamweaver; without that experience, I probably wouldn't be
+where I am today. At the same time, Dreamweaver keeps designers weak by
+holding their hands and creating shoddy look-alikes of well-implemented
+sites. The Flash Platform is exciting because of its power and its
+near-universal install base. ActionScript 3.0 can do an awful lot, and
+the Flash runtime can execute some fairly complicated code (like full 3D
+gaming) at a reasonable speed. 
+
+But Flash is, and likely always will be,
+proprietary. Adobe makes its income selling the tools that allow
+developers to target the one and only Flash runtime. If Adobe opened up
+Flash development, you would see multiple Flash runtimes for everything
+from supercomputers to toasters, and a proliferation of Flash
+development tools as well. This would be incredibly good for Flash
+adoption - it would have the opportunity to unseat JavaScript as the
+go-to scripting language of the Web - but it would bankrupt Adobe. So
+Adobe has to walk a fine line. They have to push for adoption of Flash
+wherever possible, promoting it as an essential part of the Web like
+HTML or CSS, but at the same time they have to keep Flash protected from
+any attempt to open-source it or otherwise reveal its complete inner
+workings. It's a strategy that makes Adobe act like it has multiple
+personalities, threatening open-source developers reverse-engineering
+Flash for being too open, but criticizing Apple's exclusion of Flash
+from its mobile devices for being not open enough. 
+
+What will the outcome
+be? Ultimately, I don't think potential iPad buyers are going to care
+about the lack of Flash. Adobe will either find a way to make Flash
+web-accessible while still remaining proprietary, or Flash will wither
+and die. You can see the beginnings of the first option in Adobe's CS5
+demonstrations, where Flash CS5 was shown compiling Flash apps into
+native iPhone OS apps, and Dreamweaver could convert interactive charts
+from Flash components to HTML5 components. If Adobe's money-maker is
+tools for designers and developers, I think Adobe will be making its
+tools as useful and relevant as possible - and I think that means
+embracing HTML5 and finding ways to make Flash content work within that
+scope. 
+
+**Rant mode off.** The iPad really is a unique device, even if it
+*is* nothing more than a giant iPod Touch. When the iPad evolves into a
+notebook replacement, the computing landscape will be changed forever,
+and I believe that such a change is inevitable. In two years, we will
+look back at the iPad announcement and tell ourselves that the whole
+time we were asking the wrong questions and focusing on the wrong
+things. It really is going to be a game-changer, even if I don't find
+myself all that enthused about buying the first generation.

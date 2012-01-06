@@ -1,0 +1,20 @@
+Date: Mon, 28 Feb 2011 14:44:09 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+site_link: http://www.kironsolutions.com/
+thumb_image: kironsolutions62.jpg
+full_image: kironsolutions.jpg
+featured_project: false
+year: 2010
+Permalink: http://arborwebsolutions.com/2011/02/kiron-solutions/
+
+# Kiron Solutions
+
+Another collaboration with the design team at [Shinevine][], Kiron
+Solutions offers a full range of concierge and absentee home management
+services, and needed a site that would convey the sophistication and
+ease of their services. Their new site features a jQuery-powered sliding
+navigation menu, with additional interactive effects in their
+presentation video, terms of service, and client log-in.
+
+  [Shinevine]: http://shinevine.com

@@ -1,0 +1,11 @@
+- unless pages.empty?
+  - pages.each do |page|
+    %article
+      %div
+        %h3
+          %a(href="#{page.abspath}")= page.heading
+          - if page.summary.nil? || page.summary.empty?
+            ~ page.body(self)
+          - else
+            ~ page.summary
+            %a(href="#{page.abspath}")= page.read_more

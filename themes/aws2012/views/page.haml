@@ -1,0 +1,18 @@
+- if ['home', 'portfolio', 'services', 'contact', 'category'].include? body_class
+  = @page.to_html(self)
+- else
+  %section
+    %header
+      %h2= @page.heading
+      %h3.summary= @page.metadata("summary")
+    %div
+      %article
+        = @page.to_html(self)
+      %aside
+        %div
+          %h4= format_date(@page.date)
+          %ul.tags
+            %li Tag example
+          %ul.social
+            %li Twitter etc.
+        

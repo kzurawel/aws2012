@@ -1,0 +1,26 @@
+Date: Sun, 27 Feb 2011 22:06:50 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+full_image: dr.jamesspacemanpsychologist.jpg
+thumb_image: drspaceman.jpg
+site_link: http://portfolio.arborwebsolutions.com/002
+year: 2010
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/002-psychologist-website/
+Summary: First forays into HTML5 elements and CSS3 styling.
+
+# 002: Psychologist Website
+
+Today I’d like to present design number 2 of my 2010 New Year’s
+resolution, a few days after my rework of the Florida Grand Opera’s
+website. This time, I’ve created a site for a psychologist –
+specifically, Ivan Pavlov working under an assumed name (the photo of
+him is from Psychology Pictures, under a CC-BY 2.0 license). What’s most
+interesting about this design is the underlying techniques. This is the
+first site I’ve built using HTML5. The site uses HTML5′s simplified
+doctype; new semantic elements like `hgroup`, `nav`, and `footer`; and CSS3 styles like
+border-radius, box-shadow, and text-shadow. As usual, I used Cufón for
+font replacement in the navigation section and the header at the top of
+the page. The design seeks to be light but professional, with a color
+scheme that fits with South Florida. I also wrote the site’s copy, which
+is based on an amalgamation of other psychologist websites.

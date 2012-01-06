@@ -1,0 +1,61 @@
+Date: Thu, 06 May 2010 19:23:23 +0000
+Categories: journal
+Tags: browsers,chrome,firefox,gecko,internet explorer,opera,presto,trident,webkit
+Permalink: http://arborwebsolutions.com/2010/05/the-browser-wars-round-2/
+Summary: The Big Three rendering engines, and what they mean for the future of the Web.
+
+# The Browser Wars, Round 2
+
+Last week I started using [Opera 10.53][] on my Macbook at a friend's
+recommendation. It's blazing fast, even faster than [Chrome][] if you
+can believe that. It has great support for HTML5 and CSS3, and nice
+extras like Speed Dial and a tiny marker that lets you know when a tab
+has updated content or finished loading, so you don't have to waste your
+time checking on a slow-loading (or repeatedly-reloading) website over
+and over. It even has solid developer tools (Opera Dragonfly), with a
+built-in zooming website color picker! 
+
+It was almost everything I could
+want in a browser, and I was happy as could be. Then I realized that
+Opera's dev tools don't include a screen ruler, a tool I use all the
+time through Chrome's [Pendule][] extension. No problem, I thought -
+Opera has its own extensions, called "widgets." Except, they don't seem
+to work - I found a screen ruler widget in less than a minute, but it
+refused to properly install, and once it was done I still couldn't
+actually run it. 
+
+Annoyed, I went on to find further annoyances.
+Amazon.com doesn't allow Opera to use the "Look Inside" feature. Opera's
+aggressive pop-up blocking led to sites that rely heavily on pop-ups
+becoming unusable, even when pop-up blocking was turned off. Some sites
+refuse to serve content to Opera at all, putting up a message that only
+Internet Explorer, Safari, and Firefox are supported. Opera does feature
+a handy user-agent switcher to trick these sites into thinking it's
+Firefox, but that actually leads to further problems. Google, for
+example, actually does the right thing when it comes to Opera support,
+but GMail became a scrambled mess with my user-agent string set to
+Firefox. 
+
+So, while the original browser wars are well behind us, and
+while standards-based development has easily become the norm, we're not
+out of the woods yet. **The new battleground is the established trio of
+renderers - Trident, Gecko, and WebKit - vs. everyone else.** While
+these three represent the vast majority of browsers in the world, things
+were not always this way, and site developers would do well to code to
+the standards and not to the popular rendering engines of the day. If
+your site really does have some advanced features, test for browser
+capabilities, not for the specific browser in use. That way, you'll
+avoid what is surely the most embarrassing gaffe I've come across while
+using Opera - disney.com doesn't recognize Opera, and so it assumes that
+you're using an iPhone! 
+
+*[If you're wondering what browser I actually
+use after all that ranting, the answer is Opera. I've really come to
+like it, and when an individual site doesn't work right, it's fast and
+easy to fire up Chrome, or even Firefox for those truly annoying sites.
+Don't even get me started on government sites that only open in Internet
+Explorer.]*
+
+  [Opera 10.53]: http://www.opera.com
+  [Chrome]: http://www.google.com/chrome
+  [Pendule]: https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi

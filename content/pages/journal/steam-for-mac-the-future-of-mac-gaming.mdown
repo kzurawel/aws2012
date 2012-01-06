@@ -1,0 +1,46 @@
+Date: Sat, 22 May 2010 16:38:13 +0000
+Categories: journal
+Tags: gaming,mac,misc,news,steam
+dsq_thread_id: 449880242
+Permalink: http://arborwebsolutions.com/2010/05/steam-for-mac-the-future-of-mac-gaming/
+Summary: Bringing the App Store model to desktop gaming.
+
+# Steam for Mac - The Future of Mac Gaming?
+
+Last week, the team at Steam [released a Mac client][] for their popular
+gaming service. This is big news, and not just for Steam itself; Steam
+represents Mac OS X's best chance of becoming a viable gaming platform.
+For years, Mac gaming has been primarily focused on iPhone OS devices. A
+large percentage of App Store sales are for games, and the iPod Touch
+(and now iPad) is being pushed as a competitor to the Nintendo DS and
+Sony PSP. 
+
+The Mac desktop, however, was largely neglected. Big PC
+releases would find their way to Mac months or years later, after an
+intermediary company had ported the Windows version. Often, these ports
+had their own quirks and bugs. The Mac was never a first-class gaming
+citizen. 
+
+Steam just might change that, however. For those unfamiliar
+with Steam, it's essentially an iTunes for gaming. Users create a Steam
+account that, through the Steam client software, offers a store for
+downloadable games, tracks purchases, and installs and updates purchased
+games. Steam games can even be launched through the client, making it a
+one-stop solution for gaming. What really makes Steam special, though,
+is the amount of support they've received from game publishers. Steam
+offers its own DRM, with periodic online verification. The entire system
+is tied to a Steam account and handled in a transparent manner - users
+never have to enter a serial number or install game-specific,
+system-altering DRM software. As a result, big-name releases are often
+available for download through Steam on the same day as their retail
+release. 
+
+Since Steam has been so well-received by Windows users, the
+release of a Mac Steam client could signal the beginning of a major
+shift in Mac gaming. Publishers finally have an incentive to release Mac
+versions of their games, since a proven distribution system is now in
+place for end users to buy them. Mac market share is steadily growing,
+and if Steam makes the Mac a viable target for game publishers, Windows
+will lose yet another competitive advantage.
+
+  [released a Mac client]: http://store.steampowered.com/news/3818/

@@ -1,0 +1,76 @@
+Date: Thu, 10 Dec 2009 19:30:52 +0000
+Categories: articles
+Tags: constrained design,design,free-form design,privateer,wing commander
+Permalink: http://arborwebsolutions.com/2009/12/on-free-vs-constrained-site-designs-and-being-a-privateer/
+Summary: How to match a site's organization to its goals.
+
+# On "Free" vs. "Constrained" Site Designs (and Being a Privateer)
+
+![Wing Commander: Privateer box art][]To continue on my [retro kick][],
+today I'll be look at Origin Systems' "[Wing Commander: Privateer][]"
+and how it relates to web design. Origin was a prolific publisher of DOS
+games, creating the entire Ultima series in addition to a line of Wing
+Commander games. Privateer was released in 1993, and unlike other games
+in the series, it gave the player complete freedom to chart their own
+course through the game. Wing Commander II, released in 1991, made the
+player a military pilot with specific orders; Privateer, in contrast,
+simply gave the player a weak starting ship and said "Have at it." You
+could choose your own role in the game, working as a trader, a
+mercenary, or even a pirate, and you could switch roles at any time
+without so much as checking a box or changing a setting - everything was
+based on your actual actions. Ship upgrades acted as the game's RPG-like
+elements; rather than the military providing your character with better
+and better ships as a simple result of playing through the game,
+Privateer's ships and upgrades were the result of hard work and cash.
+There was also no "best" ship. While most players naturally gravitated
+toward the Centurion, a decommissioned fighter, there were also strong
+arguments to be made for choosing the Galaxy (the ship with the largest
+cargo hold) or the Orion (a mixed-role ship with the heaviest shields
+and armor). Like anything else in the game, these ships could be bought
+and sold at any time, with little penalty to the player.
+
+### Back to design
+
+Privateer was a great game, but its freedom of exploration was also its
+biggest flaw. Sometimes it's nice to just have someone telling you what
+to do in a game. The restriction in freedom lets the game developer
+construct more elaborate "set pieces" within the game, since they don't
+have to consider every possible way that the player might get to (or
+avoid entirely) the event. The same applies to web sites. Some sites
+naturally lend themselves to a focused, directed user experience, like
+the 37 Signals family of web apps (and especially [Basecamp's web
+site][]), which guide you smoothly from home page to product description
+to sign-up form. Others require a free-form, exploratory design to be
+effective - like Wikipedia, which lets users wander aimlessly until a
+search for "Tacoma Narrows Bridge" turns into "Lesbianism in Erotica"
+(see the graph at [xkcd][]). But notice that these pages aren't just
+floating around randomly. Like the star systems of Privateer,
+Wikipedia's pages are part of a dense network of links that facilitate
+aimless wandering by giving users a selection of choices that ultimately
+get them from point A to point B.
+
+### Choosing a site format
+
+Where does the site you're working on fall? If the primary purpose of
+your site is to *promote discussion*, then you will most likely want a
+design focusing on freedom of exploration, with large amounts of linked
+content. On the other hand, if you want your users to *take a specific
+action*, you'll want to build a site that holds users by the hand and
+leads them to that action. In essence, your site design should match
+your site's goals. Your site does have defined goals, right? Keep in
+mind, an exploratory site design can only work if there's enough content
+to keep exploring. That's why most blogs - which inherently exist so
+that readers can amble through the author's work - can't really attract
+an audience of readers until they have at least 50 posts, and likely
+many more than that. A directed site, on the other hand, can be
+successful even with a single page, so long as its design effectively
+guides users to take action. So, readers, have you had any choices like
+this come up recently? What did you decide to use, and why? Leave a
+comment below! And if all else fails, talk to Sandoval, in New Detroit.
+
+  [Wing Commander: Privateer box art]: /attachments/privateer.jpg
+    "Wing Commander: Privateer box art"
+  [retro kick]: http://arborwebsolutions.com/2009/12/the-power-of-simplicity-and-heavy-plasmas/
+  [Wing Commander: Privateer]: http://www.mobygames.com/game/dos/wing-commander-privateer
+  [Basecamp's web site]: http://basecamphq.com/
+  [xkcd]: http://xkcd.com/214/

@@ -1,0 +1,150 @@
+Date: Fri, 16 Sep 2011 14:28:00 +0000
+Categories: journal
+Tags: blogofile,lion,text editors,vim,wordpress,xcode
+dsq_thread_id: 421741902
+Permalink: http://arborwebsolutions.com/2011/09/text-editors-in-lion-and-a-quick-update/
+Summary: In which I test out Coderay highlighting, talk about coming home to Vim, and spill some details on what's next for Arbor Web Solutions.
+
+# Text Editors in Lion, and a Quick Update
+
+Testing code blocks. Ruby code:
+
+    :::ruby
+    require 'rubygems'
+    require 'bundler/setup'
+    
+    Bundler.require(:default)
+    
+    require 'nesta/env'
+    Nesta::Env.root = ::File.expand_path('.', ::File.dirname(__FILE__))
+    
+    require 'nesta/app'
+    
+    use Rack::Codehighlighter, :coderay,
+        :element => "pre>code", :markdown => true
+    
+    run Nesta::App
+
+Python code:
+
+    :::python
+    import xml.dom.minidom as minidom
+
+    def myfunc(x):
+        f = open('file.xml')
+        doc = minidom.parse(f)
+
+HTML:
+
+    :::html  
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Title of My Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+    
+    </body>
+    </html>
+ 
+
+CSS:
+
+    :::css  
+    header h1 {
+        font-size: 2.8em;
+    }
+
+    input[type="search"] {
+        background-color: #fff;
+    }
+    #maincontent .extra {
+        font-family: "Helvetica Neue";
+    }
+
+JavaScript:
+
+    :::javascript
+    $('#logo').click(function(e) {
+        $(this).fadeOut('slow')
+    });
+
+A few days ago I moved to a new computer, and with it I upgraded to Mac
+OS X Lion. Lion's new full-screen mode is great, especially when
+combined with a three-finger swipe to switch between full-screen apps. I
+normally use Coda as my main text editor on Mac, but I decided it was
+time for a change. I was mostly excited to try out Xcode 4, since I
+frequently used Xcode 3's Organizer view as a generic file browser /
+editor.
+
+Well, Xcode 4 totally re-worked the Organizer view, and the result is a
+lot less useful for generic HTML/CSS/JavaScript development. I tried
+Dashcode, but it seems very tied to Apple's set of web components.
+Fraise, another old standby, doesn't support Lion's full-screen mode;
+Smultron, on which it was based, does, but is now much uglier looking
+and there are reports that it crashes frequently. I tried TextWrangler,
+and liked its FTP browser, but found it a bit alien.
+
+So, after trying all kinds of text editors, I finally ended up [coming
+home to Vim][]. The latest snapshot of MacVim supports most of Lion's
+new features, most notably full-screen mode. This might finally give me
+a reason to get good with Vim, which would be great since it's installed
+on the vast majority of servers out there.
+
+As far as accessing files to edit in Vim, I've been using [Transmit
+4][]'s "Disks" feature to mount remote servers as local drives. Saving
+causes a delay of a few seconds, but I haven't found it to be an issue.
+
+### In other news...
+
+I've caught the redesign bug once again, but this time I'm going a bit
+more far-ranging than making the site responsive. In a quest to reduce
+page load time even further, I'm implementing [Adaptive Images][] and
+switching the site to a new platform - [Blogofile][].
+
+WordPress has been good to me, and I still see myself using it for the
+majority of my client work, but it has some issues that have always
+bothered me. Most of the functionality I like to use comes in the form
+of custom fields, which essentially make one big database table full of
+stuff from all over the site. Because custom fields are, well, custom,
+the majority of tools for working with WordPress don't have any support
+for them. Meaning I always have to go back to the WordPress website to
+make changes or "polish up" posts before publishing them.
+
+Blogofile works especially well in the outside tools department (which
+is fitting, since it does not have an admin website of its own). Posts
+in Blogofile are simple [Markdown][] text files, with a [YAML][] header
+for things like which template to use or what would be, in WordPress,
+custom fields. What makes Blogofile truly different though is that the
+output of a Blogofile site is plain, static HTML. There is no database,
+and requests do not have to be processed by an interpreter. You just
+write your posts in Markdown, set up your templates, and then run the
+Blogofile script, which creates the static pages to deploy on your
+server.
+
+The result is a fast, incredibly secure website that can be edited in
+full from almost anywhere. Does this mean that I'll be using Blogofile
+in client work? No. Blogofile requires users to learn Markdown, and to
+directly access the server to upload photos or edit posts. There is no
+website "control panel" or "dashboard" to log into, and the site has to
+be re-built every time changes are made. This can be automated with Git,
+but that would be yet another thing that clients would have to learn.
+
+Work on the redesign is moving along slowly, but I hope to have it in
+place by the end of the year. In the meantime, I encourage you to leave
+a comment with your thoughts on my move away from WordPress for this
+site.
+
+*(N.B.: You may notice that this post does not have a "featured image" -
+this is yet another feature that is not supported by WordPress clients
+without hacky workarounds. Since I'm writing this post on the iPad, I
+can't add a featured image. In Blogofile, it's not a problem.)*
+
+  [coming home to Vim]: http://stevelosh.com/blog/2010/09/coming-home-to-vim/
+    "Coming Home to Vim"
+  [Transmit 4]: http://panic.com/transmit/
+  [Adaptive Images]: http://adaptive-images.com/
+  [Blogofile]: http://www.blogofile.com/
+  [Markdown]: http://daringfireball.net/projects/markdown/
+  [YAML]: http://yaml.org/

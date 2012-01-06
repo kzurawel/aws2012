@@ -1,0 +1,89 @@
+Date: Tue, 17 Nov 2009 17:25:33 +0000
+Categories: articles
+Tags: plugins,techniques,themes,wordpress
+Permalink: http://arborwebsolutions.com/2009/11/5-tips-for-wordpress-theming/
+Summary: Follow these tips, and your next WordPress theme will be a piece of cake.
+
+# 5 Tips for WordPress Theming
+
+My post rate has been slowing down over the last week, and I apologize
+for that. I had a fire to put out that took most of my attention, and
+I'm also working on a new theme for this blog (and for the site as a
+whole). It will be ready to go by next week, but I wanted to take this
+opportunity to talk a bit about developing themes for WordPress and some
+of the cool things I've come across while working on my own redesign.
+
+### Start in HTML, but make it WP-ready
+
+Like in any design, I started by first coding my redesign as a static,
+semantic HTML page, and adding CSS and JavaScript to get it looking the
+way I wanted. However, what really helped in converting the page to a
+theme was structuring my HTML in a way that (at least somewhat) matched
+the structure that WordPress would have to use. I made sure that the
+static page had separate divs for the header, content, sidebar, and
+footer, and that the "content" section could be used as a container for
+further WordPress-specific structure like post content and comments
+templates. I also made sure that my redesign would have a place to put
+WordPress' search form and lists of categories and archives. Thinking
+about what WordPress would need gave my code some early direction and
+sped up the process of converting it once I was ready.
+
+### Think about the templates you'll need
+
+Unlike most static websites, a WordPress theme is going to need a
+variety of templates. Most of these will be variations on a theme, but
+it helps to give some thought ahead of time to what those templates
+should look like as individuals. You'll definitely want to sketch
+templates for single posts (single.php), archives (archive.php),
+category pages (category.php), and the "404" or "Page not found"
+template (404.php). Identify the common features of those templates and
+incorporate them into index.php to give your site a more unified,
+consistent look.
+
+### Use a good set of demo data
+
+Unless you already have an extensive set of posts and comments, it's a
+good idea to download a demo dataset like the [Sandbox dummy content][].
+This will give you a collection of posts that encompasses every possible
+scenario you could have in a blog post - elements like headings 3-6,
+code, and blockquotes; images within posts; posts with open or closed
+comments and trackbacks - to test your new theme against. Without using
+such a dataset, it's all too easy to forget about things that should be
+styled until you are ready to publish your post, forcing you to spend
+extra time hunting down bugs when you're likely already busy.
+
+### Find plugins to do work for you
+
+One of WordPress' greatest strengths is the incredible development
+community that has grown up around it. There are WordPress plugins to
+help you add just about any feature you might want to your site, whether
+that's [importing external RSS feeds][], adding your [Twitter stream][],
+making it easy for readers to [share your posts][], or even [adding a
+contact form][]. Some plugins can be extremely powerful; for example,
+[Kyle Fiedler][] recently introduced me to the [Art Direction plugin][],
+which allows you to assign a custom CSS file to each post in your blog -
+see his site for [examples][].
+
+### Finally, just get it done!
+
+Once you've thought everything through and created a static design that
+you're proud of, don't just stop there! Getting that new theme finished
+will help out your portfolio, your personal brand / image, and if
+nothing else, it'll definitely give you a feeling of accomplishment to
+see the new theme in action. Have you been considering a new theme for
+your blog, or are you looking to start a blog? Please leave a comment
+below with any advice or questions you might have, and I will try to
+answer as best I can.
+
+  [Sandbox dummy content]: http://sndbx.org/wp-content/uploads/sndbx-dummy-content.zip
+  [importing external RSS feeds]: http://wordpress.org/extend/plugins/simplepie-plugin-for-wordpress/
+    "SimplePie"
+  [Twitter stream]: http://wordpress.org/extend/plugins/twitter-for-wordpress/
+    "Twitter for WordPress"
+  [share your posts]: http://wordpress.org/extend/plugins/share-this/
+    "ShareThis"
+  [adding a contact form]: http://wordpress.org/extend/plugins/contact-form-7/
+    "Contact Form 7"
+  [Kyle Fiedler]: http://kylefiedler.com/
+  [Art Direction plugin]: http://wordpress.org/extend/plugins/art-direction/
+  [examples]: http://kylefiedler.com/category/articles/

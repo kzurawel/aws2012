@@ -1,0 +1,15 @@
+Date: Thu, 17 Mar 2011 05:15:14 +0000
+Categories: journal
+shorturl: http://wr4.us/6a
+dsq_thread_id: 422406298
+Permalink: http://arborwebsolutions.com/2011/03/capitalone-japanese-quake-tsunami-relief/
+
+# CapitalOne Japanese Quake & Tsunami Relief
+
+If you have a CapitalOne credit card with cash-back rewards, donate part
+of your reward money here: [https://www.capitalone.com/give][]
+
+Short link: [http://wr4.us/6a][]
+
+  [https://www.capitalone.com/give]: https://www.capitalone.com/give
+  [http://wr4.us/6a]: http://wr4.us/6a

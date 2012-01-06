@@ -1,0 +1,27 @@
+Date: Tue, 29 Sep 2009 15:10:39 +0000
+Categories: journal
+Tags: cufon,sifr,text replacement
+Permalink: http://arborwebsolutions.com/2009/09/cufon-vs-sifr/
+Summary: Goodbye Flash, hello JavaScript.
+
+# Cufón vs. SIFr
+
+This morning I replaced all of the SIFr-modified text on the site with
+Cufón, a JavaScript-only solution. Based on my subjective observation,
+Cufón feels like it's a good three times faster than SIFr 3. I must
+admit I was a bit amazed - I had accepted SIFr's slight lag in loading
+replacement text as normal; months back, I had tried a PHP-based
+solution that generated custom font images on the fly with a similar lag
+in speed. But Cufón was just short of instantaneous replacement, and it
+now makes the site's headers visible on the iPhone or those rare desktop
+browsers that lack the Flash plugin. However, there is a downside.
+Cufón-replaced text is not selectable and cannot be copied and pasted by
+the user; SIFr can, which is what drew me to that particular solution in
+the first place. But given the speed differences between the two, I'm
+willing to let go of that feature in exchange for a more seamless user
+experience. And if there is a situation where being able to select and
+copy text is important - such as using a custom font for whole
+paragraphs of text - I would certainly work with SIFr again. That said,
+my brief experience with Cufón so far has made it seem a bit miraculous.
+Have you noticed any other disadvantages to Cufón? Are there other
+text-replacement systems I should be looking into?

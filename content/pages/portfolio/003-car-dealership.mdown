@@ -1,0 +1,32 @@
+Date: Sun, 27 Feb 2011 22:08:55 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+full_image: miamitoyota54.jpg
+thumb_image: miamitoyota.jpg
+site_link: http://portfolio.arborwebsolutions.com/003/
+year: 2010
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/003-car-dealership/
+Summary: Slideshow effects with jQuery Cycle and dropdown menus. 
+
+# 003: Car Dealership
+
+Here’s design number 3 of 104, a fictional car dealership named “Miami
+Toyota.” With this design, I wanted to use some JavaScript techniques; I
+used the jQuery “Cycle” plugin to create a photo slideshow, with CSS3′s
+rgba color support to create a transparent banner under each photo. I
+also used the “Son of Suckerfish” dropdown menu technique to create a
+horizontal navigation bar at the top of the site (the original
+proof-of-concept of the technique at A List Apart used a demo site about
+lampreys). Visually, the design emphasizes the cars themselves, with
+additional emphasis on dealership specials (on the left, in a dark grey
+box) and a simple contact form to let the dealership’s sales
+professionals follow up with interested customers. The central area
+provides a convenient place for the dealership to announce news items
+and sales on the site’s front page. The site makes great use of
+manufacturer stock photography. It is common practice for auto
+manufacturers to provide large portions of their associated dealerships’
+websites, but my intent here was to fully integrate those portions into
+the site as a whole. Too many dealership websites look like a mish-mash
+of professional and amateur work, with little attention paid to
+information architecture or overall design.

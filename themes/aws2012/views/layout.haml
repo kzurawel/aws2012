@@ -1,0 +1,74 @@
+!!! 5
+/[if lt IE 7] <html lang="en" class="no-js ie6">
+/[if IE 7]   <html lang="en" class="no-js ie7">
+/[if IE 8]   <html lang="en" class="no-js ie8">
+/[if gt IE 8]
+  %html.no-js(lang="en")
+%head
+  %meta(charset="utf-8")
+  - if @description
+    %meta(name="description" content=@description)
+  - if @keywords
+    %meta(name="keywords" content=@keywords)
+  %title= @title
+  %meta(name="viewport" content="width=device-width, initial-scale=1.0")
+  %link(href="/css/base.css" media="screen" rel="stylesheet")
+  %link(href="/css/full.css" media="screen and (min-width: 720px)" rel="stylesheet")
+  %link(href="/articles.xml" rel="alternate" type="application/atom+xml")
+  %script(src="/js/libs/modernizr-2.0.6.min.js")
+%body(class="#{body_class}")
+  %header
+    %a(href="/")
+      %h1 Arbor <span>web solutions</span>
+    - if body_class == 'home'
+      %h2 We bring beautiful, accessible websites to life.
+      %h3 (That includes yours. <a href="contact">Get in touch.</a>)
+          
+    %a#skiplink(href="#navlinks") Skip to navigation
+  = yield
+
+  %footer
+    - if body_class == 'article'
+      %section
+        %div
+          %h3 Title of an article
+          %p
+            Blah blah blah.
+            %a(href="#") Read more...
+        %div
+          %h3 Featured Content #2
+          %p
+            More stuff. blah blah blah.
+            %a(href="#") Read more...
+        %div
+          %h3 Case Study
+          %p
+            Here are some words about a case study.
+            %a(href="#") Read more...
+    %a#navlinks(title="navlinks")
+    %nav
+      %ul
+        %li
+          %a(href="/portfolio") Portfolio
+        %li
+          %a(href="/services") Services
+        %li
+          %a(href="/articles") Articles
+        %li
+          %a(href="/journal") Journal
+        %li
+          %a(href="/elsewhere") Elsewhere
+        %li
+          %a(href="/contact") Contact
+    .foottext
+      %a.logo(href="/") Arbor Web Solutions
+      %p
+        %span.copyright Copyright &copy;2011 Arbor Web Solutions.
+        %span.contact
+          Contact Us: 
+          %a(href="mailto:hello@arborwebsolutions.com") hello@arborwebsolutions.com
+  %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+  %script
+    | window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>');
+  %script(src="/js/libs/jquery.isotope.min.js")
+  %script(src="/js/script.js")

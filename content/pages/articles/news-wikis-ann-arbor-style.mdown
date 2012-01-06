@@ -1,0 +1,56 @@
+Date: Fri, 04 Sep 2009 00:58:41 +0000
+Categories: articles
+Tags: ann arbor,blogs,misc,newspapers,wikis
+Permalink: http://arborwebsolutions.com/2009/09/news-wikis-ann-arbor-style/
+Summary: Bold new moves in the world of newspapers.
+
+# News Wikis, Ann Arbor style
+
+A few days ago I came upon [newsless.org][], which states that it's
+"Time to stop breaking the news, and start fixing it." In its [inaugural
+post][], Matt Thompson presents the following:
+
+> Five years ago, blogger Dave Winer and New York Times executive Martin
+> Nisenholtz [made a bet][]. “In a Google search of five keywords or
+> phrases representing the top five news stories of 2007,” Winer
+> wagered, “weblogs will rank higher than the New York Times Web site.”
+> When it came time to judge the bet, blogs outranked the Times on four
+> out of the five chosen stories, making Winer the winner. But the real
+> news out of the bet was the site that trounced them both — Wikipedia.
+
+Yes, that's right. As anyone who's searched for a hot news item on
+Google can attest, Wikipedia knows all, and it is consistently at or
+near the top for nearly any topic in the news. But Matt doesn't claim
+that newspapers should be replaced by Wikipedia. He argues that the path
+to salvation for the troubled newspaper industry is in hyper-local
+wikis:
+
+> Imagine if the work of the hundreds of reporters dispatched daily to
+> cover a city didn’t merely fade into an obscure archive, but added day
+> after day to the work that came before it. An online news site in the
+> era of Wikipedia would be a living archive, adaptable to suit any
+> context, growing to encompass all aspects of life in a community.
+
+Those words were written in February 2008, but they are actually coming
+to fruition in some places. The [Ann Arbor News][] has transitioned away
+from being a daily print publication to twice-weekly, and re-focused
+itself as being "of, by and for the community." Anyone can register for
+an account at annarbor.com and begin posting commentary. This is how
+newspapers can once again become relevant - by acting as the
+centralized, local place for members of the community to interact and
+feel welcome. It's the same formula that made Craigslist such a popular
+site - and that killed newspaper classifieds in the process.
+
+Granted,
+AnnArbor.com is not really a wiki at all yet. It's more of a blog at
+this point, but that's still a step in the right direction. If the
+community embraces this concept, then the staff of AnnArbor.com may one
+day become the framework upon which community interaction happens,
+nothing more than a catalyst for wider discussion - which, to me, is
+exactly what a newspaper should be.
+
+  [newsless.org]: http://newsless.org "Newsless"
+  [inaugural post]: http://www.newsless.org/2008/09/my-research-proposal/
+    ""My Research Proposal""
+  [made a bet]: http://blog.longnow.org/2008/02/01/decision-blogs-vs-new-york-times/
+  [Ann Arbor News]: http://annarbor.com

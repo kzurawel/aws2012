@@ -1,0 +1,106 @@
+Date: Mon, 02 Nov 2009 20:02:46 +0000
+Tags: css,html,markup,semantic html,tags,techniques
+Categories: articles
+dsq_thread_id: 421962284
+Permalink: http://arborwebsolutions.com/2009/11/semantic-html-from-the-ground-up/
+Summary: Let the richness of the full HTML standard do the heavy lifting for you.
+
+# Semantic HTML From the Ground Up
+
+HTML is the backbone of the Web; it's the markup that contains all the
+content we later style and animate with CSS and JavaScript. Given its
+incredible importance to your site, you'll want to make sure that your
+HTML is as strong as possible to support your CSS and JavaScript while
+remaining lightweight for fast downloading and SEO efficiency. It's like
+using a steel frame in a skyscraper - the HTML is the strong, light core
+of the site, which then allows you to hang all those pretty glass
+windows up into the sky. 
+
+While there are a number of sites that will
+teach you all of HTML's tags (I personally recommend [W3Schools][]), few
+take the time to show you how to use those building blocks to make a
+site that can stand tall without toppling over. The key is to use
+*semantic HTML* - using each tag for exactly the purpose it was
+intended, so that machines can make sense of it just as much as people.
+Let's take a look at some of the ways you can create lightweight,
+semantic HTML code from a design comp.
+
+### 1. Every Tag is There for a Reason
+
+Most people who learn HTML pick up on the basic tags that get used
+everywhere - `<p>`, `<img>`, `<a>`, `<ul>`, etc. - and assume that
+everything else must only be there to make the geeks happy. 
+
+WRONG. 
+
+Those
+tags that seem silly are there to give your code more richness without
+taking up extra space. Not using the tags that are available to you is
+like speaking English while cutting yourself off from half the words in
+the dictionary. Is there an address in your code? Use the `<address>`
+element. Got a table (for tabular data only, I hope)? Give it more
+meaning with `<thead>` and `<tbody>`. 
+
+Sure, not every browser supports all
+these tags (I'm looking at you, IE), but they're part of the HTML
+standard, and the trend in browsers is more support for standards, not
+less. It's not like you'll break something by including them. The advice
+above goes for attributes as well. Make sure you know the difference
+between a class and an id, and where it pays to use attributes like `rel`
+or `title`.
+
+### 2. Start with a Text-Only Layout
+
+Got your content ready? Great! (If you don't, whine to your client that
+you can't do any real work until you have at least rough draft content
+to work from. If you are your own client, get writing!) Now, take that
+content and mark it up as HTML. Don't make a stylesheet for it yet, just
+focus on making something that makes perfect sense as plain old text,
+with `<img>` tags for images that are part of the actual content (as
+opposed to background images). Use all the tags that seem appropriate,
+create `<div>`s for the main sections of your content with appropriate
+ids, and then check it out in a browser to make sure the tags you've
+used create something that makes sense. 
+
+"Are you crazy?" you might say.
+"This is a big waste of time! No one is ever going to view my site
+without CSS!" And that's true, for most users. You're leaving out two
+rather important types of users, though: screen readers and search
+engines. Both are machines attempting to read your content; they can't
+"see" your CSS layout, all they can see is the markup provided by the
+HTML. If Googlebot sees an `<address>` tag, it knows you're talking about
+an address; if it sees a `<thead>` within your table, it knows that that
+row isn't part of the actual table data, and if it sees an `<h1>`, it
+knows that whatever is in there must be pretty important. 
+
+You want to
+make your site look good to machines before you start making it look
+good to people. Otherwise your site is a shiny piece of fruit that's
+rotting from the inside out, and the search engines will treat it
+accordingly.
+
+### 3. Fill In As Needed
+
+Now that you've got the skeleton of your HTML markup, start styling it
+with CSS, and add more markup **only where absolutely necessary**.
+That's another reason for using all those different types of HTML tags -
+not only can machines use them to understand what your content is, you
+can also use those tags in your CSS rules. Want to make all your address
+text a different color, size, or style? You don't need to wrap the
+addresses in a `<div class="address">`; just wrap them in `<address>` and
+go from there. Only add more markup to your HTML if there's no other way
+to select the thing you need in your CSS; the HTML should be as light on
+markup as possible. 
+
+That's it! Start using these tips on your next
+design project and I guarantee you'll be done faster than before. If you
+need some practice, the best way to get it is to take a website you like
+and use it as a comp with this process. Take all of the site's content
+and mark it up yourself as you see fit. Then go on to style it to match
+the original. If you want a useful reference to the semantics of all of
+HTML's tags, I don't know a better reference than [Paul Haine's "HTML
+Mastery."][] Any other tips about using semantic HTML? Leave a comment
+below and let us know!
+
+  [W3Schools]: http://w3schools.com/
+  [Paul Haine's "HTML Mastery."]: http://www.amazon.com/dp/1590597656/

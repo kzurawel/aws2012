@@ -1,0 +1,199 @@
+Date: Wed, 04 Nov 2009 19:37:20 +0000
+Categories: articles
+Tags: beginners,cgi,css,databases,django,dns,dreamweaver,html,php,ruby on rails,web design,web development
+dsq_thread_id: 421962303
+Permalink: http://arborwebsolutions.com/2009/11/web-design-and-development-the-mile-high-view/
+Summary: How sites are made - from idea to launch.
+
+# Web Design and Development: The Mile-High View
+
+With the pace of change on the Web, it can be hard to remember that very
+few people actually keep up with the flood of new technologies,
+frameworks, and acronyms. Unless you are designing for web-related
+companies, it's very likely that your clients will have no idea what
+"building a web site" actually entails, or what happens after you're
+done designing. In this post, I hope to give you a very high-level
+overview of the Web that you can point a client to, so that they can
+understand what goes into a web site besides Photoshop or Flash.
+
+### In the Beginning, There Was Networking
+
+Let's start with a bit of history. Before any of this Web malarkey came
+about, you had computer networks. That is to say, people connected
+individual mainframes (because personal computers didn't exist yet) with
+cables so they could talk to each other. PC's came along, and offices
+started connecting a building's PCs together so they could talk. Then
+something really revolutionary happened: people connected one office
+network with another. Lo and behold, the basis of the Internet as we
+know it was born. At its heart, the Internet is a network of networks.
+In most cases, that smaller network is the 1-4 computers you have in
+your household, which connect to the larger "Internet" network through
+your router or cable modem or what have you. There is no "center" of the
+Internet, no overarching computer directing everything; it's just
+millions of small networks like the one in your house or office
+connecting with one another. There are systems set up to make it so that
+if your computer says "Connect me with computer XYZ," it can find a way
+to make that connection, but those systems (think TCP/IP, routing, etc.)
+are too complicated to talk about here.
+
+### And on the Second Day, He Created HTML
+
+So the Internet existed, but the Web as we know it did not. The Internet
+in those days was good for only a few things: email, bulletin boards,
+and [Usenet][], among others. Then along came [Tim Berners-Lee][] with
+his description of a new acronym: HTML. HyperText Markup Language
+allowed the first web designers (geeky scientists) to create the first
+web pages. Think of HTML like formatting in Microsoft Word; the words
+you write are all there, but Word / HTML let you give them some extra
+meaning. HTML allowed page creators to define their text as paragraphs,
+bulleted lists, numbered lists, tables of data, and more. Most
+importantly, HTML allowed page creators to link one page to another -
+the "HyperText" part of the name - so that related documents could be
+found quickly and easily. As I mentioned before, the first users of HTML
+were geeky scientists. HTML let them format their research papers, and
+link their papers to the papers they cited. That was about it; plain
+HTML doesn't have any real ability to "style" a page outside of
+identifying what's a paragraph and what is something more specialized.
+So the Web was a sea of text, without even a single image in sight.
+
+### And Then There Was CSS
+
+A few years later, competing ideas about how to give pages some style
+were merged into a single system, CSS. "Cascading Style Sheets" let page
+creators make their pages prettier by defining how the "elements" of
+HTML (lists, paragraphs, etc.) should be displayed. The page creator
+could now say that all text in paragraphs should be red, that lists
+should be bulleted with little squares instead of circles, and to say
+how tall or wide a certain piece of content should be on the screen.
+Browser makers had added this functionality into their programs (like
+Netscape Navigator or Internet Explorer) for a while by this point, but
+CSS did something radical: **it separated the content to be displayed
+from the rules about how to display it**. Using CSS, a designer could
+write two style sheets that made very different looks out of a single
+HTML page, without making any changes to the HTML. And yet, despite the
+promise of CSS, it started out poorly implemented in many browsers, so
+that what looked fine in, say, Internet Explorer 3 was completely broken
+in Netscape Navigator 4. So, instead of CSS, many designers (since it
+was now actually possible to "design" a page!) opted to use HTML's table
+ability to lay out all their content. The idea was to use a website like
+an Excel spreadsheet - make the columns and rows whatever width and
+height you need, and then fill in each "cell" of the table with an
+image, or some text, until you get what you want. This led to some
+nice-looking designs, but ***completely and totally broke the original
+ideas of HTML***. In a table-based design, the HTML doesn't have any
+meaning at all; everything is just a table cell. If the designer you are
+talking with keeps telling you that "table-based design" is a bad thing,
+that's why. Using HTML together with CSS makes a site that loads faster
+and that actually has some meaning to machines (like Google!), instead
+of a giant spreadsheet. After all, would you ever try to make artwork or
+write an article in Excel?
+
+### Putting it all together
+
+So, we've got networks, HTML pages, and CSS stylesheets. How do they all
+fit together? If someone wants a site, they first buy a **domain name**.
+Buying a domain name gives you the right to assign the name to a
+particular computer anywhere in the world, of your own choosing. A
+system called DNS ("Domain Name System," not very original, I agree)
+informs all of the world's connected networks of where you pointed that
+name, so that when someone's computer says "*Anyone know how to get to
+arborwebsolutions.com?*", DNS can say "*Sure, it's at computer XYZ over
+there.*" Computer XYZ, meanwhile, is running a program called a **Web
+server**. "Server" is a fancy name that scares people, but all it really
+means is that computer XYZ is sitting around listening to its wire for
+anyone to say "*Hey, I need the stuff for arborwebsolutions.com,*" and
+once it hears that, it will throw that stuff over the wire. This is what
+people mean when they say you need to buy "**Web hosting**" - you need
+to pay a company to run a computer with server software listening for
+your domain name, and handing out those files when someone asks for
+them. You could run your own server right in your living room - plenty
+of geeks do - but that's generally more responsibility than most people
+want to take on. Your monthly hosting charge also means that whoever
+owns the computer is going to fix things when they break, and generally
+keep an eye on things for you. If they're a hosting company worth the
+money you pay them, at least. Side note: "Servers" aren't just for Web
+sites. There are email servers that sit around listening for people to
+say "Hey! Get this letter to Jane Doe!". There are file servers, usually
+in offices, that sit around waiting for someone to say "I need that
+presentation file from last week." Server programs are everywhere, and
+every time you have a computer interaction with another computer, you're
+probably talking to a server.
+
+### Fifth Floor, CGI and Friends
+
+Back to the technology. While CSS was taking shape, the Web also saw the
+rise of CGI, or "Common Gateway Interface," abilities. (Note that this
+is not the same CGI as in movie special effects; that's "Computer
+Generated Imagery." There are only so many combinations of three letters
+out there.) CGI allowed a programmer to write a program that sat on a
+Web server and did things more complicated than just handing someone an
+HTML file or a CSS sheet. With CGI, you could fill out a "form" - those
+collections of text boxes that let you do things like buy a book on
+Amazon or log in to Facebook - and do something with that information on
+the server - like telling Joe in inventory to charge your card and mail
+you a book, or taking you to your home page on Facebook. CGI isn't a
+"language" in itself, it's just a system, and there are dozens of
+programming languages that can talk CGI. Hand-in-hand with CGI is the
+use of databases. Databases let a server hold on to the information you
+put in those forms, and CGI can either store information into the
+database or get it back out as needed. So when you make an account at
+Amazon, they're holding all of your account info in a database. When you
+log in, Amazon remembers all sorts of information about you by pulling
+it out of the database again. Databases let you do more than just
+accounts, though. If you've ever used blogging software like Wordpress,
+Blogger, Joomla!, or any of the dozens of other blog types out there
+(that includes Facebook status updates or Twitter tweets), you've used a
+database to store your articles. All a blog is doing is storing your
+articles in the database, and then pulling out the most recent ones
+whenever someone comes to your website. So you've heard of fancy new
+tools like **PHP**, or **Ruby on Rails**, or **Django**? They're
+basically just variations on the CGI / database idea. Sure, they're
+a*lot* more complicated than that, but it gives you an idea of what your
+designer / developer is babbling about.
+
+### That's It?
+
+Yep, more or less that's all there is to the Web. I've left out a metric
+ton of stuff, but I can always come back to that later. So, when you
+hire a designer to make a site from scratch, here's what they're
+basically doing:
+
+1.  Find an appropriate domain name and buy it (a challenge in its own
+    right), and point it to the hosting server;
+2.  Take all of your content (you did give them your content, right?)
+    and mark it up in HTML;
+3.  Write CSS stylesheets that turn that content into a nice-looking
+    website;
+4.  Figure out any CGI / database things that need to be done, and set
+    them up (usually called "back-end" work).
+
+"That's so simple!" some clients will say. "I could do that myself!"
+It's true! You don't need a license to be a web designer, and that's the
+way it was always intended. But when most people with this mindset start
+trying to learn HTML and CSS, they end up creating nightmarish pages
+that put MySpace to shame. Knowing the tools isn't enough - you also
+have to know how best to apply them. Owning a hammer isn't enough to
+make you a craftsman, and hitting a few nails with it once or twice
+doesn't make you a master carpenter.
+
+### What about Dreamweaver?
+
+Dreamweaver is just a program that helps people write HTML and CSS.
+That's it - the Web does not require Dreamweaver to operate; you can
+make an entire website in Notepad if you want, as long as you save the
+HTML file as ".html" and the CSS file as ".css". Dreamweaver does make
+things a bit easier by letting you "preview" your site as you code and
+type things wherever you want in that preview, but remember the
+foundations of HTML and CSS - text content on one side, presentation on
+the other. Dreamweaver has a hard time doing that; the sites it creates
+using those "visual tools" end up like the spreadsheets I mentioned
+earlier. Any good designer should be able to make a beautiful site
+without ever touching Dreamweaver or its ilk. That's why the design
+industry generally view Dreamweaver as a crutch for people who don't yet
+know what they're doing. And with that, I bring this post to a close.
+Have you found this article helpful? Informative? Please leave a comment
+below, and I'll be sure to answer your questions (and if they're good
+questions, I'll even write another post about them).
+
+  [Usenet]: http://en.wikipedia.org/wiki/Usenet
+  [Tim Berners-Lee]: http://en.wikipedia.org/wiki/Tim_berners-lee

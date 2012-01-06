@@ -1,0 +1,95 @@
+Date: Mon, 07 Dec 2009 14:38:23 +0000
+Categories: articles
+Tags: design,simplicity,ufo,x-com
+dsq_thread_id: 421962333
+Permalink: http://arborwebsolutions.com/2009/12/the-power-of-simplicity-and-heavy-plasmas/
+Summary: What X-COM can teach us about using simplicity in your designs.
+
+# The Power of Simplicity (and Heavy Plasmas)
+
+![X-COM: UFO Defense box cover][]One of the best PC games of my youth
+was [X-COM: UFO Defense][] (known in the UK as "UFO: Enemy Unknown").
+Released in 1993, it instantly became a favorite among players and
+critics alike. The game tasked players with commanding a secret,
+multinational organization that researches and intercepts hostile aliens
+looking to take over the planet. There were two modes: the "Geoscape", a
+globe on which the player could monitor alien activities and manage
+X-COM's secret bases, and the "Battlescape", a turn-based tactical
+combat interface for when X-COM operatives investigate a crashed UFO (or
+come to rescue a city that is being terrorized by the aliens). The two
+modes meshed perfectly. Exploring crash sites was always a tense affair
+as your operatives crept slowly through the scene looking for surviving
+aliens; recovering alien artifacts from the crash, though, would make
+you excited to get back to the geoscape so your scientists could start
+research, eventually letting your operatives use those alien artifacts
+themselves.
+
+This interplay between the two modes made X-COM incredibly
+addictive. Each research project made you eager to get into another
+fight, and each fight made you eager to start new research projects,
+until you finally knew enough about alien technology (and the aliens
+themselves) to take a team of operatives to the alien base on Mars and
+win the game. 
+
+The key to X-COM's success was its simplicity. There have
+been some attempts to revitalize X-COM for a new generation of players,
+but none of them have succeeded; every time, the developers decide that
+there needs to be more complexity, like a real-time combat system or a
+more dynamic geoscape mode. These developers are missing the mark; the
+passage of the day/night cycle on the geoscape was activity enough given
+the stress of attempting to meet tight research and engineering
+deadlines before the governments that fund X-COM get dissatisfied and
+sign secret pacts with the aliens (permanently turning against you in
+the process). And the turn-based nature of X-COM's combat kept it
+suspenseful - you would have to seriously contemplate which soldier to
+move into the alien craft first, since you would have no way of knowing
+what was waiting inside, heavy plasma at the ready.
+
+### Yadda yadda, what does this have to do with websites?
+
+Sometimes, the most effective websites are the simplest. As designers,
+we generally try to make the most aesthetically pleasing site possible
+for our clients, and the focus tends to be on the latest tools and
+techniques. Web design trends like reflections and rounded corners pop
+up everywhere as ways to prove that we are on the cutting edge of
+design; more and more websites pick up bells and whistles in JavaScript
+like AJAX or animation. Rarely, however, does a designer have an
+incentive to tell a client that "less is more." The times may be
+starting to change though. Scratchmedia's "Web Design from Scratch"
+recently wrote an article entitled "[Web Design is Dead][]," stating the
+following:
+
+> [L]et's acknowledge that the only people who really care if your web
+> site is cute are: 1. You 2. Your Client (until they're educated) 3.
+> Other web designers (who are a dying breed anyway) Now, it's probable
+> that none of these people is in your target audience.
+
+The answer, says Scratchmedia, is a shift to "web architecture." While
+certainly important for other reasons, I think web architecture finally
+gives designers a reason to sell simplicity to their clients. If you can
+measurably prove that a simple site will get just as many visitors and
+just as high a conversion rate as a complicated site that a client may
+see as more "edgy," then you have a powerful tool with which to sell
+simplicity. Simple sites in turn give you (and your client) faster
+development, easier maintenance, and more satisfied customers. Sure, the
+CSS galleries of the Web may become a bit more barren, but there's
+always room for pure art - it just no longer belongs in the business
+sites of 90% of your clients. If web design - a field that tends toward
+flourish and embellishment - can embrace simplicity, then maybe there is
+hope for the true X-COM re-make I've been waiting for after all. 
+
+*Oh,
+and about those heavy plasmas*: One of the most important alien
+artifacts was a weapon called the heavy plasma. Around mid-game, nearly
+every alien your operatives encounter will be carrying a heavy plasma,
+meaning your operatives will collect warehouses full of them in short
+order. Contrary to its name, the heavy plasma isn't a particularly heavy
+weapon, but it does a large amount of damage (killing most aliens in a
+single hit) with a fairly high rate of accuracy. Once you can start
+using heavy plasmas, you really don't have to use any other weapon for
+the rest of the game. Another example of simplicity in action.
+
+  [X-COM: UFO Defense box cover]: /attachments/xcom.jpg
+    "X-COM: UFO Defense box cover"
+  [X-COM: UFO Defense]: http://www.mobygames.com/game/dos/x-com-ufo-defense
+  [Web Design is Dead]: http://webdesignfromscratch.com/blog/web-design-is-dead.php

@@ -1,0 +1,10 @@
+Date: Sun, 22 Nov 2009 17:29:15 +0000
+Categories: journal
+Tags: news
+Permalink: http://arborwebsolutions.com/2009/11/downtime-today/
+
+# Downtime Today
+
+The site will be experiencing some downtime later today as I migrate to
+a new backend architecture and theme. I apologize for the interruption,
+but I think you'll agree it's worth it.

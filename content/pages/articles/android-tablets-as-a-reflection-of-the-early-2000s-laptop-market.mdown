@@ -1,0 +1,115 @@
+Date: Thu, 28 Jul 2011 19:32:12 +0000
+Categories: articles
+Tags: android,gimmicks,ios,ipad,lock-in,proprietary,software
+_thumbnail_id: 609
+dsq_thread_id: 427237200
+Permalink: http://arborwebsolutions.com/2011/07/android-tablets-as-a-reflection-of-the-early-2000s-laptop-market/
+Summary: Why a gimmick - even a really good gimmick - won't win you sales.
+
+# Android Tablets as a Reflection of the Early 2000's Laptop Market
+
+In the early years of the 21st century, laptops were just becoming
+popular, and laptop makers sought to differentiate themselves from their
+rivals in an attempt to take the lion's share of the market. Computers
+were still fairly new, and scary to a large portion of the population.
+The average computer buyer didn't know what a MHz was, or the difference
+between RAM and hard drive space (most still don't). People also didn't
+really know what "Windows" was; they would say "I bought a Compaq,"
+thinking that Compaq's computers were a totally different beast from a
+Dell or Gateway. And they thought this with good reason: it wasn't that
+much earlier that different companies' computers really *were*
+completely different. The ["Wintel" IBM clone][] market only really
+began in the early 90's, and even then your average person wasn't
+running out to buy a computer. But times change, and around 2000
+computers were becoming mainstream, with heavy promotion of wireless
+networks and laptops thanks to Intel's ["Centrino"][] marketing push.
+
+So, as I said, marketing and differentiation were key. PC makers were
+all dealing with the same set of hardware, so differentiation was
+basically a matter of price and design. And computers were becoming
+commodity hardware, so manufacturers could only cut prices so much while
+retaining a profit.
+
+Design to the rescue! PC makers pulled out every design trick up their
+sleeves. Some laptops came with a special "quick boot" mode (usually
+running some version of Linux) that would let you access your music or
+videos without spending the time to boot up the whole computer. Others
+had dedicated portions of their keyboard for controlling music playback,
+or for opening your favorite websites. Some manufacturers got far more
+ambitious, launching convertible "slate" laptops with stylus pen input.
+
+The result of all this design work was the proliferation of gimmicks.
+None of these features were part of the underlying operating system
+(Windows), which moved according to its own set of development
+priorities. There was no standardization of features, and almost all of
+these gimmicks relied on proprietary software from the manufacturer to
+work at all. Needless to say, computer manufacturers are not generally
+known for their software chops, and the programs that allowed you to use
+your laptop's gimmicks was generally just a software update or two away
+from never working again.
+
+### In Which I Finally Talk About Android
+
+So why the history lesson? Last week I had a chance to try out a new (to
+me) Android tablet, the [HTC Evo View 4G][] (what a mouthful!). It
+exemplifies the current crop of Android tablets - sleek though
+uninspired design, powerful hardware, and Android 2.3 "Gingerbread" with
+a fancy skin on top in the form of HTC's "Sense UI". Sense is a gimmick
+in its own right, being a proprietary layer on top of an underlying OS,
+but that's not what led me to write this.
+
+<img src="/attachments/wpid-Photo-Jul-22-2011-526-PM.jpg" class="alignleft" />
+No, the View comes with something far more gimmicky: a [dedicated
+stylus][]. Granted, "comes with" is not entirely true; you have to buy
+the stylus separately at an exorbitant price, and there is no place in
+the body of the View to store that stylus when you aren't using it. But
+the View is a device that is clearly built to rely on that stylus. It
+has a dedicated soft button in a prominent place on its front that only
+responds to a tap from the stylus, presenting you with a variety of pen
+options like brush type, thickness, and color. It also gives you quick
+access to the built-in note taking app that syncs with Evernote.
+
+Compared to most gimmicks, this one is extremely well-implemented. You
+can access the pen tools from anywhere, and doodle on the screen in
+every app I tested. The ebook reader app lets you scribble notes in the
+margin, and the browser even lets you scribble notes on a web page. All
+of this is saved somewhere so that it comes back when you return, which
+is incredibly useful. It makes the tablet more of a true paper
+replacement when compared to the relative rigidity of interacting with
+devices like the iPad.
+
+But it's still a gimmick. The pen doesn't work everywhere, only in the
+apps that HTC has specifically worked around in its Sense code. Even
+there I found gaps: the on-screen keyboard, for example, only responds
+to fingers, not the stylus, and text selection doesn't know how to deal
+with your scribbles. Like all other gimmicks, I expect stylus support to
+work for an update or two before silently being dropped. By then, new
+tablets will have come out with their own gimmicks, enticing customers
+to open up their wallets for the promise of functionality that no other
+vendor can match. But as always the advertising and feature lists will
+be promising something that only really exists in marketing, and works
+rarely if at all in real life.
+
+I see this as the fundamental flaw with Android as an ecosystem. Just
+like with Wintel, manufacturers are struggling to differentiate
+themselves from their competition, and since these devices are so cheap,
+they are turning to the only technique they have ever used.
+
+Is there a solution? Is this even a bad thing, necessarily? I don't
+know. The View was the first Android device I had ever used that I could
+see myself using again, based just on the strength of its gimmick (it
+really is well-done, I encourage you to give it a try if you see one).
+But until these gimmicks get standardization behind them, they will only
+end up angering customers who get burned when the gimmick stops working
+or, in the case of Android, prevents them from getting upstream OS
+updates.
+
+In short, Android needs to be more of a consortium and less of a
+platform. If companies built their advances into the underlying OS,
+Android could be formidable. As it is, it's the new Windows XP - a
+powerful workhorse that has problems adapting to its own future.
+
+  ["Wintel" IBM clone]: http://en.wikipedia.org/wiki/IBM_PC_compatible
+  ["Centrino"]: http://en.wikipedia.org/wiki/Centrino
+  [HTC Evo View 4G]: http://www.htc.com/us/products/tablets/evoview-sprint
+  [dedicated stylus]: http://www.htcaccessorystore.com/uk/p_htc_item.aspx?i=210061

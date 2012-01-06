@@ -1,0 +1,25 @@
+Date: Fri, 05 Feb 2010 18:49:24 +0000
+Categories: journal
+Tags: 104 designs for 2010,crush it,freelance,garyvee,news,work
+Permalink: http://arborwebsolutions.com/2010/02/what-is-the-what/
+Summary: Moving "104 Designs" to the back burner.
+
+# What Is The What
+
+So, as you may have noticed, I haven't posted anything in "104 Designs
+for 2010" in over a week. "What gives?," you might ask. Well, to be
+honest I've actually been pretty busy. I started the "104 Designs for
+2010" project in the hope that building a solid portfolio would net me
+more work, and that's exactly what happened. Word to the wise: the new
+secret to business success, as Gary Vaynerchuk eloquently put it, is
+working your a\*\* off. I'm doing some (hopefully long-term) freelance
+work with a local agency and loving it. Is this the end for 104/2010?
+No, certainly not, but it's definitely been put on the back burner. I
+think what I most enjoy about 104/2010 is the way it lets me experiment
+with new web technologies, so as I find new techniques and tools, I'll
+be sure to put them to use here. (I've been thinking a lot lately about
+the [Pure CSS3 AT-AT Walker][] demo...) I'm still writing articles as
+usual, and I'll have another post up soon about Information
+Architecture. Thanks for reading!
+
+  [Pure CSS3 AT-AT Walker]: http://anthonycalzadilla.com/css3-ATAT/index.html

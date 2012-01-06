@@ -1,0 +1,16 @@
+Date: Tue, 19 Apr 2011 15:03:06 +0000
+Categories: journal
+shorturl: http://wr4.us/6o
+dsq_thread_id: 436907771
+Permalink: http://arborwebsolutions.com/2011/04/retailers-finding-customers-are-all-thumbs/
+
+# Retailers Finding Customers Are "All Thumbs"
+
+The New York Times writes that retailers without mobile-optimized sites
+are [scrambling to catch up][]. Now will you start looking at responsive
+design?
+
+Short link: [http://wr4.us/6o][]
+
+  [scrambling to catch up]: http://nyti.ms/hOfTBe
+  [http://wr4.us/6o]: http://wr4.us/6o

@@ -1,0 +1,108 @@
+Date: Sun, 08 Nov 2009 02:15:40 +0000
+Tags: beginners,django,ftp,hosting,html,java,python,ruby,ruby on rails,sftp,ssh,webfaction
+Categories: articles
+dsq_thread_id: 421962308
+Permalink: http://arborwebsolutions.com/2009/11/web-hosting-demystified-part-2/
+Summary: What you need to know about your hosting company's "extras".
+
+# Web Hosting Demystified, Part 2
+
+Yesterday, we looked at [types of hosting and the basics of hosting
+plans][]. Today, we finish off our look at web hosting with a discussion
+of hosting plan features. Hopefully this two-part series will give you
+all the information you need to pick the hosting company that's right
+for you.
+
+### Technology Support
+
+Different hosting companies offer different levels of support for Web
+technologies. At the most basic level, you can find hosting companies
+that only offer support for HTML, CSS, and perhaps PHP, but no access to
+databases; these sorts of plans are generally not worth it unless you
+know for a fact that you will only ever use static HTML pages. The next
+step up will include a limited number of databases. Having a database
+allows you to use a wide range of applications, like WordPress, Joomla!,
+Drupal, or hundreds of others. I strongly recommend that anyone looking
+to host a website start at this level; the freedom to use all of these
+pre-made software packages is worth the extra dollar per month you might
+pay. 
+
+Continuing to move up the ladder of technology support, you'll find
+hosting companies who offer support for Python or Ruby. Having these
+languages available on the server will allow you or your designer /
+developer to use MVC ("Model-View-Controller") frameworks like Django or
+Ruby on Rails. Most personal or even business sites will not need this
+level of functionality, but if you need a highly customized website,
+these frameworks can help a developer quickly create a secure,
+highly-functional web application.
+
+Finally, high-end hosting packages
+will offer support for Java web applications (not Java applets, or
+JavaScript; full-blown Java applications that need fairly powerful
+servers) or multiple, clustered Ruby on Rails servers. These kinds of
+plans can be very expensive, but they are really geared toward high-end
+projects that can justify the cost - i.e., if you need this kind of
+power, you'll know.
+
+### Networking support
+
+You'll also find a variety of levels of networking support among hosting
+companies. Every hosting company should provide at least FTP access to
+your site's files, but many hosting companies will also offer SSH
+(Secure Shell) access as well. SSH allows you to "log in" to the server
+and interact with the server operating system, whereas FTP only lets you
+upload or download files from the server. Using SSH, you can perform
+more complicated operations, edit files directly on the server, and
+generally have more freedom to maintain your site's code. Additionally,
+having SSH access allows you to connect via SFTP, which works exactly
+like regular FTP but provides the added security of encrypting your
+login information through SSH.
+
+Some hosting companies do not provide
+either FTP or SSH access, but instead provide an "online control panel"
+that you can use in your web browser to upload and download site files.
+These setups should be avoided at all costs - accessing your files
+through a control panel only is painfully slow, and the lack of bulk
+upload in most of these solutions makes uploading anything larger than a
+tiny brochure site an exercise in futility. Control panels as a whole
+are not the problem - many control panel systems make common tasks very
+simple - but you want to make sure that you at least have FTP access to
+your site.
+
+### User support
+
+Lastly, you'll want to make sure that your hosting company of choice
+provides adequate user support to its customers. Search for reviews of
+your chosen hosting company to get a sense of this, but take reviews
+with a grain of salt; generally only the angriest customers take the
+time to leave reviews. Take a look at what options the company offers
+for contacting them with problems. A site that only offers an email
+address will likely not be as helpful as a company that offers email,
+live chat, and forums where users can help one another.
+
+### Can you recommend any hosting companies?
+
+I encourage you to shop around on your own and - better yet - ask
+friends or colleagues for their personal experiences with different
+hosting companies. You might be able to find a local hosting company
+that offers the services you need cheaper than a national or global
+hosting provider, with the added benefit of being physically near you in
+case you need help or have a problem with your account.
+
+That said, I
+personally have been using [WebFaction][] for years. They offer
+relatively inexpensive shared hosting that still offers support for
+Python, Ruby on Rails, Java, and anything else you might care to
+install. Their support is top-notch, often responding to requests in
+less than an hour, and I've only experienced one outage of their
+service, which lasted for about two hours. Their control panel system is
+quite different from that of other hosting companies, so there is a bit
+of a learning curve, but I've found their service to be well worth it.
+
+If you're currently running a website, what hosting company do you use?
+I'm always interested to hear other people's stories about good (and
+not-so-good) hosting companies. Leave a comment below and let me know
+your experiences.
+
+  [types of hosting and the basics of hosting plans]: http://arborwebsolutions.com/blog/2009/11/web-hosting-demystified-part-1/
+  [WebFaction]: http://www.webfaction.com/

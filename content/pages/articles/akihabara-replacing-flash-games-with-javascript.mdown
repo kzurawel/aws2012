@@ -1,0 +1,41 @@
+Date: Sun, 02 May 2010 12:31:16 +0000
+Tags: akihabara,flash,games,javascript,technologies
+Categories: articles
+dsq_thread_id: 421962353
+Permalink: http://arborwebsolutions.com/2010/05/akihabara-replacing-flash-games-with-javascript/
+Summary: Flash's days are numbered. Make the switch to JavaScript.
+
+# Akihabara - Replacing Flash Games with JavaScript
+
+I recently saw an impressive new JavaScript game engine called
+[Akihabara][]. Take a look at it if you haven't already - it's really
+quite spectacular. The Akihabara site has demos of five complete games
+built using the engine, and while they're somewhat rough, the experience
+is what's truly impressive. Why so impressive? Well, for starters, these
+games are built using nothing more than JavaScript and the HTML5 canvas
+element. While HTML5 alone does not make something an instant Flash
+killer (see the continuing saga of efforts to usurp Flash with the HTML5
+video element), Akihabara is incredibly smooth. Each demo, while fairly
+rudimentary, controls flawlessly. There are no frame rate hiccups, no
+input lag, and no jerky animation. The demos are completely playable,
+easily on par with your average flash game, and decidedly better than
+some punch-the-monkey banner ad. The fact that these demos were built
+with JavaScript adds another interesting benefit - the full source of
+each game is only a few clicks away! Because the Akihabara engine is
+doing most of the heavy lifting, the game code that remains is clean and
+very readable. Levels for 2d scrolling games are nothing more than an
+array of images, and enemy AI takes up just a few lines for each type of
+enemy. I don't know the limitations of the engine yet, but it seems like
+most any 8-bit era game could probably be ported to JavaScript without
+too much of a hassle. So, does this mean that the future of casual
+gaming is JavaScript? Unfortunately, probably not. While the performance
+of Akihabara is impressive, the fact that source code is easily
+available makes it unlikely that serious commercial projects will choose
+this route. However, the relative simplicity of making games with this
+JavaScript framework means that we can probably expect a lot of new
+games written by enthusiasts - like those who submit Flash games to
+sites like [Newgrounds][] - to use JavaScript, for access to the iPhone
+/ iPad market if nothing else.
+
+  [Akihabara]: http://www.kesiev.com/akihabara/ "Akihabara"
+  [Newgrounds]: http://newgrounds.com

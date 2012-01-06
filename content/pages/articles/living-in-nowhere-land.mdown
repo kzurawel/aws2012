@@ -1,0 +1,102 @@
+Date: Wed, 16 Dec 2009 16:33:19 +0000
+Categories: articles
+Tags: news,newspapers,social media
+Permalink: http://arborwebsolutions.com/2009/12/living-in-nowhere-land/
+Summary: On the death of "place" in news media.
+
+# Living in Nowhere-Land
+
+![The Paper Boy][]Those of you who have been reading this blog for a
+while may know that I have a strong interest in the looming [death of
+printed newspapers][]. So I found a recent article from Harpers Online
+particularly interesting. Richard Rodriguez' "[Final Edition: Twilight
+of the American Newspaper][]" tells the story of the San Francisco
+Chronicle, and how it came to define and reflect the city in which it
+was based. It's certainly worth reading; go do that now if you haven't
+already. I'll wait for you. Wasn't that interesting? The part that most
+struck me was when Rodriguez writes the following:
+
+> [W]ho will tell us what it means to live as citizens of Seattle or
+> Denver or Ann Arbor? The truth is we no longer want to live in Seattle
+> or Denver or Ann Arbor. Our inclination has led us to invent a digital
+> cosmopolitanism that begins and ends with “I.” Careening down Geary
+> Boulevard on the 38 bus, I can talk to my my dear Auntie in Delhi or I
+> can view snapshots of my cousin’s wedding in Recife or I can listen to
+> girl punk from Glasgow. The cost of my cyber-urban experience is
+> disconnection from body, from presence, from city.
+
+For many of us, the world online has become more important than the city
+around us. It is no wonder, then, that newspapers - once the epitome of
+locality - are in a sorry state. Rodriguez argues that this is a loss of
+an entire way of life - that in the future we will have "one and a half
+cities: Washington, D.C. and *American Idol*." The death of the
+newspaper is to him the death of the American city as a whole, the
+elimination of any uniqueness that a particular tract of land might
+have. The result is a café full of drones locked in a "wi-fi séance,"
+none of them talking or even looking at one another. 
+
+I can certainly see
+where Rodriguez is coming from, but I must disagree about the ultimate
+effects. The *Chronicle* began as the... chronicle, you could say, of a
+small town. Everyone knew everyone else, and the newspaper served as the
+codification and persistent memory of the place. As cities became larger
+and larger, newspapers by necessity became more and more selective about
+what qualified as "news" and about whose goings-on deserved to be
+recorded and shared. The "spirit of a place" became more about the
+spirit of the place's most important people than about the everyday
+actions of ordinary people. The Internet, and social media in
+particular, is re-defining the boundaries of the "small town" mode of
+living. Newspapers faced limitations of reporter salaries, materials,
+printing costs, and delivery for papers that would have to become much
+thicker in order to keep the same kind of focus. 
+
+The burden of producing
+the news, however, has largely shifted to the consumers of the news
+themselves, as if the New York Times took submissions (and published!)
+from anyone willing to send them a story. Plus, since computers are very
+good at sorting and filtering records, consumers of social media are not
+required to thumb through hundreds of pages of newsprint. This lets
+social media act as a focused lens on the goings-on of select groups of
+people, while still having coverage broad enough to support hundreds of
+cities. A one-size-fits-all, take-it-or-leave-it newspaper that purports
+to cover an entire city (and surrounding metropolitan area) can't hope
+to compete with the customized, precision focus of social media. To use
+Seth Godin's phrase, newspapers are no longer a "Purple Cow," they are
+now simply an average product for average people. And no one likes to
+think of themselves as average. 
+
+Yes, the shift to social media has
+definitely taken a toll on notions of place and space. But how accurate
+were those notions to begin with? Cities, like nations, are imaginary
+concepts; there is no physical line in the sand to separate the city
+from the plain, everyday land around it, anymore than there is a
+physical line in the ground demarcating one country from another (the
+proposed fencing-off of Mexico notwithstanding). If you live on the
+fringe, then people on the fringe are part of your community; it's not
+that you are part of a city and your neighbors are not solely because of
+what side of an imaginary line they live on. Cities, then, function
+solely as generalized markers on a scale of place - it's more convenient
+to tell someone that you live "near Atlanta" than to give them latitude
+and longitude coordinates (too narrow) or "in Georgia" (too broad). As
+the population of the US becomes more mobile and fluid, this is becoming
+the main purpose that cities serve. 
+
+The majority of people I've met
+since moving to Miami are similarly not from Miami; everyone brings
+their own ideas of community and we throw them in a pot and stir them
+up, and I wouldn't call the result "Miami culture" because I still don't
+know what "Miami culture" would even be. In that sense, I've already
+lost track of place. My "place" is now the people I communicate with
+online, regardless of where they are - I've drawn my own imaginary lines
+to indicate who is and isn't part of a city of my own making, of my own
+newspaper. And that social media "newspaper" works in much the same way
+as the original San Francisco Chronicle - I get a codified, recorded
+history of everything that happens in my "city." What about you,
+readers? Are you still firmly rooted in place-ness, or have you cut free
+of your physical shackles? (How's that working out for you?) *Photo
+by* [Mike Bailey-Gates][].
+
+  [The Paper Boy]: /attachments/newspaper.jpg "The Paper Boy"
+  [death of printed newspapers]: http://arborwebsolutions.com/2009/09/news-wikis-ann-arbor-style/
+  [Final Edition: Twilight of the American Newspaper]: http://www.harpers.org/archive/2009/11/0082712
+  [Mike Bailey-Gates]: http://www.flickr.com/photos/mbg_photos/

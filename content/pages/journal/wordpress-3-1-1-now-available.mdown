@@ -1,0 +1,18 @@
+Date: Tue, 05 Apr 2011 16:27:02 +0000
+Categories: journal
+Tags: ios,news,wordpress
+_thumbnail_id: 501
+dsq_thread_id: 426291184
+Permalink: http://arborwebsolutions.com/2011/04/wordpress-3-1-1-now-available/
+Summary: Get your update on.
+
+# WordPress 3.1.1 Now Available
+
+Six weeks after WordPress 3.1, the WordPress core team have released a
+maintenance update that fixes several security, performance, and
+behavior bugs. If you're running a local install of WordPress on your
+site, take a few minutes and go update it now before something bad
+happens. Also in WordPress news, a new version of the WordPress app for
+iOS was released today as well. This release fixes some crash bugs and
+lays the groundwork for WordPress iOS 2.8, which will finally support
+localization into multiple languages.

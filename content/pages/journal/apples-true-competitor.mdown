@@ -1,0 +1,15 @@
+Date: Tue, 29 Mar 2011 17:29:01 +0000
+Categories: journal
+Tags: amazon,apple,google
+dsq_thread_id: 463932547
+Permalink: http://arborwebsolutions.com/2011/03/apples-true-competitor/
+
+# Apple's True Competitor
+
+Andy Ihnatko argues that Apple might be about to meet its first real
+competition - and it's not Google, [it's Amazon][].
+
+Short link: [http://wr4.us/6f][]
+
+[it's Amazon]: http://ihnatko.com/2011/03/29/amazon-to-apple-oh-it-is-sooo-on/
+[http://wr4.us/6f]: http://wr4.us/6f

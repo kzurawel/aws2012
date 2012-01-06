@@ -1,0 +1,50 @@
+Date: Sat, 06 Mar 2010 15:22:27 +0000
+Categories: articles
+Tags: design,ebooks,typesetting
+dsq_thread_id: 421962349
+Permalink: http://arborwebsolutions.com/2010/03/e-books-as-a-blank-canvas/
+Summary: Why we need to find a new canon of book design.
+
+# E-Books as a Blank Canvas
+
+While reading a book yesterday I made an interesting discovery: a
+chapter that began on a verso (left-side) page. In a standard typeset
+book, chapters or other major divisions generally begin on a recto
+(right-side) page, leaving a blank verso if the previous section ended
+on a recto page. This book followed that standard everywhere else, so I
+wondered if this was an accidental oversight on the part of the
+typesetter or if it was a deliberate act that met some other, unknown
+publishing requirement. I thought to myself that in an e-book, these
+distinctions are entirely meaningless. E-book hardware only shows one
+page at a time. Even the notion of "pages" is abstracted away, as the
+user re-sizes text on the fly and the entire book re-flows its own
+layout to match, adding or dropping page numbers as needed.
+
+So are
+typesetters out of a job? Hardly. A professionally typeset book exudes
+quality, even if the writing within does not. Until everyone starts
+writing their books in a system like LaTeX, typesetters will play an
+important role in adding value to a finished book, online or not. Even
+with publishing systems like LaTeX, a good typesetter can still make a
+book stand out in a way that matches the tone and style of its writing.
+As with anything else in design, the rules exist so that those who have
+mastered the rules can break them creatively. I propose that the e-book
+can serve as a blank canvas on which an entirely new art of typesetting
+can flourish. What we have currently is a system that creates beautiful
+printed books and then translates them into e-books in imitation of the
+original. Where we need to end up is a system for creating beautiful
+e-books from the beginning, with their own standards and conventions. 
+
+As
+e-books become more popular, I think we will see a revolution in how we
+conceive of the "book" as an object. For reference, one need only look
+to the constant evolutions of the video game industry. Whenever a new
+console cycle begins, developers' first impulse is to create games that
+are very similar to what has already been done, only "better". As the
+hardware matures and developers become more confident in working with
+it, entirely new types of games are created that utilize the best
+features of the new hardware while casting aside gameplay mechanics and
+practices that no longer make sense. The end result is a set of games
+that are unique to that generation of consoles and represent the best of
+an era. Printed books have had a long run, but a new cycle is beginning,
+and I'm eagerly waiting for the end results.

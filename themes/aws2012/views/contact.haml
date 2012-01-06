@@ -1,0 +1,11 @@
+%section
+  %h3 Talk to us, we'll listen.
+  %section.contactform
+    %form(action="/contact" method="post")
+      %label(for="name") Your name:
+      %input(type="text" id="name" name="name")/
+      %label(for="email") Your email:
+      %input(type="email" id="email" name="email")/
+      %label(for="phone") Your phone #:
+      %input(type="tel" id="phone" name="phone")/
+      %input(type="submit")

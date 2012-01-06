@@ -1,0 +1,91 @@
+Date: Sun, 15 Nov 2009 14:36:11 +0000
+Categories: articles
+Tags: browser grading,design,graceful degradation,progressive enhancement
+Permalink: http://arborwebsolutions.com/2009/11/controlling-your-design-on-the-web-part-2-progressive-enhancement-and-graceful-degradation/
+Summary: Make something that works in every browser, even if it's not as pretty.
+
+# Controlling Your Design on the Web, Part 2: Progressive Enhancement and Graceful Degradation
+
+To continue yesterday's talk about [graded browser support][], let's
+take a look at the techniques that make the "A-grade" / "C-grade"
+distinction possible: **progressive enhancement (PE)** and **graceful
+degradation (GD)**. These two work at the same problem - the fact that
+different browsers and devices have different levels of support for web
+technologies - from different ends. GD is the belief that A-grade
+designs should "roll back" gracefully to work at a basic level in
+C-grade browsers; PE advocates believe that the C-grade version of the
+site should be the full experience, with additions made that improve the
+A-grade experience only when they do not damage the presentation in
+C-grade browsers.
+
+### Graceful degradation
+
+So, GD first. GD basically says that every browser should be able to get
+some basic level of functionality out of your site. A-grade browsers
+like recent versions of Firefox or Safari will get all the flashy bits
+and fine details that CSS3 and JavaScript can provide, but without those
+elements, the site will at least work in some general sense. Take, for
+example, inline event handlers in JavaScript. An inline event handler
+lets you add something like this to your HTML code:
+
+    <a href="#" onclick="popUp(http://example.com); return false;">Click Me!</a>
+
+This way, when you click the link, you open example.com in a pop-up
+window without changing the page in the current window. However, for
+someone who has JavaScript disabled, the example.com link is completely
+inaccessible; clicking the link will re-load the current page. This is
+the opposite of graceful degradation. Compare the previous link with
+this one:
+
+    <a href="http://example.com" onclick="popUp(this.href); return false;">Click Me!</a>
+
+Now, because there is an actual "href" attribute to follow, browsers
+without JavaScript can still follow the link, even if they don't get the
+new page in a pop-up window. That's graceful degradation - keeping the
+general functionality of the site available to all browsers, even if the
+exact effect you wanted won't work. Keep in mind that graceful
+degradation also implies that if your site has video or audio, you
+should provide transcripts, and that if your entire site is in Flash,
+you will need a separate, HTML-only site. GD can even apply to CSS. If
+your site makes no sense without CSS (for example, half of the site is
+made up of text contained in background images), then it does not
+degrade gracefully. You need to start from a firm foundation first,
+which brings us to...
+
+### Progressive enhancement
+
+So, you've coded up your brand new site as text-only, semantic HTML, and
+you decide it would be really great to add in some fancy animations or
+interesting behavior. This is where PE comes into play. At the most
+basic level, all styling and behavior should be placed into external
+files - .css and .js - to allow the oldest of old browsers to still
+render the HTML content of the page. By keeping your JavaScript external
+and "unobtrusive," the site's functionality is not dependent on
+JavaScript to function, and your JS code merely enhances the site for
+capable browsers. The same should go for CSS - every style rule you add
+to your stylesheet should be enhancing the design for browsers that
+understand it, not adding functions that the site requires to operate.
+Some JavaScript-heavy sites cannot be built in a truly "progressive
+enhancement" manner - a JavaScript game, for example, probably cannot
+function without having JavaScript available in the browser. However,
+even in these sorts of cases, some basic principles of progressive
+enhancement can be followed. As much of the interface as possible can be
+coded as PE, with only the core game elements as JavaScript-only items.
+
+### Recap
+
+Let's take a look at everything one more time. Old browsers stick around
+for far longer than anyone would expect, so even when new browsers with
+new features come out, we can't code exclusively for those new features
+unless that is the only way our site idea could function. As a result,
+we need to draw a line between fully-supported browsers and
+minimally-supported browsers, the "A-grade" and "C-grade" browsers of
+Yahoo's Graded Browser Support table. Once we've made our lists of
+browsers, we build a solid core website with semantic HTML that contains
+all of our site's content in a method that all browsers can access, in
+order to ensure we have a site that degrades gracefully. Then, we begin
+progressively enhancing this skeleton site, adding features that benefit
+newer browsers without compromising the functionality in the C-grade
+browsers.
+
+  [graded browser support]: http://arborwebsolutions.com/blog/2009/11/controlling-your-design-on-the-web-part-1-browser-grading/

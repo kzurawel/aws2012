@@ -1,0 +1,21 @@
+Date: Mon, 28 Feb 2011 14:48:11 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+site_link: http://villaleonie.fr/
+thumb_image: villaleonie86.jpg
+full_image: villaleonie.jpg
+featured_project: false
+year: 2010
+Permalink: http://arborwebsolutions.com/2011/02/villa-leonie/
+
+# Villa Leonie
+
+This vacation resort in Guadeloupe, an overseas region of France located
+in the Caribbean, needed a new look to showcase its luxury
+accommodations to French vacationers. The site's design was completed by
+[Shinevine][], and Arbor Web Solutions then constructed a live site from
+Shinevine's design. This site features revolving imagery in the header
+and large graphics to catch the viewer's eye and help them imagine their
+dream island vacation.
+
+  [Shinevine]: http://www.shinevine.com

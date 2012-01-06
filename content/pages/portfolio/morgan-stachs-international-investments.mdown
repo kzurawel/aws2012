@@ -1,0 +1,13 @@
+Date: Mon, 28 Feb 2011 14:42:59 +0000
+Categories: portfolio
+_mf_write_panel_id: 1
+full_image: morganstachsinternationalinvestmentimmobilieramiami.jpg
+thumb_image: morganstachs.jpg
+site_link: http://www.morganstachs.com/
+year: 2010
+featured_project: false
+Permalink: http://arborwebsolutions.com/2011/02/morgan-stachs-international-investments/
+
+# Morgan Stachs International Investments
+
+

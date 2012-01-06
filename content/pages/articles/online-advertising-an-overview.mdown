@@ -1,0 +1,104 @@
+Date: Thu, 05 Nov 2009 20:51:49 +0000
+Tags: adsense,advertising,adwords,beginners,google
+Categories: articles
+Permalink: http://arborwebsolutions.com/2009/11/online-advertising-an-overview/
+Summary: How to place (and display) ads with Google.
+
+# Online Advertising: An Overview
+
+I don't profess to be an expert at online advertising; I've had very
+little direct experience. But I often have clients ask about putting ads
+on their site to make money, or how to buy advertising online. With that
+in mind, I'm going to offer a brief look at how Google's AdWords /
+AdSense programs work, and how to get started with them.
+
+### AdWords vs. AdSense
+
+First off, some definitions. **AdWords** is Google's program for
+advertisers. If you want to buy advertising, you'll want AdWords.
+**AdSense**, meanwhile, is a program for site owners who want to run
+*other people's*ads on their own site. In exchange for hosting the ads
+on your site, you get some income from Google. Generally you'll want to
+use one or the other; it doesn't make much sense to pay to put your ads
+on the web, while hosting advertising for your competitors at the same
+time.
+
+### How AdWords Works
+
+AdWords lets you pay to place text, image, or video ads on "contextually
+relevant" websites and in Google's search results. "Contextually
+relevant" means that if your ad is for a new TV, you might show up in
+searches for HBO, but not at BookNook.com. How does Google decide what
+"contextually relevant" actually means? 
+
+That's all up to you.
+When you purchase your ads, you define the "title" of the ad (the actual
+clickable link), the short text message that appears below the title,
+and what keywords you want to associate your ad with. You can choose
+broad keywords (where "tennis shoes" would match "tennis", "shoes",
+"shoes for tennis", etc.), phrase keywords (where "tennis shoes" would
+only match search terms with exactly "tennis shoes" in them), exact
+keywords (where "tennis shoes" matches only "tennis shoes" and nothing
+else), and negative keywords (where "tennis shoes -used" would
+explicitly not match a search for "used tennis shoes"). It's a lot of
+options, and they allow you to tailor your ad campaign to be as broad or
+narrow as you like. The more specific your ad campaign, the more likely
+it is to appear with searches of that type, regardless of how much you
+spend on advertising. 
+
+Unlike running an ad in a newspaper, you don't pay
+for your ad campaign up front. Instead, you choose how much you're
+willing to pay every time someone clicks on your ad. Since there are
+only a limited number of "slots" for a given set of search results or on
+a particular website, the highest bidder with the most relevant content
+gets to place their ad. So if you're willing to spend a dollar for every
+click, your ad will show up far more often than someone who only bid 10
+cents per click (and you will pay accordingly for the extra exposure
+when your ad is clicked on more often). At the same time, your
+10-cent-per-click exact match ad for "Uncle Jerry's Famous Ice Cream"
+will probably beat out a rival's $1 per click broad-match ad for "ice
+cream" if someone is searching for those exact words. You can also opt
+to pay "per thousand impressions", meaning every 1,000 people who see
+your ad (regardless of whether they click on it or not) will cost you a
+set amount. This works very similarly to cost-per-click - higher "bids"
+will appear more often than lower bids.
+
+### How AdSense Works
+
+If you're a site owner looking to make money from advertising, you'll
+want to look into AdSense. After signing up for the program, you get to
+pick what kind of advertising you want to host on your site (text,
+image, video, etc., along with what size of images you'd like to host),
+and Google will give you the code to plug into your website (a small
+JavaScript script). After that, you can pretty much sit back and wait;
+you'll receive a fraction of the cost-per-click or
+cost-per-thousand-impressions cost paid by the advertiser, with
+aggregate payments sent to you on a regular basis. 
+
+Since you're only
+receiving a tiny amount of an already small cost, you should know that
+you're not going to make much money at all unless your site receives at
+least hundreds of visitors per day. If you don't know how many people
+are coming to your site, you can find out by installing an analytics
+system like Google Analytics (more on analytics in a later post). You
+can think of analytics programs as the modern, incredibly detailed,
+non-embarrassing version of the venerable old "hit counter."
+
+### Is Google It?
+
+No, of course not. There are plenty of other advertising systems. Google
+happens to be the 800-pound gorilla of online advertising, though, which
+makes them a great place to start. If your ads target a specific niche
+of users, you may be able to find an advertising network that caters to
+those users; for example, look to networks like [The Deck][] or [Fusion
+Ads][] if your product or service targets designers or web developers.
+These kinds of niche networks can generally get you more "bang for your
+buck" if you are only targeting a narrow audience. To get started with
+Google advertising, just visit their homepage at google.com and click
+the link for "Advertising Programs" underneath the search box. Any other
+ad networks I should be aware of? Any success stories (or total
+failures) in online advertising that you'd like to share? Leave a
+comment below, and I'll be in touch.
+
+  [The Deck]: http://decknetwork.net/
+  [Fusion Ads]: http://fusionads.net/

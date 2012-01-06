@@ -1,0 +1,19 @@
+Date: Mon, 23 Nov 2009 20:38:02 +0000
+Categories: journal
+Tags: news
+Permalink: http://arborwebsolutions.com/2009/11/phase-1-complete/
+Summary: All systems go.
+
+# Phase 1 Complete
+
+So, phase 1 of this site's redesign is now complete. If you've visited
+this site before last night, I'm sure you can already tell what a big
+difference I've made to the site. But the changes will not be stopping
+here! Phase 2 is already underway, and because the changes involved are
+much less invasive, I hope to be done with phase 2 by the end of this
+week. 
+
+Interested in how exactly I did all of this? I'll be starting a
+case study later this week as well that will walk you through the
+process from start to finish. Thanks for reading, and please subscribe
+to the site's RSS feed if you haven't already!

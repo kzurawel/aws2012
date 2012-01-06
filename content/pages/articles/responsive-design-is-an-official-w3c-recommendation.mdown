@@ -1,0 +1,60 @@
+Date: Wed, 13 Apr 2011 03:02:55 +0000
+Categories: articles
+Tags: best practices,javascript,media queries,mobile design,mobile first,one web,responsive design,w3c
+_thumbnail_id: 516
+dsq_thread_id: 422300561
+Permalink: http://arborwebsolutions.com/2011/04/responsive-design-is-an-official-w3c-recommendation/
+Summary: More than just a passing fad, responsive design is here to stay.
+
+# Responsive Design is an Official W3C Recommendation
+
+The [W3C][] (World Wide Web Consortium) is like the United Nations of
+web development: a consortium of browser makers and interested parties
+that generates recommendations and resolutions. Also like the United
+Nations, the W3C's resolutions and recommendations have no legal power
+and only take effect when browser makers (and designers and developers
+in general) implement them of their own free will. The process of going
+from idea to official recommendation is fraught with bureaucracy, and
+the W3C has [frequently][] [been][] [criticized][] for its glacial pace.
+Surprisingly, however, the W3C is ahead of the curve when it comes to
+mobile web design. In July 2008, the W3C published its "[Mobile Web Best
+Practices][]" as an official W3C Recommendation. The document describes
+many of the same concerns that responsive design and Mobile First
+advocates have been touting recently - the challenges of smaller
+screens, more limited input, and costly and limited bandwidth. But the
+most interesting part of the document is section 3.1, "[One Web][]". In
+this section, the W3C officially endorses the principles of responsive
+web design by stating that designers should work toward the principle of
+"One Web". According to the W3C, this means "making, as far as is
+reasonable, the same information and services available to users
+irrespective of the device they are using" - the same belief that
+underlies responsive web design! Going even further, the W3C recommends
+that designers prepare for screen widths of 120 pixels and total page
+weight of no more than 20KB as a "default delivery context," not to
+mention "no support for client side scripting" - no JavaScript, at all.
+These are difficult targets to reach in practice, but they underscore
+the idea that content and context can be worth far more than an
+attractive but limited layout. Meeting these goals in a "mobile"
+representation of your site lays a solid groundwork on which to build
+with progressive enhancement through media queries. The remainder of the
+document is a list of best practices with examples and explanations, but
+to call these simply "Mobile Web" best practices is a bit of a misnomer.
+**These principles can (and in fact should) be applied to any website's
+design**. There isn't a single site on the Web that couldn't benefit
+from looking at the balance of number of links on a page vs. number of
+clicks required to get to a page, or ensuring that information conveyed
+through color is also discernible without the use of color. So, believe
+it or not, 2008 was a pivotal year for mobile web standards. If you're
+designing a website (or if you own a website), you owe it to yourself to
+read through the W3C's Mobile Web Best Practices. Even if you don't
+expect mobile users at your site, taking these suggestions to heart will
+result in a better experience for *all* of your users, in the spirit of
+One Web.
+
+  [W3C]: http://www.w3.org/ "World Wide Web Consortium"
+  [frequently]: http://www.456bereastreet.com/archive/200711/the_w3c_process_may_be_slow_but_browser_vendors_are_slower/
+  [been]: http://techcrunch.com/2010/04/30/joe-hewitt-web-development/
+  [criticized]: http://pseudosavant.com/blog/2008/07/08/a-proprietary-web-blame-the-w3c/
+  [Mobile Web Best Practices]: http://www.w3.org/TR/mobile-bp
+    "Mobile Web Best Practices 1.0 - W3C Recommendation"
+  [One Web]: http://www.w3.org/TR/mobile-bp/#OneWeb "§3.1: One Web"

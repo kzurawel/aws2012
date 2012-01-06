@@ -1,0 +1,34 @@
+Date: Mon, 11 Jan 2010 17:59:47 +0000
+Categories: journal
+Tags: news,thematic
+Permalink: http://arborwebsolutions.com/2010/01/new-year-new-theme/
+Summary: Thoughts on making this site even better.
+
+# New Year, New Theme
+
+Two months after my last theme update, I felt it was time for another
+change to this site. While I was very proud of the previous theme, it
+had its own set of problems:
+
+1.  **The look didn't fit the theme.** It was my first "grunge" design,
+    and I was happy with the result, but it didn't really have anything
+    to do with clean, professional web design - a friend who saw it said
+    "it looks like a site for genealogy buffs."
+2.  **Not enough contrast.** The site was overwhelmingly blue, with
+    little contrast between elements, so that everything just muddled
+    together on a quick glance.
+3.  **Too hard to maintain.** The old theme was built from scratch, and
+    while it worked, making changes to the theme required a lot of
+    tweaking and work under the hood. It wasn't a sustainable base for
+    future growth.
+
+The new theme is built on [Thematic][], which essentially takes care of
+the markup portion of the theme and lets you focus on styling. This
+makes updates a breeze - just wire up a new PHP filter or action hook
+and you're all set. There's a lot more contrast, a great photo to catch
+the eye (and an alternate header for "inside" pages), and everything is
+a lot more clean and professional. So, I hope you enjoy the new look,
+and I'll be posting my next design in the 104 Designs for 2010 series
+soon.
+
+  [Thematic]: http://themeshaper.com/thematic/

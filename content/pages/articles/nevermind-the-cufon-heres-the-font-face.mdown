@@ -1,0 +1,110 @@
+Date: Fri, 17 Jun 2011 01:50:58 +0000
+Categories: articles
+Tags: @font-face,css,cufon,fonts,raphael,typography
+_thumbnail_id: 577
+dsq_thread_id: 423824912
+Permalink: http://arborwebsolutions.com/2011/06/nevermind-the-cufon-heres-the-font-face/
+Summary: For most users, Cufón is dead. Upgrade to the standard that's been in place since IE4.
+
+# Nevermind the Cufón, Here’s the @font-face
+
+If you’ve read an article on this site before, there’s an extremely good
+chance (about 1 in 3) that it was to learn about using Cufón, a web
+font-replacement technology, either alone or as part of RaphaëlJS. When
+I wrote [that article][], Cufón was by far the best way to use custom
+fonts in a website - all browsers supported it, it didn’t require Flash,
+and users could select and copy Cufón text, which was impossible with
+other techniques that just made images of text. Life as a web designer
+or front-end developer was good. As always on the Internet, times
+change, and things get better. The browser landscape of today is
+radically different from that of just a few years ago. Advances in
+browser support for CSS have created a new best practice for web
+typography: @font-face. Unlike Cufón, @font-face is part of CSS, handled
+natively and transparently by the browser. @font-face files are loaded
+just like CSS stylesheets, and because they are actual fonts, they can
+be used for body text without any slowdown other than the time required
+for the user’s browser to download the font. This new development in web
+typography is not without issues, however. As mentioned earlier,
+@font-face uses actual fonts, and since everything on the web is open,
+those font files can be easily downloaded by end users. Font foundries
+have expressed some reluctance at making their fonts available for web
+use, spurring the creation of new obfuscated font formats and font
+delivery services. @font-face takes some getting used to, but the
+results are worth it. Once you’re up to speed, you’ll find yourself
+using typography on the web in ways that never would have been possible
+before.
+
+### Step One is Admitting You Have a Problem
+
+Cufón works by turning font files into vector outlines, which are then
+rendered in the browser through JavaScript using an HTML5 Canvas element
+(or Microsoft’s VML, for Internet Explorer). It’s basically the same
+technology that lies at the heart of RaphaëlJS, another reader favorite.
+This setup leads to three problems:
+
+1.  You are still ultimately presenting your text as graphics, and
+    graphics are more processing-intensive than text;
+2.  Your text requires JavaScript to display;
+3.  The speed at which your text displays is dependent on the speed with
+    which your browser can run JavaScript - which can lead to FOUT
+    (Flash Of Unstyled Text) as the user loads the page.
+
+The practical result of these issues was that Cufón was relegated to use
+in headings. The standard practice was to use images for branding items
+that require precise layout (text logos, taglines, etc.), a Cufón font
+for headings, and a commonly installed “web-safe” font like Arial or
+Georgia for body text. We can do better than this. Because @font-face
+uses actual fonts, they can do anything that normal fonts on the user's
+system can do, and they work just as fast as fonts on the user's system
+(once they have been downloaded by the browser, of course).
+
+### Getting the Font Show on the Road
+
+First, you will need to find a font to use in your stylesheets. You need
+to find a font that allows @font-face usage in its license, because
+otherwise you will be violating the font creator's copyright privileges.
+@font-face licensing is becoming increasingly common among font makers,
+and a number of resources have emerged to make finding licensed fonts
+easier. My personal favorite is [FontSquirrel][], but you should also
+consider looking at other font collections like those from [Google][] or
+[TypeKit][]. Once you've found the font you would like to use, it's time
+to get it ready for the web. Browser makers, in an effort to prevent
+font piracy, have created standards in conjunction with font foundries
+that "mangle" a font file so that it can be used on the Web but not
+installed on an end user's computer. The problem is that there are many
+ways of doing this "mangling", and different browsers have support for
+different methods. Thankfully this problem is easier than it seems.
+FontSquirrel, which I mentioned earlier as a great source of
+@font-face-licensed fonts, offers a [handy tool][] for converting a font
+to every commonly used web font format. It will even provide you with a
+ready-to-use CSS file that will load the font into your website, as well
+as a "web font specimen" that you can open in a browser to see how the
+font performs at different sizes and layouts. So, you've found a font
+you like, converted it into WOFF, EOT, and SVG, and you've included the
+stylesheet into your HTML. How do you actually use the font in your
+design? This is the best part: you just use the standard CSS
+"font-family" property! You can even define fallbacks in a "font stack"
+like you normally would for older browsers that don't support
+@font-face. There are some limitations to keep in mind. You may need to
+include multiple fonts in your design to handle bold, italic, or
+bold+italic text, as many browsers will not be able to "fake" these
+styles when using a web font. As a result, you will need to use
+font-family on header elements in your stylesheet to make them use the
+bold version of your font, as well as elements like <strong\> or <em\>.
+Also, because you are using separate fonts for bold and italic, CSS
+directives like font-weight and font-style may not work as intended.
+Overall, though, these are trivial problems when compared to the
+flexibility that @font-face provides you. At long last, we can use just
+about any font available for body text. Just remember, with great power
+comes great responsibility. Fonts can be used for aesthetically
+pleasing, harmonious designs, or they can be used for garish displays
+that would make your local graphic designer cry. When you use
+@font-face, ask yourself how the fonts you are using enhance your
+design, and if they do not, take them out.
+
+  [that article]: http://arborwebsolutions.com/2010/04/comprehensive-guide-to-using-cufon-text-with-raphael/
+    "Comprehensive Guide to Using Cufon Text with Raphael"
+  [FontSquirrel]: http://www.fontsquirrel.com/
+  [Google]: http://www.google.com/webfonts
+  [TypeKit]: http://typekit.com/
+  [handy tool]: http://www.fontsquirrel.com/fontface/generator

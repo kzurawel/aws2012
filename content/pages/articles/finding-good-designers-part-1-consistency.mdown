@@ -1,0 +1,64 @@
+Date: Sun, 13 Sep 2009 13:50:07 +0000
+Tags: consistency,designers,finding good designers,hiring,web design
+Categories: articles
+Permalink: http://arborwebsolutions.com/2009/09/finding-good-designers-part-1-consistency/
+Summary: What to look for when you need a designer.
+
+# Finding Good Designers, Part 1: Consistency
+
+Recently, an organization that I volunteered with asked "How can we find
+a knowledgeable web designer in the future if you're not available to
+help us?" Web design and development don't have any prominent
+certification paths or even a defined educational path; anyone with a
+computer and a basic understanding of HTML can call themselves a web
+designer. So, to help those looking to hire a web designer assess their
+prospective hire's abilities, I'm beginning this series of posts that
+will show you simple techniques for spotting competent web design. 
+
+First
+off, any web designer worth his/her salt should **have their own
+website**. A designer who doesn't have a website is like an auto
+mechanic who doesn't own a car - it's not impossible that they have true
+skill, but would you really trust someone who doesn't use the very
+services they sell? Found a designer with a nice-looking website? Great!
+Now the real fun can begin. The first and most basic thing to look for
+in a designer's work is **consistency**. While it's easy for anyone to
+slap together a few pages in Adobe Dreamweaver or even Microsoft
+Frontpage (ughhh....) and put them up for all the world to see, real
+designers have an eye for detail. Consistency is the most obvious sign
+of attention to detail. So, what things in a site should be consistent?
+
+-   **Page titles.** Does the designer have a **system for naming
+    pages**? (For those who don't know what I'm referring to: the page
+    title is the text that appears at the very top of your browser
+    window, by the minimize / close / etc. buttons.) Be wary of a
+    designer whose page titles are non-existent ("Untitled Page" or
+    similar), all the same, or don't follow any real system - e.g., one
+    page is titled "Awesome Site | About Us" and another page is titled
+    "Contact Us \> Awesome Site". It shows a lack of attention to detail
+    and a "good enough" attitude toward their work.
+-   **Layout and positioning.** Do the elements on each page maintain a
+    consistent layout from page to page? I don't mean that the site has
+    to use an identical layout on every page of the site; it's quite
+    common for a "home" page to have a very different layout from an
+    "interior" page. But for pages which are obviously intended to have
+    the same layout, do the elements **actually show up in the same
+    place**? A poorly-coded site may have a top banner which is flush
+    against the browser toolbar on one page, but which has a 20-pixel
+    gap on another page. These are signs that either the designer
+    doesn't understand their CSS code, or that they did not take the
+    time to "proofread" their site before making it live.
+-   **Color.** As with layout and positioning, I don't mean to imply
+    that a site can't use different colors among its various pages.
+    However, if you notice that one page of a site has a green
+    background, and that another page of the site has a similar, but
+    noticeably different, shade of green, it's likely an oversight on
+    the part of the designer and not an artistic effect. Be on the
+    lookout for **variations in color** as you move from page to page.
+
+There are a number of other things that can be analyzed - for example,
+consistency in internal link targets - but the three items above are
+good enough to serve as a general litmus test. That's it for today, but
+I'll be expanding on this series over the coming weeks. Have you had any
+experiences (good or bad) with hiring a web designer? Leave a comment on
+this post to help others looking for designers.

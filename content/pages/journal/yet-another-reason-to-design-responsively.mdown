@@ -1,0 +1,25 @@
+Date: Mon, 07 Mar 2011 21:29:15 +0000
+Categories: journal
+Tags: cartoon,mobile first,responsive design,xkcd
+_thumbnail_id: 444
+dsq_thread_id: 422026577
+Permalink: http://arborwebsolutions.com/2011/03/yet-another-reason-to-design-responsively/
+Summary: Do mobile right, or don't do it at all.
+
+# Yet Another Reason to Design Responsively
+
+Today's [XKCD][] comic, "Server Attention Span":
+
+![image][]
+
+If you're
+going to have a separate mobile site, make sure your infrastructure
+gives users a seamless hand-off between your "default" desktop site and
+your secondary mobile site. Otherwise, you're going to have a lot of
+frustrated users and XKCD will make cartoons about you. Also, you could
+save yourself a whole lot of trouble and just design for mobile first,
+then use media queries to build the desktop layout.
+
+  [XKCD]: http://xkcd.com/869/ "XKCD"
+  [image]: /attachments/server_attention_span.png
+    "server_attention_span"

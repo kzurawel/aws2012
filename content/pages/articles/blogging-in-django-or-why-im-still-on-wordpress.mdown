@@ -1,0 +1,102 @@
+Date: Mon, 14 Mar 2011 05:11:04 +0000
+Categories: articles
+Tags: blogging,django,djangocms,falcon,feincms,mingus,mobile first,responsive design,tweet nest,twitter,vanilla forums,wcmia,wordpress
+_thumbnail_id: 462
+dsq_thread_id: 421761870
+Permalink: http://arborwebsolutions.com/2011/03/blogging-in-django-or-why-im-still-on-wordpress/
+Summary: Django is powerful, but you have to work hard to bend it to your will.
+
+# Blogging in Django (or Why I'm Still On WordPress)
+
+Back in September 2010, I started reading about responsive web design. I
+had already read Ethan Marcotte's seminal "[Responsive Web Design][]"
+article back in May in [A List Apart][], but at the time it didn't
+really strike me as anything more than a bleeding-edge technique for
+people making mobile sites. But in September, I got the inspiration I
+needed to see that article in a whole new light: Bryan Rieger's
+"[Rethinking the Mobile Web][]". This was the presentation that
+convinced me that mobile is important to *everyone*, large or small,
+personal site or business site - and that responsive web design is also
+important to everyone as a result. It also made me go back and re-look
+at Luke Wroblewski's "[Mobile First][]" talk about designing for...
+mobile first. So enough history. October 2010 was when I started making
+a plan to put all this reading and learning to good use - a redesign of
+this very site, Arbor Web Solutions, using mobile-first design and
+responsive techniques. Then, as now, I worked as a [Django][] programmer
+and front-end developer. My thought at the time was that I would create
+my own Django-powered blogging software to replace the WordPress site I
+had been using. With Django, I would have full control over every aspect
+of the site's backend - what kinds of data were captured for each post;
+custom data types for different types of posts; even full web
+applications built into the backend of the site. I dreamed, I planned, I
+sketched; time continued to pass with no progress at all. I came across
+a number of existing Django projects that were doing the very thing I
+set out to do - [DjangoCMS][], [FeinCMS][], even [Mingus][], an attempt
+to create blogging software by combining over twenty smaller Django
+projects. Each solution had things I loved and things I detested, much
+like the WordPress site I was seeking to replace. I decided that the
+best thing to do was to write my own from scratch. This might sound
+crazy, but writing a Django blogging engine is basically a rite of
+passage; the [Django tutorial][], after all, shows you how to build a
+very basic blog.
+
+### In which external constraints turn out to be a very good thing
+
+As always, change happens. While I spent months debating the pros and
+cons of various approaches to Django blogging, two major things
+happened: I was accepted as a speaker for WordCamp Miami 2011, and
+WordPress 3.1 was released. My site redesign now had a deadline - March
+5th, 2011 - and completing the redesign on WordPress started to seem
+like a very good idea. WordPress had not been standing still, either.
+The 3.1 release added even more custom post type options with support
+for "formats" like "asides" or "galleries". The custom post types of
+WordPress 3.0, which I had mostly disregarded at the time of 3.0's
+release, had been further polished, and custom taxonomy support had also
+improved. With each release, WordPress has been picking up new features
+that have helped set other software apart, and in particular the gap
+between what is easily possible in Drupal and what is easily possible in
+WordPress has been closing fast.
+
+I worked hard and I finished my site redesign the week before WordCamp.
+In addition to the new design, I made custom post types for portfolio
+pieces and integrated the portfolio within the same WordPress install.
+At WordCamp, I also learned about [Vanilla Forums][] and its easy
+integration with WordPress. Just today, I found out about [Tweet
+Nest][], a plug-and-play solution for archiving Twitter feeds that looks
+effortless compared to Tantek Çelik's [Falcon][] project. Tweet Nest
+isn't specific to WordPress per se, but WordPress makes it very easy to
+integrate outside functionality in the few areas where it is lacking.
+
+The result of all of this is that I stopped looking at Django as a
+serious contender. Once I had finished a static mockup of my site
+redesign, the actual coding required to use the design with WordPress
+basically took one weekend. I don't think I could ever get close to that
+with Django, mainly because WordPress has pre-built code for a lot of
+things that I would have to implement on my own in Django. The time
+crunch of getting ready for WordCamp Miami pushed me to WordPress, and
+I'm actually quite happy with the result.
+
+Does this mean that I'll never write my own Django blog software? Of
+course not. Django is capable of some amazing things that are simply not
+possible in WordPress without massive low-level hacking of PHP, and no
+one really wants to do that. But my Django blog remains on my "someday"
+list; in the meantime, I'll be using WordPress.
+
+  [Responsive Web Design]: http://www.alistapart.com/articles/responsive-web-design/
+    "Responsive Web Design: A List Apart"
+  [A List Apart]: http://alistapart.com "A List Apart"
+  [Rethinking the Mobile Web]: http://www.slideshare.net/bryanrieger/rethinking-the-mobile-web-by-yiibu
+    "Rethinking the Mobile Web | SlideShare"
+  [Mobile First]: http://www.lukew.com/presos/preso.asp?26
+    "Mobile First!"
+  [Django]: http://djangoproject.com
+    "Django - The Web Framework for Perfectionists with Deadlines"
+  [DjangoCMS]: https://www.django-cms.org/ "DjangoCMS"
+  [FeinCMS]: http://www.feinheit.ch/labs/feincms-django-cms/ "FeinCMS"
+  [Mingus]: http://blog.montylounge.com/2009/09/24/apps-that-power-django-mingus/
+    "The apps that power Django Mingus"
+  [Django tutorial]: http://docs.djangoproject.com/en/1.2/intro/tutorial01/
+    "Django Tutorial"
+  [Vanilla Forums]: http://vanillaforums.org/ "Vanilla Forums"
+  [Tweet Nest]: http://pongsocket.com/tweetnest/ "Tweet Nest"
+  [Falcon]: http://tantek.pbworks.com/w/page/21743425/Falcon "Falcon"

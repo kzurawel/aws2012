@@ -1,0 +1,57 @@
+Date: Tue, 13 Oct 2009 14:50:07 +0000
+Categories: journal
+Tags: django,rails,ruby,sass
+Permalink: http://arborwebsolutions.com/2009/10/drinking-ruby-kool-aid/
+Summary: Thoughts on Ruby from a long-term Python user.
+
+# Drinking Ruby Kool-Aid
+
+Several years ago, I decided it would be a good idea to learn MVC web
+development. I was fairly new to the whole idea of web applications, so
+I looked at the whole spectrum of technologies and frameworks.
+Eventually my decision came down to [Django][] or [Ruby on Rails][]. I
+had previous experience with Python, and Ruby's then-lack of Unicode
+support and the difficulty of setting up Rails pushed me to Django.
+Since then, I've made Django web applications, dabbled in PHP, and made
+some simple (but useful) applications with Adobe's Flex framework. But a
+few weeks ago, I discovered [Sass][]. At first I dismissed it as yet
+another mini-language to learn, but as I read more I realized it was a
+really great idea. Sass is a Ruby script, and it's far from the only
+Ruby-powered tool to assist with even non-Rails web design. I took
+another look at Ruby, and found that it now finally has Unicode support
+(though not to the same level as Python), and Rails has made some
+drastic changes since I last looked at it. It was time to give Ruby a
+shot. A few days ago I started reading ["The Well-Grounded Rubyist" by
+David A. Black][]. Part of why I chose it was because it was explicitly
+not a Rails book. I wanted to get a handle on Ruby the language before I
+tackled Ruby the Rails-powering web development tool. What I have found
+so far is that there is a lot to like.
+
+### Why Ruby is cool
+
+For one thing, **everything in Ruby is an object**. Classes themselves
+are objects. Integers are objects. True and false are objects. Second,
+**objects are fully dynamic**. So you can add a method or variable to an
+object at any time. Add a method to a class object, and every instance
+of that class will pick up the new method - even the instances that
+already exist. Add a method to an instance object, and you create an
+"individualized" instance of a class different from all others. Third,
+**operators of all kinds are really method calls** dressed up in
+"syntactic sugar." 1 + 2 is actually a call to the "+" method of 1 with
+an argument 2: 1.+(2) gives the same result. That means you can write
+your own +, -, \*, / and other operator methods for your objects just by
+defining them as a method like any other. Sure, other languages have
+this functionality as well, but in Ruby there is literally no difference
+between your custom + method and what a primitive integer is doing. If
+you have some crazy need for it, you can even re-define what the +
+method does for, say, strings. Granted, I have yet to code a real
+project in Ruby, and there are still some things I'm trying to wrap my
+head around - do "instance variables" like in Java or C++ actually exist
+in Ruby, or are they just a side effect of method look-up? But my
+read-through of "Well-Grounded Rubyist" has been surprisingly fast, and
+I am excited to see Rails with fresh eyes.
+
+  [Django]: http://www.djangoproject.com/
+  [Ruby on Rails]: http://rubyonrails.org/
+  [Sass]: http://sass-lang.com/
+  ["The Well-Grounded Rubyist" by David A. Black]: http://www.amazon.com/dp/1933988657

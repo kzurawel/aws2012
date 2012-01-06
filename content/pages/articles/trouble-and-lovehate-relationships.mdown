@@ -1,0 +1,34 @@
+Date: Thu, 03 Dec 2009 01:15:24 +0000
+Categories: articles
+Tags: css,techniques
+Permalink: http://arborwebsolutions.com/2009/12/trouble-and-lovehate-relationships/
+Summary: These simple rules will keep your link styles under control.
+
+# TRouBLe and LoVe/HAte Relationships
+
+For anyone coding CSS, here are two helpful mnemonics to keep you coding
+so you don't have to look at a reference book:
+
+### 1. TRouBLe for CSS Short Forms
+
+Many CSS properties allow you to use a "short form" syntax. Some of the
+most commonly-used properties - margin, padding, and border - take a
+short form that specifies top, right, bottom, and left values in a
+single line. The easy way to remember the order of these values is
+"TRouBLe" - Top, Right, Bottom, Left.
+
+### 2. LoVe/HAte with Links
+
+If you want to style all of the properties for links, the declarations
+should come in a specific order within your stylesheet in order to make
+sure that the appropriate rule is applied to a link - for example, when
+a user hovers over a visited link, the "hover" properties should be
+active, not the "visited" properties. To ensure that this actually
+happens, you should order your declarations according to "LoVe/HAte" -
+Link, Visited, Hover, Active. "Link" refers to a bare "a" tag, while the
+other three are pseudo-classes ("a:visited", "a:hover", and "a:active").
+That's all there is to it. Are there any other memory tools I should
+know about for CSS, PHP, or anything else? Leave a comment and share.
+Also, you should follow me on Twitter [here][].
+
+  [here]: http://www.twitter.com/kzurawel
