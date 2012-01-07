@@ -19,7 +19,7 @@ module Nesta
         elsif request.path == "/contact"
           return "contact"
         elsif request.path == "/articles" || request.path == "/journal"
-          return "category"
+          return "category home"
         else
           return "article"
         end
