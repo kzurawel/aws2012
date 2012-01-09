@@ -7,7 +7,7 @@ Title: Journal - Arbor Web Solutions
     %article
       %div
         %h3
-          %a(href="#{post.permalink}")= post.heading
+          %a(href="/journal/#{post.permalink}")= post.heading
         = post.summary
-        %a(href="#{post.permalink}")= post.read_more
+        %a(href="/journal/#{post.permalink}")= post.read_more
 = will_paginate posts

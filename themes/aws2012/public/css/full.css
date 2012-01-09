@@ -7,11 +7,13 @@ body > header h1 {
     display: block;
     text-align: center;
     text-indent: 0;
-    padding: 115px 0 0 0;
+    padding: 134px 0 0 0;
     background-position: center top;
     width: auto;
     height: auto;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
+    font-size: 5.6em;
 }
 body > header h1 span {
     display: inline;
@@ -45,19 +47,14 @@ body > section {
     color: #57db57;
     text-shadow: 0 -1px 0 #555;
 }
+#skiplink, #contactbutton { display: none; }
 .home > footer,
 .services > footer,
 .portfolio > footer {
     background: url('../img/testbg.png') no-repeat right bottom;
     height: 528px;
-    position: relative;
     z-index: 0;
-    margin-top: -8em;
-}
-.home .foottext,
-.services .foottext,
-.portfolio .foottext {
-    background: rgba(50, 139, 54, 0.14);
+    margin-top: -16em;
 }
 .home .foottext span, .home .foottext span a,
 .services .foottext span, .services .foottext span a,
@@ -66,11 +63,17 @@ body > section {
 }
 footer nav {
     clear: both;
-    margin-bottom: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #7daf38;
+    border-bottom: 1px solid #e0e0e0;
+    z-index: 2;
 }
 footer nav ul {
     overflow: hidden;
-    padding-top: 20em;
 }
 footer nav ul li {
     background: none;
@@ -83,8 +86,14 @@ footer nav ul li {
     padding: 0;
 }
 footer nav ul li a {
-    font-size: 1.4em;
+    font-size: 1.1em;
+    padding: 0.2em 0;
 }
+footer nav ul li a.current {
+    background: #328b36;
+}
+.foottext { padding-top: 22em; }
+.article .foottext { padding-top: 4em; padding-bottom: 1em; }
 .foottext .logo {
     width: 320px;
     background-position: left top;
@@ -96,7 +105,7 @@ footer nav ul li a {
     margin-right: 2%;
 }
 .foottext .copyright {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 /* Article styling */
@@ -112,24 +121,21 @@ footer nav ul li a {
 .article > header h1 {
     width: auto;
     font-size: 6.8em;
-    height: 150px;
+    height: 175px;
+    line-height: 175px;
     text-align: left;
-    padding-top: 15px;
     text-indent: 130px;
-    background-position: left top;
+    background-position: left center;
+    padding-top: 0;
+    margin: 0.2em 0 0.6em 0.2em;
 }
 .article > header h1 span {
     display: inline-block;
     text-indent: 0;
 }
-.article #skiplink {
-    text-align: left;
-    margin-left: 2%;
-}
 .article > section > header {
     background: url('../img/testbg.png') no-repeat right bottom;
-    min-height: 250px;
-    padding-top: 278px;
+    padding-top: 215px;
     position: relative;
     z-index: 0;
     margin-top: -14em;
@@ -220,10 +226,8 @@ footer nav ul li a {
     min-height: 460px;
     height: auto;
     background: #040303 url('../img/footer.jpg') no-repeat center bottom;
-    position: relative;
     background-size: auto;
 }
-.article footer nav ul { padding-top: 2em; }
 .article footer nav ul li a {
     text-decoration: none;
 }

@@ -25,6 +25,46 @@ module Nesta
         end
       end
 
+      def random_articles(page, howmany)
+        pages = []
+        howmany.times do
+          articles = Nesta::Page.find_by_path('articles').articles
+          articles += Nesta::Page.find_by_path('journal').articles
+          test = page
+          until (test != page) && (! pages.include?(test))
+            test = articles[rand(articles.size)]
+          end
+          pages.push(test)
+        end
+        return pages
+      end
+
+      def random_article_summaries(pages)
+        haml(:articlefooter, :format => :xhtml, :locals => { :pages => pages })
+      end
+
+      def navlink_current(path)
+        if request.path.match(/^\/portfolio/)
+          current = "portfolio"
+        elsif request.path.match(/^\/services/)
+          current = "services"
+        elsif request.path.match(/^\/articles/)
+          current = "articles"
+        elsif request.path.match(/^\/journal/)
+          current = "journal"
+        elsif request.path.match(/^\/elsewhere/)
+          current = "elsewhere"
+        elsif request.path.match(/^\/contact/)
+          current = "contact"
+        end
+
+        if path == current
+          return 'current'
+        else
+          return ''
+        end
+      end
+
       def format_date(date)
         begin
           date.strftime("%d %b %Y")

@@ -7,7 +7,7 @@
       %h3.summary= @page.metadata("summary")
     %div
       %article
-        = @page.to_html(self)
+        = preserve @page.to_html(self)
       %aside
         %div
           %h4= format_date(@page.date)
