@@ -18,7 +18,9 @@ user will actually see when they visit your site. What looks perfect on
 Safari 4 on a Mac may look like garbage on Internet Explorer 7 on a
 Windows machine, and it may have an entirely separate set of display
 quirks on Firefox 3 on Linux (or on the iPhone's built-in WebKit
-browser). How do designers deal with all of this uncertainty without
+browser). 
+
+How do designers deal with all of this uncertainty without
 flipping out and killing everyone around them? The answer is a set of
 three related ideas: browser grading, progressive enhancement, and
 graceful degradation. Taken together, these three ideas help designers
@@ -47,26 +49,34 @@ pre-installed. Witness, for example, Internet Explorer 6. IE6 was a bold
 new advance when it came out with Windows XP. Microsoft had won the
 "browser war" with Netscape, and for the first time since the start of
 the browser wars, sites could be built that more or less worked the same
-everywhere. Then, as designers started adopting CSS to do all of a
+everywhere. 
+
+Then, as designers started adopting CSS to do all of a
 site's presentation (as opposed to the older, table-based approach),
 IE6's flaws started to appear. IE6 had inherited a bunch of strange
 behaviors from IE5.5 before it, and designers got upset. Firefox
 appeared from nowhere and started gaining market share; Apple started
 making the Safari browser to replace IE for Mac; Google developed Chrome
 off of the same WebKit codebase; there was massive growth everywhere in
-the browser landscape. Microsoft realized that it was losing the Web it
+the browser landscape. 
+
+Microsoft realized that it was losing the Web it
 had worked so hard to lock down, and so it created IE7, and made IE7 a
 "High Priority" Windows update - meaning that users who were receiving
 automatic updates would get the new version automatically. The following
 year, Microsoft produced IE8, with even more improvements, and again it
-was to be made a "High Priority" update. Now that IE8 has been released,
+was to be made a "High Priority" update. 
+
+Now that IE8 has been released,
 and IE7 has been around for over a year, one would expect that no one
 would still use IE6. But you would be wrong. IE6 is still used by about
 40% of Internet users, and it's still the most popular browser in the
 world. IE6 will only truly die when developers and designers around the
 world decide to piss off those 40% of users and stop making sites that
-work in it. Why? Because users don't like to upgrade their software,
-because Microsoft (and other companies as well) has too often released
+work in it. 
+
+Why? Because users don't like to upgrade their software,
+because Microsoft (and other companies as well) have too often released
 software updates that break more than they fix. So users turn off
 automatic updates, and stop updating at all for good measure. No updates
 means no new browsers, which means more headaches for designers.
@@ -79,7 +89,9 @@ support every browser ever made going forward. There would have to be a
 cutoff point where Yahoo could say "So sorry" to a user with an ancient
 browser, but that line in the sand would have to be drawn very carefully
 so as not to drive away potential customers just because of their
-browser. So they [made a list][] of what they considered "A-grade"
+browser. 
+
+So they [made a list][] of what they considered "A-grade"
 browsers, which they would do everything in their power to support,
 along with a "C-grade" browser list that should expressly be given the
 most toned-down, simple version of the site possible. Every other
@@ -88,6 +100,7 @@ browser is treated as "sink-or-swim" - the browser will be given the
 browser's fault, not Yahoo's. As long as your site works in all of the
 A-grade browsers, you as a designer don't need to worry about testing
 your site on every combination of browser and hardware in the world.
+
 Obviously, as new operating systems and new browser versions come out,
 Yahoo revisits their browser gradings to keep everything up-to-date.
 Some designers, upon hearing about graded browser support, think about
@@ -100,7 +113,9 @@ C-grade browsers will be able to use your site just fine. It won't look
 pretty, and it won't have any of the behavior that JavaScript provides,
 but it will be functional enough to use. (HTML5 may throw a bit of a
 wrench into this idea, but we've all got at least ten years before it
-becomes a final standard.) Semantic HTML, and the concepts of
+becomes a final standard.) 
+
+Semantic HTML, and the concepts of
 progressive enhancement and graceful degradation, demand an entirely
 different way of looking at how sites are built. Again, please be sure
 to read my earlier article for an introduction to semantic HTML and its

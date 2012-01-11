@@ -11,6 +11,7 @@ offices are closed. This includes the [Miami-Dade Public Library
 System][] (MDPLS). All 47 library branches in the Miami area were closed
 today. Nonetheless, a line of people formed in front of the South Miami
 branch this afternoon at 12:30, the normal opening time of that branch.
+
 I know this because I was there with them, waiting for the library to
 open. You may be asking yourself "wait... if you knew it was Veterans'
 Day, why did you go to the library?" Well, quite simply I forgot. The
@@ -30,7 +31,9 @@ collected knowledge in the past can now usually happen on the Internet,
 without even saying "hello" to a librarian. Smart libraries are doing
 everything in their power to be convenient and helpful for their users -
 lending music and DVD's in addition to books, teaching classes, and
-offering activities for children. Many libraries, however, still treat
+offering activities for children. 
+
+Many libraries, however, still treat
 the Web as a second-class citizen. MDPLS could have avoided that line of
 people if it had just put a simple notice on its home page that all
 library branches would be closed today. I actually went to the library's

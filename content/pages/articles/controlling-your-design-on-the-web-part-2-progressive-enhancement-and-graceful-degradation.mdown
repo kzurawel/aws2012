@@ -43,7 +43,9 @@ Now, because there is an actual "href" attribute to follow, browsers
 without JavaScript can still follow the link, even if they don't get the
 new page in a pop-up window. That's graceful degradation - keeping the
 general functionality of the site available to all browsers, even if the
-exact effect you wanted won't work. Keep in mind that graceful
+exact effect you wanted won't work. 
+
+Keep in mind that graceful
 degradation also implies that if your site has video or audio, you
 should provide transcripts, and that if your entire site is in Flash,
 you will need a separate, HTML-only site. GD can even apply to CSS. If
@@ -65,6 +67,7 @@ JavaScript to function, and your JS code merely enhances the site for
 capable browsers. The same should go for CSS - every style rule you add
 to your stylesheet should be enhancing the design for browsers that
 understand it, not adding functions that the site requires to operate.
+
 Some JavaScript-heavy sites cannot be built in a truly "progressive
 enhancement" manner - a JavaScript game, for example, probably cannot
 function without having JavaScript available in the browser. However,

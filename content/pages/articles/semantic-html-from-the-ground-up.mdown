@@ -31,7 +31,7 @@ Most people who learn HTML pick up on the basic tags that get used
 everywhere - `<p>`, `<img>`, `<a>`, `<ul>`, etc. - and assume that
 everything else must only be there to make the geeks happy. 
 
-WRONG. 
+_WRONG._ 
 
 Those
 tags that seem silly are there to give your code more richness without

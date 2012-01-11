@@ -27,6 +27,7 @@ active, not the "visited" properties. To ensure that this actually
 happens, you should order your declarations according to "LoVe/HAte" -
 Link, Visited, Hover, Active. "Link" refers to a bare "a" tag, while the
 other three are pseudo-classes ("a:visited", "a:hover", and "a:active").
+
 That's all there is to it. Are there any other memory tools I should
 know about for CSS, PHP, or anything else? Leave a comment and share.
 Also, you should follow me on Twitter [here][].

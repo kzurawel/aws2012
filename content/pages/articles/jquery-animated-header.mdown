@@ -10,12 +10,16 @@ Summary: Using easing to create animation effects.
 As you may have noticed, I've replaced the header for this website with
 an animated header. "How does that work?," you might say. "How did you
 get Flash animation on my iPhone?," you might say. Well, the answer is
-simple -**jQuery and its easing plugin**. Each animated piece of the
+simple -**jQuery and its easing plugin**. 
+
+Each animated piece of the
 header is a separate image file, and CSS is used to absolutely position
 each image outside of the header div. Then the jQuery kicks in, and
 animates the "top" property for each image. The floating crown image
 animates from a max value to a min value and back again using jQuery's
-setTimeout function. Interested in doing something like this yourself?
+setTimeout function. 
+
+Interested in doing something like this yourself?
 There's a very useful (and quite cool) **tutorial** on making [animated
 postcards with jQuery][] at Build Internet. When you get an urge to send
 someone an e-card, make one yourself instead - that way you can put it

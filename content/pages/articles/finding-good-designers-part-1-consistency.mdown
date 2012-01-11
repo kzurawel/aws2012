@@ -20,7 +20,9 @@ off, any web designer worth his/her salt should **have their own
 website**. A designer who doesn't have a website is like an auto
 mechanic who doesn't own a car - it's not impossible that they have true
 skill, but would you really trust someone who doesn't use the very
-services they sell? Found a designer with a nice-looking website? Great!
+services they sell? 
+
+Found a designer with a nice-looking website? Great!
 Now the real fun can begin. The first and most basic thing to look for
 in a designer's work is **consistency**. While it's easy for anyone to
 slap together a few pages in Adobe Dreamweaver or even Microsoft

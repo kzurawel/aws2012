@@ -7,26 +7,28 @@ Summary: Off to a good start. Only 102 more to go!
 
 # Design 002: Psychologist Website
 
-[![image][]][]Today I'd like to present design number 2 of my 2010 New
+![image][] Today I'd like to present design number 2 of my 2010 New
 Year's resolution, a few days after my [rework of the Florida Grand
 Opera's website][]. This time, I've created a site for a psychologist -
 specifically, Ivan Pavlov working under an assumed name (the photo of
 him is from [Psychology Pictures][], under a [CC-BY 2.0][] license).
+
 What's most interesting about this design is the underlying techniques.
 This is the first site I've built using HTML5. The site uses HTML5's
-simplified doctype; new semantic elements like <header\>, <article\>,
-and <hgroup\>; and CSS3 styles like border-radius, box-shadow, and
+simplified doctype; new semantic elements like `<header>`, `<article>`,
+and `<hgroup>`; and CSS3 styles like border-radius, box-shadow, and
 text-shadow. As usual, I used [Cufón][] for font replacement in the
 navigation section and the header at the top of the page. The design
 seeks to be light but professional, with a color scheme that fits with
 South Florida. I also wrote the site's copy, which is based on an
-amalgamation of other psychologist websites. As before, you can find the
+amalgamation of other psychologist websites. 
+
+As before, you can find the
 interactive version of this site design on my separate [portfolio
 site][]. So, that's two designs done. Only 102 left to go!
 
   [image]: /attachments/Dr.-James-Spaceman-Psychologist1-300x189.jpg
     "Dr. James Spaceman, Psychologist"
-  [![image][]]: /attachments/Dr.-James-Spaceman-Psychologist1.jpg
   [rework of the Florida Grand Opera's website]: http://arborwebsolutions.com/2010/01/design-001-opera-website/
   [Psychology Pictures]: http://www.flickr.com/photos/psychpics/
   [CC-BY 2.0]: http://creativecommons.org/licenses/by/2.0/deed.en

@@ -8,10 +8,12 @@ Summary: My thoughts on Seth Godin's "Linchpin".
 # Are You Indispensable?
 
 So I started reading Seth Godin's "[Linchpin][]" a few days ago, and I
-have to say I really like it. There's plenty of talk about how the
+have to say I really like it. There's plenty of talk in it about how the
 current educational system is really great for turning out factory
 drones, and how it beats out ideas like creativity or independent
-thought. The thing that I found most interesting, though, is the way
+thought. 
+
+The thing that I found most interesting, though, is the way
 Godin criticizes "[The E-Myth Revisited][]," the first business book I
 ever read that really resonated with me. For those who don't know, the
 central idea of "E-Myth" is that new businesses should be set up as if
@@ -20,7 +22,9 @@ systematized and documented in manuals to the point that you could
 operate the whole thing as a franchise. When I read that book years ago,
 it gave me an entirely new outlook on how I do my work - as well as
 planting a lot of ideas in my head about escape plans and what to do
-when "owning a job" didn't really interest me anymore. So what is
+when "owning a job" didn't really interest me anymore. 
+
+So what is
 Godin's criticism? Well, as he says, anyone who's been through the US
 educational system can be taught to read instructions and follow orders.
 ***If your whole business can be summarized into rulebooks, anyone else
@@ -28,7 +32,9 @@ can implement it without you.* That's not being indispensable, that's
 just being stupid.** That one idea really got me thinking. **How can you
 bring humanity - real, honest-to-goodness individuality - into a
 business, and yet still be able to take a vacation without everything
-falling apart?** Maybe it's impossible. For at least the next few weeks
+falling apart?** 
+
+Maybe it's impossible. For at least the next few weeks
 though, that's going to be the question that keeps me up at night.
 
   [Linchpin]: http://www.amazon.com/dp/1591843162

@@ -14,14 +14,18 @@ replacement text as normal; months back, I had tried a PHP-based
 solution that generated custom font images on the fly with a similar lag
 in speed. But Cufón was just short of instantaneous replacement, and it
 now makes the site's headers visible on the iPhone or those rare desktop
-browsers that lack the Flash plugin. However, there is a downside.
+browsers that lack the Flash plugin. 
+
+However, there is a downside.
 Cufón-replaced text is not selectable and cannot be copied and pasted by
 the user; SIFr can, which is what drew me to that particular solution in
 the first place. But given the speed differences between the two, I'm
 willing to let go of that feature in exchange for a more seamless user
 experience. And if there is a situation where being able to select and
 copy text is important - such as using a custom font for whole
-paragraphs of text - I would certainly work with SIFr again. That said,
+paragraphs of text - I would certainly work with SIFr again. 
+
+That said,
 my brief experience with Cufón so far has made it seem a bit miraculous.
 Have you noticed any other disadvantages to Cufón? Are there other
 text-replacement systems I should be looking into?

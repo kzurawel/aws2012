@@ -6,7 +6,7 @@ Summary: Giving a community institution a revamp.
 
 # Design 006: Local Newspaper
 
-[![image][]][]Two days after Design 005, here's \#006: a re-work of the
+![image][] Two days after Design 005, here's \#006: a re-work of the
 Coral Gables Tribune, a free weekly newspaper distributed at retail
 stores in the area. The current site for the newspaper uses a Flash
 component to display the print version of the newspaper in exact
@@ -14,18 +14,24 @@ page-by-page detail, including pages of ads. The Flash version of the
 paper is displayed too small to read easily, and the "zoom" function
 only makes things slightly better. The challenge for me was to create a
 more reader-friendly layout, while still letting the newspaper sell ads
-both in its paper and on its website. To solve the advertising problem,
+both in its paper and on its website. 
+
+To solve the advertising problem,
 I created a vertical column on the right side of the design to hold
 125x125 pixel ads. This size is smaller than the ads the site currently
 offers, but I feel this is offset by the positioning of the ads directly
 next to the content, rather than at the very bottom of the site. The
-redesign has space for five of these ads. To solve the readability
+redesign has space for five of these ads. 
+
+To solve the readability
 problem, I changed the central content area into a photo index of the
 issue's ten top stories. The featured story gets a wider display area,
 and the remaining nine form a grid underneath. Furthermore, the
 "Community News" section, generally found in the middle of the paper,
 gets a sidebar on the left for excerpts from the first few stories, with
-a link to the full community news section. The site's original
+a link to the full community news section. 
+
+The site's original
 horizontal navigation at the top of the site was transformed into three
 lists of links each in the header. This groups the links by type, and
 also echoes the grid structure of the article photos underneath.
@@ -33,9 +39,10 @@ Finally, I kept the grid layout for the paper's eight columnists below
 the main content area, but tweaked the layout a bit to give it a more
 open look. There is slightly more spacing between each columnist's grid
 space, and I got rid of the large borders around each grid space as
-well. So, that's Design 006. Stay tuned for the License to Kill, Design
+well. 
+
+So, that's Design 006. Stay tuned for the License to Kill, Design
 007.
 
   [image]: /attachments/Coral-Gables-Tribune-201x300.jpg
     "Coral Gables Tribune"
-  [![image][]]: http://portfolio.arborwebsolutions.com/006

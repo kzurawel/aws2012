@@ -29,7 +29,9 @@ to information. Such technologies include HTML, Adobe PDF, and Adobe®
 Flash® technology." Yes, that's right, PDF and Flash technologies date
 back to "the advent of the web!" And as the Sunlight Foundation says,
 "Here's a hint-- if the data format has an ® by its name, it probably
-isn't great for transparency or open data." Yes, vast numbers of people
+isn't great for transparency or open data." 
+
+Yes, vast numbers of people
 have the Flash plugin installed on their browser; yes, vast numbers of
 people have a PDF reader installed on their computer. But the ability of
 the "average user" to access government data doesn't constitute open
@@ -41,7 +43,9 @@ government purchase Flash / PDF creation tools) just to get some
 information about what Congress is doing? Sure, PDF is an "open
 standard" with multiple implementations, and it's head-and-shoulders
 above Microsoft Word in terms of openness, but pulling text data out of
-PDFs takes a lot of work. There are certainly alternatives. At the
+PDFs takes a lot of work. 
+
+There are certainly alternatives. At the
 "advent of the web" that Adobe calls us to remember, linked text
 documents were the norm. Not Flash; not PDF; not any form of styled
 display technology. The Web was data in its purest state, marked up only
@@ -69,21 +73,28 @@ Flash Player for Linux, and the Flex framework became mainstream and
 open-source. Finally you could write Flash apps entirely in ActionScript
 in a text editor! Of course, you still needed that plugin to make things
 work at the other end, but the plugin was available pretty much
-everywhere. I really got interested in Flash when I saw a website that
+everywhere. 
+
+I really got interested in Flash when I saw a website that
 used Flex to make pie charts on-the-fly from numbers in a database. I
 was amazed - this was real eye candy created by programmatic means. I
 had been interested in data visualization already, and Flex seemed too
 good to pass up. I learned my way around Flex Builder 3 (available free
 to students), picked up some basic ActionScript skills, and started
-making simple web apps. Then the disappointment started hitting home.
+making simple web apps. 
+
+Then the disappointment started hitting home.
+
 "What do you mean there's no Flash support for iPhone?" That was where
 things started going downhill. Apple, creator of quite likely the most
 impressive personal gadget ever devised, had flat-out said no to Adobe.
 Even Youtube, the first site to really show off the power of streaming
-Flash video, had agreed to *convert their entire archive*to another
+Flash video, had agreed to *convert their entire archive* to another
 format just to please Apple. And it wasn't even a hacky kludge - h.264
 Youtube actually worked well. So why should anyone bother to lock their
-content into Flash Video? Then I started noticing more and more problems
+content into Flash Video? 
+
+Then I started noticing more and more problems
 with the Flash plugin. It was unresponsive; it hogged system resources;
 it crashed my browser. Finally, I started reading about Google Wave.
 Here was HTML5 and the best of JavaScript together in one, and it did
@@ -91,9 +102,11 @@ everything the Flash Player could do only better. So I've turned my back
 on Flash for the time being. I'm interested to see what happens with
 Flex 4, but I'm not planning any big projects using it. As the browser
 wars have taught us, technology inevitably moves toward standardization
-and open formats. Adobe even seems to realize this - Dreamweaver CS5 can
+and open formats. Even Adobe seems to realize this - Dreamweaver CS5 can
 create HTML5 charts and graphs from data sources, instead of making Flex
-charts. Flash is in a sorry state, and I hope that Adobe will either
+charts. 
+
+Flash is in a sorry state, and I hope that Adobe will either
 find a new way to revitalize this platform, bringing in the designers
 and developers it has alienated over the years, or else put Flash out of
 its misery and develop the tools that will make designers fall in love

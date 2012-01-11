@@ -11,7 +11,9 @@ I recently saw an impressive new JavaScript game engine called
 [Akihabara][]. Take a look at it if you haven't already - it's really
 quite spectacular. The Akihabara site has demos of five complete games
 built using the engine, and while they're somewhat rough, the experience
-is what's truly impressive. Why so impressive? Well, for starters, these
+is what's truly impressive. 
+
+Why so impressive? Well, for starters, these
 games are built using nothing more than JavaScript and the HTML5 canvas
 element. While HTML5 alone does not make something an instant Flash
 killer (see the continuing saga of efforts to usurp Flash with the HTML5
@@ -21,13 +23,17 @@ input lag, and no jerky animation. The demos are completely playable,
 easily on par with your average flash game, and decidedly better than
 some punch-the-monkey banner ad. The fact that these demos were built
 with JavaScript adds another interesting benefit - the full source of
-each game is only a few clicks away! Because the Akihabara engine is
+each game is only a few clicks away! 
+
+Because the Akihabara engine is
 doing most of the heavy lifting, the game code that remains is clean and
 very readable. Levels for 2d scrolling games are nothing more than an
 array of images, and enemy AI takes up just a few lines for each type of
 enemy. I don't know the limitations of the engine yet, but it seems like
 most any 8-bit era game could probably be ported to JavaScript without
-too much of a hassle. So, does this mean that the future of casual
+too much of a hassle. 
+
+So, does this mean that the future of casual
 gaming is JavaScript? Unfortunately, probably not. While the performance
 of Akihabara is impressive, the fact that source code is easily
 available makes it unlikely that serious commercial projects will choose

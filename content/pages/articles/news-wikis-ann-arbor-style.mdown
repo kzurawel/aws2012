@@ -35,7 +35,9 @@ Those words were written in February 2008, but they are actually coming
 to fruition in some places. The [Ann Arbor News][] has transitioned away
 from being a daily print publication to twice-weekly, and re-focused
 itself as being "of, by and for the community." Anyone can register for
-an account at annarbor.com and begin posting commentary. This is how
+an account at annarbor.com and begin posting commentary. 
+
+This is how
 newspapers can once again become relevant - by acting as the
 centralized, local place for members of the community to interact and
 feel welcome. It's the same formula that made Craigslist such a popular

@@ -11,12 +11,16 @@ A year ago, if someone mentioned "CSS Frameworks," three contenders
 would likely come to mind: [Blueprint][], [YUI][], and [960.gs][]. These
 "frameworks" were basically custom stylesheets that let you add
 pre-defined classes into your HTML markup to arrange things in a grid
-and spiffy up your typography. Were they helpful? Definitely. At the
+and spiffy up your typography. Were they helpful? Definitely. 
+
+At the
 same time, designers new to the web were able to latch onto these
 frameworks and avoid any real understanding of CSS. Experienced
 designers could use these frameworks as a jumping-off point for more
 complicated styling, but that still left a lot of work - equivalent to
-including a "reset" stylesheet and then styling from scratch. Recently,
+including a "reset" stylesheet and then styling from scratch. 
+
+Recently,
 however, a new breed of CSS frameworks have been gaining in popularity.
 These are not pre-made stylesheets like the frameworks of yore; instead,
 they might be more properly called **CSS compilers**. They're new
@@ -35,7 +39,9 @@ much faster**. We'll look at how exactly they do that in a bit. Two,
 **they make maintenance much, much easier**. If you've ever spent time
 around software developers, you'll commonly hear that bug-fixing and
 maintenance of code takes far more time than actually writing the code
-the first time around. The same goes for website markup. If you're
+the first time around. The same goes for website markup. 
+
+If you're
 making a site for your Aunt Tilly and it's four pages of static HTML,
 then no, you probably don't need to use these tools. But if you're
 making a very large site with some very complicated styling, your CSS is
@@ -61,9 +67,12 @@ system I'm most familiar with. Sass uses Ruby as its underlying
 compiler; feed it Sass script, and it churns out a CSS file. Sass can
 even do that in reverse - feed it a CSS file, and get back a Sass file.
 That means you can even use Sass for the complicated stylesheets you
-made years ago. **Variables** How many times have you made a stylesheet
+made years ago. 
+
+**Variables** How many times have you made a stylesheet
 and put a "color cheat sheet" as a comment at the top?
 
+    :::css
     /*
       Red Underline: #B21212
       Blue Underline: #0971B2
@@ -75,7 +84,9 @@ help you with your markup. You might be using the same color seven times
 in a stylesheet, but you have to manually type it in every time and make
 sure that every time you actually typed the right color hex code. And if
 you want to change that color later, you have to make sure you track
-down every usage of that color in the stylesheet. That's why all CSS
+down every usage of that color in the stylesheet. 
+
+That's why all CSS
 compilers have variables. In Sass, it might look like this (note that
 Sass drops the curly braces around style declarations and semicolons
 after each element, and uses indentation and newlines instead):
@@ -85,17 +96,22 @@ after each element, and uses indentation and newlines instead):
     #main div
         border-bottom: 1px #{!red_underline} solid
 
-Every time you want to use that red color, just put in !red\_underline
-and you're done. Make one change - where !red\_underline is declared -
-and you've just changed the color everywhere. You can use variables for
-more than just colors, too. You can store measurements (!content\_width
-= 800px) or strings of text (!wrapper\_display = "block"). Variables
-alone are a great reason to start using a CSS compiler. **Nesting** Ah,
+Every time you want to use that red color, just put in `!red_underline`
+and you're done. Make one change - where `!red_underline` is declared -
+and you've just changed the color everywhere. 
+
+You can use variables for
+more than just colors, too. You can store measurements (`!content_width
+= 800px`) or strings of text (`!wrapper_display = "block"`). Variables
+alone are a great reason to start using a CSS compiler. 
+
+**Nesting** Ah,
 the bane of CSS development. Say you want to style a "main" div, the
 "content" div within it, the paragraph elements within, and links within
 those paragraphs, with their own hover states. With plain CSS, you have
 to do something like this:
 
+    :::css
     div#main { width: 800px; }
     div#main div#content { width:760px; margin: 0 auto; }
     div#main div#content p { font-size: 1.2em; }
@@ -107,7 +123,9 @@ declarations are not connected to each other in any real, meaningful way
 - you could put one at the start of the stylesheet, a few in the middle,
 and one at the end, and they would work exactly the same, except it
 would take you a lot longer to find all the declarations that deal with
-some part of \#main. CSS compilers to the rescue! With any compiler, you
+some part of `#main`. 
+
+CSS compilers to the rescue! With any compiler, you
 can perform nesting of declarations, making them a single logical unit
 in your markup and saving you a lot of redundant typing. Here's the
 above example in Sass:
@@ -130,17 +148,22 @@ above example in Sass:
 
 Notice that we didn't even have to repeat the "a" to define hover styles
 - the "&" references "the thing one level above this." Now, the entire
-\#main div's styling is one block. You no longer have to fret about
+`#main` div's styling is one block. You no longer have to fret about
 where in your stylesheet to place a new rule; start at the top-level
-item and work your way down level by level. Granted, nesting is purely
+item and work your way down level by level. 
+
+Granted, nesting is purely
 optional - if you want a very specific selector but you don't want to
 put it inside an existing nested definition, you could always add a
 separate declaration (in the above example, you could have a rule for
-"div\#main div\#content ul" that sits outside the nested "div\#main"
-declaration). **Functions & Mix-ins** These solve another gripe of CSS
+`div#main div#content ul` that sits outside the nested `div#main`
+declaration). 
+
+**Functions & Mix-ins** These solve another gripe of CSS
 designers. Say you want to make rounded corners using those spiffy new
 CSS3 properties. It's simpler than ever before to do this:
 
+    :::css
     .rounded {
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
@@ -148,9 +171,9 @@ CSS3 properties. It's simpler than ever before to do this:
     }
 
 Whenever you want to make something rounded in your design, you just add
-the .rounded class. But what if different elements in your design have
+the `.rounded` class. But what if different elements in your design have
 different roundednesses? (Please excuse my neologism there.) You could,
-if you wanted, make multiple classes; .rounded5 for 5px, .rounded10 for
+if you wanted, make multiple classes; `.rounded5` for 5px, `.rounded10` for
 10px, etc. Or, you could make what Sass calls a "mix-in":
 
     =rounded
@@ -187,10 +210,12 @@ even call mix-ins within other mix-ins:
     div#something
         +my_complicated_mixin(#B21212)
 
-See? Mix-ins and functions can make your life a lot simpler. **Looping
+See? Mix-ins and functions can make your life a lot simpler. 
+
+**Looping
 and flow control** One last tidbit before we look at CSS compiler
 options. Sass in particular lets you use common control-flow operators
-in your stylesheet - @if, @for, and @while. These probably aren't going
+in your stylesheet - `@if`, `@for`, and `@while`. These probably aren't going
 to be used much, but when combined with variables, you can do some
 interesting things:
 
@@ -202,7 +227,7 @@ interesting things:
             border: 1px red solid
 
 Here, if we're still in development, all the text will be in red, and
-block elements will have a red border. Change the !in\_production
+block elements will have a red border. Change the `!in_production`
 variable to "true" when you're ready to launch, re-compile the
 stylesheet, and you're good to go.
 

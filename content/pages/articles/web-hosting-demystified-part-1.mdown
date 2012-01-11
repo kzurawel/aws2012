@@ -21,7 +21,9 @@ the hosting plans offered?
 The first decision to make with regards to hosting is how much
 "horsepower" your site is going to need. Most hosting companies will
 offer two sets of plans - "shared" hosting and "dedicated" or "VPS"
-hosting. Let's look at what those terms actually mean. In a "shared"
+hosting. Let's look at what those terms actually mean. 
+
+In a "shared"
 hosting plan, your web site is one of many being run on the same server.
 The web server software on that machine listens for requests for all of
 the sites it holds. This means that if your "neighbors" are popular
@@ -31,6 +33,7 @@ shared hosting is that it doesn't require much work or equipment on the
 part of the hosting company, which makes these plans quite inexpensive.
 The multiple users of a server computer end up pooling the associated
 maintenance costs of the hardware, bringing the cost down for everyone.
+
 "Dedicated" hosting means that you get an entire server to yourself. In
 most dedicated plans, that also means that you have full control over
 the software being used on the server computer, allowing you to decide
@@ -40,7 +43,9 @@ share support costs with, so it is only recommended for sites that will
 need the power to justify that cost. At the extreme end of dedicated
 hosting is the "co-location" or "colo" plan, where you ship the hosting
 company your actual, physical computer and they hook it up to their
-network infrastructure and look after it like their own. Finally, "VPS"
+network infrastructure and look after it like their own. 
+
+Finally, "VPS"
 hosting (for "Virtual Private Server") is a hybrid of the shared and
 dedicated hosting models. Instead of a single computer hosting a hundred
 or so sites as in a shared hosting environment, a single server computer
@@ -61,7 +66,9 @@ going to need. If you are running a personal site or a business
 needs. If you are running a web application like an e-commerce store,
 you might want to look into VPS options if you are getting a large
 volume of sales per day; otherwise, shared hosting can probably still
-accommodate your needs. Dedicated hosting should be reserved for
+accommodate your needs. 
+
+Dedicated hosting should be reserved for
 extremely popular or resource-hungry sites, like Perez Hilton's
 millions-of-readers blog or a Java application that is used by every
 employee of a moderate-sized company. When in doubt, start with shared
@@ -82,13 +89,17 @@ photo gallery website or an e-commerce site, you will need much more to
 hold all of the images and the customer / user database. Storage prices
 have been in free fall for the last year or two, so most hosting
 providers should be offering you at least 500MB of storage in their
-least expensive plan. Beware of plans which make statements like "up to
+least expensive plan. 
+
+Beware of plans which make statements like "up to
 500MB" of storage space. This generally means that the hosting company
 is overselling their servers - expecting that most sites won't use
 anywhere near their allotted space - and you might not be able to make
 use of the full amount of space you were quoted. Check also for the
 company's fees for disk space in excess of what you are quoted in the
-plan. Bandwidth determines how much data you can send "over the wire"
+plan. 
+
+Bandwidth determines how much data you can send "over the wire"
 per month. Every time a visitor comes to your site, the server must send
 that user all of the files (HTML, CSS, etc.) that make up your site. If
 your site's files take up 10MB on the server, then a user who visits

@@ -9,17 +9,22 @@ Summary: How to add some TTF to your SVG.
 
 *[Note: I'm starting this post with a look at a specific problem and why
 I chose to use Raphaël in the first place. If you want to get straight
-to the point, scroll down to "Using Text in Raphaël".]* I recently had
+to the point, scroll down to "Using Text in Raphaël".]* 
+
+I recently had
 the opportunity to re-create a Flash component in JavaScript. The
 component in question was a horizontal accordion that opened slides
 based on mouse hover. It looked really cool, and it de-saturated the
 color slide backgrounds for non-active slides. [Here][] is the actual
-component I was re-building. So, my first step was to pull out jQuery. I
+component I was re-building. 
+
+So, my first step was to pull out jQuery. I
 quickly ran across a problem, though: each slide has a title that runs
 vertically up the slide. I couldn't use text burned into the image,
 because the slide titles had to be editable by the client. I couldn't
 use CSS3 rotation, because the site had to support Internet Explorer,
 which as of version 8, doesn't know what to do with anything in CSS3.
+
 What to do? The answer was more JavaScript. I decided to use
 [Raphaël][], a library that lets you easily make SVG canvases on a page
 and interact with them through standard JavaScript events. Best of all,
@@ -32,10 +37,14 @@ I set up a prototype that featured the vertical titles, which animated
 into a horizontal position at the top of the slide when that slide is
 active. This worked great, aside from my left-aligned text becoming
 center-aligned after rotation. I figured it was just a quirk of SVG, and
-I left it at that. Until, that is, I switched my default text to Cufón
-text. Now, the .rotate('-90') command that made my default text vertical
+I left it at that. 
+
+Until, that is, I switched my default text to Cufón
+text. Now, the `.rotate('-90')` command that made my default text vertical
 had a very different effect - the text string stayed horizontal, but
-each character rotated -90 degrees within that horizontal text string! I
+each character rotated -90 degrees within that horizontal text string! 
+
+I
 spent hours reading everything I could find about text handling in
 Raphaël, SVG, and Microsoft's VML, and noticed many other people having
 similar problems, particularly with text alignment after rotation. Here,
@@ -54,35 +63,43 @@ change to "Raphael.registerfont()". Generate the font file and save it
 with your other JavaScript files. I like to prefix Raphaël font files
 with "Raphael-" to keep them separate from my standard Cufón files. Make
 sure that your site is actually loading these new font files with
-<script\> tags. Next up, set up your Raphaël canvas. When you want to
-place text on the canvas, use .print() instead of .text() (check the
-Raphaël [documentation page][] for syntax). You can use the same .attr()
+<script\> tags. 
+
+Next up, set up your Raphaël canvas. When you want to
+place text on the canvas, use `.print()` instead of `.text()` (check the
+Raphaël [documentation page][] for syntax). You can use the same `.attr()`
 function to set attributes like fill, stroke, font-size, and more. There
 is one attribute that you will definitely want to use, and which the
 Raphaël documentation does not discuss - text-anchor. Set text-anchor to
 "start" to make your text left-aligned, since the default is centered.
-You can also set text-anchor to "end" to get right-aligned text. Keep in
-mind that your custom text from .print() is not a single string - it's a
+You can also set text-anchor to "end" to get right-aligned text. 
+
+Keep in
+mind that your custom text from `.print()` is not a single string - it's a
 "set" of paths, one for each letter. That means that setting "x" or "y"
-through .attr() isn't going to do anything, because .attr() on a set
+through `.attr()` isn't going to do anything, because `.attr()` on a set
 applies the attribute to every element of the set - the set itself
-doesn't have "x" or "y". Instead, use .translate() or
-.animate({translation: "dx,dy"}) if you want to animate the movement. If
+doesn't have "x" or "y". Instead, use `.translate()` or
+`.animate({translation: "dx,dy"})` if you want to animate the movement. 
+
+If
 you want to rotate text, you must include coordinates around which the
-text will be rotated. The rotation attribute (or the .rotate() function)
+text will be rotated. The rotation attribute (or the `.rotate()` function)
 assume that each object will be rotated about its center point. That's
-why you get the spinning letters effect when you call .rotate() on Cufón
+why you get the spinning letters effect when you call `.rotate()` on Cufón
 text - each path is rotating around its own center. That's also why my
-prototype with .text() lost left-alignment after rotation - it was
+prototype with `.text()` lost left-alignment after rotation - it was
 rotating from the center of the text string. Specifying a rotation point
 moves each item being rotated the specified number of degrees around an
 imaginary circle, with the rotation point as its center and the distance
-between that point and the rotating item as the circle's radius. So how
+between that point and the rotating item as the circle's radius. 
+
+So how
 do you figure out what to use as the point of rotation? Thankfully, with
 text, it's pretty simple - just use whatever you specified as the
-position for the .text() or .print() function. In my case, the text was
+position for the `.text()` or `.print()` function. In my case, the text was
 positioned at 20,180, so I used that as the rotation point in my
-.rotate() call. When I translated the text to 60,20 on slide hover, I
+`.rotate()` call. When I translated the text to 60,20 on slide hover, I
 used those new coordinates as the rotation point to make the text
 vertical again before translating it back to 20,180.
 

@@ -25,7 +25,9 @@ not Facebook, where a status update or wall post can have comments and
 act like a self-contained little chat room. On Twitter, a "reply" is no
 different from tweeting a standard message, except you mention the
 person you want to receive the message in the tweet itself. Which is
-available for everyone to see. No, the system is not very "personal,"
+available for everyone to see. 
+
+No, the system is not very "personal,"
 but the very nature of Twitter is in some ways its advantage. You can
 get people you've never even met to "talk to you" by subscribing to
 their tweets, and you can send messages "to" anyone you want without
@@ -58,7 +60,9 @@ send replies to comments where you think you can help. Being nice will
 generally start a lot of conversations and get you new followers. Just
 make sure that you are helpful in addition to being nice. Answer
 people's questions, or give them advice if you know a better way of
-doing something. Over time, you'll find yourself having actual
+doing something. 
+
+Over time, you'll find yourself having actual
 conversations with people on Twitter. Once you've built up some
 followers, you can get some helpful advice from others as well. Twitter
 can give you answers in minutes, from actual people - much more than

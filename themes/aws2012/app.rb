@@ -118,10 +118,10 @@ module Nesta
       require File.expand_path('emailconfig', File.dirname(__FILE__))
       mailconf = EmailConfig.new
       Pony.mail(
-        :from => params[:email],
+        :from => params[:qcemail],
         :to => mailconf.myemail,
-        :subject => "[AWS]: Quick contact from " + params[:email],
-        :body => params[:email],
+        :subject => "[AWS]: Quick contact from " + params[:qcemail],
+        :body => params[:qcemail],
         :port => '587',
         :via => :smtp,
         :via_options => {

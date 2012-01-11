@@ -1,5 +1,5 @@
 %section
-  %h3 Talk to us, we'll listen.
+  %h2 Talk to us, we'll listen.
   %section.contactform
     %form(action="/contact" method="post")
       %label(for="name") Your name:
@@ -10,4 +10,10 @@
       %input(type="tel" id="phone" name="phone")/
       %label(for="message") How can we help you?
       %textarea(id="message" name="message")
+      %input(type="submit" value="Drop us a line")
+
+    %h3 In a hurry? Enter your email address and we'll get back to you!
+    %form(action="/quickcontact" method="post")
+      %label(for="qcemail") Your email address:
+      %input(type="email" id="qcemail" name="qcemail")/
       %input(type="submit" value="Drop us a line")

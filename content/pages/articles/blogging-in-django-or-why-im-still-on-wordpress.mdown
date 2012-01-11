@@ -19,7 +19,9 @@ convinced me that mobile is important to *everyone*, large or small,
 personal site or business site - and that responsive web design is also
 important to everyone as a result. It also made me go back and re-look
 at Luke Wroblewski's "[Mobile First][]" talk about designing for...
-mobile first. So enough history. October 2010 was when I started making
+mobile first. 
+
+So enough history. October 2010 was when I started making
 a plan to put all this reading and learning to good use - a redesign of
 this very site, Arbor Web Solutions, using mobile-first design and
 responsive techniques. Then, as now, I worked as a [Django][] programmer
@@ -34,7 +36,9 @@ a number of existing Django projects that were doing the very thing I
 set out to do - [DjangoCMS][], [FeinCMS][], even [Mingus][], an attempt
 to create blogging software by combining over twenty smaller Django
 projects. Each solution had things I loved and things I detested, much
-like the WordPress site I was seeking to replace. I decided that the
+like the WordPress site I was seeking to replace. 
+
+I decided that the
 best thing to do was to write my own from scratch. This might sound
 crazy, but writing a Django blogging engine is basically a rite of
 passage; the [Django tutorial][], after all, shows you how to build a

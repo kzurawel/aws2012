@@ -20,12 +20,15 @@ The trend is only accelerating. Newer games (largely on Nintendo
 platforms) like ["Wii Fit"][] or even ["My Stop Smoking Coach with Allen
 Carr"][] already use the concept of bringing the player's real-world
 life into a **literal** game, rather than the self-imposed games of the
-Nike Plus or Toyota Prius. I think this is an idea that is just
+Nike Plus or Toyota Prius. 
+
+I think this is an idea that is just
 screaming for more attention on the web. Find a way to plug real-life
 homework completion into tangible benefits in an MMORPG and you'll have
 a new set of straight-A students in record time. For companies buying
 their own islands in Second Life, why not implement a "points" system
 for task completion, or for coming up with truly great, new ideas?
+
 Granted, anything like this would require careful study before rushing
 to implementation; there would be nothing worse than to create an entire
 culture of living by the game's rules, when the game may fail to keep up

@@ -16,34 +16,43 @@ and only take effect when browser makers (and designers and developers
 in general) implement them of their own free will. The process of going
 from idea to official recommendation is fraught with bureaucracy, and
 the W3C has [frequently][] [been][] [criticized][] for its glacial pace.
+
 Surprisingly, however, the W3C is ahead of the curve when it comes to
 mobile web design. In July 2008, the W3C published its "[Mobile Web Best
 Practices][]" as an official W3C Recommendation. The document describes
 many of the same concerns that responsive design and Mobile First
 advocates have been touting recently - the challenges of smaller
-screens, more limited input, and costly and limited bandwidth. But the
+screens, more limited input, and costly and limited bandwidth. 
+
+But the
 most interesting part of the document is section 3.1, "[One Web][]". In
 this section, the W3C officially endorses the principles of responsive
 web design by stating that designers should work toward the principle of
 "One Web". According to the W3C, this means "making, as far as is
 reasonable, the same information and services available to users
 irrespective of the device they are using" - the same belief that
-underlies responsive web design! Going even further, the W3C recommends
-that designers prepare for screen widths of 120 pixels and total page
-weight of no more than 20KB as a "default delivery context," not to
+underlies responsive web design! 
+
+Going even further, the W3C recommends
+that designers prepare for screen widths of **120 pixels** and total page
+weight of no more than **20KB** as a "default delivery context," not to
 mention "no support for client side scripting" - no JavaScript, at all.
 These are difficult targets to reach in practice, but they underscore
 the idea that content and context can be worth far more than an
 attractive but limited layout. Meeting these goals in a "mobile"
 representation of your site lays a solid groundwork on which to build
-with progressive enhancement through media queries. The remainder of the
+with progressive enhancement through media queries. 
+
+The remainder of the
 document is a list of best practices with examples and explanations, but
 to call these simply "Mobile Web" best practices is a bit of a misnomer.
 **These principles can (and in fact should) be applied to any website's
 design**. There isn't a single site on the Web that couldn't benefit
 from looking at the balance of number of links on a page vs. number of
 clicks required to get to a page, or ensuring that information conveyed
-through color is also discernible without the use of color. So, believe
+through color is also discernible without the use of color. 
+
+So, believe
 it or not, 2008 was a pivotal year for mobile web standards. If you're
 designing a website (or if you own a website), you owe it to yourself to
 read through the W3C's Mobile Web Best Practices. Even if you don't

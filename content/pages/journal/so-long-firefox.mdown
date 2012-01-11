@@ -58,7 +58,7 @@ at this time, for my own use, Chrome has supplanted Firefox. (P.S. - I'm
 still looking forward to the [impending Firefox 3.6][]. I may be
 switching back if I'm suitably impressed. It's so wonderful to live in a
 time where we have real competition between browser makers!) *Image
-from*[*Google Blogoscoped*][]
+from [Google Blogoscoped][]*
 
   [image]: /attachments/chrome-logo-elements-300x248.png
     "chrome-logo-elements"
@@ -68,4 +68,4 @@ from*[*Google Blogoscoped*][]
   [Pendule]: https://chrome.google.com/extensions/detail/gbkffbkamcejhkcaocmkdeiiccpmjfdi
   [Edit Search Engines]: http://www.chromeplugins.org/tips-tricks/custom-search-engines-in-google-chrome/
   [impending Firefox 3.6]: http://www.mozilla.com/en-US/firefox/all-beta.html
-  [*Google Blogoscoped*]: http://www.blogoscoped.com
+  [Google Blogoscoped]: http://www.blogoscoped.com

@@ -91,6 +91,8 @@ th, td {
     width: auto;
 }
 
+code { background: #666; background: rgba(128,128,128,0.3); }
+
 .CodeRay .string { color: #86d6f2; }
 .CodeRay .delimiter { color: #ccafcf; }
 .CodeRay .constant, .CodeRay .key { color: #8ce690; }
@@ -103,6 +105,7 @@ th, td {
 .CodeRay .doctype { color: #7d8080; }
 .CodeRay .tag, .CodeRay .type { color: #b4e682; }
 .CodeRay .attribute-name { color: #93e690; }
+.CodeRay .comment { color: #aaa; }
 
 /* ==|== load webfonts =========================================== */
 

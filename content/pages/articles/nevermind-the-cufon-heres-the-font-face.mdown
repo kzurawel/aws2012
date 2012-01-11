@@ -15,7 +15,9 @@ I wrote [that article][], Cufón was by far the best way to use custom
 fonts in a website - all browsers supported it, it didn’t require Flash,
 and users could select and copy Cufón text, which was impossible with
 other techniques that just made images of text. Life as a web designer
-or front-end developer was good. As always on the Internet, times
+or front-end developer was good. 
+
+As always on the Internet, times
 change, and things get better. The browser landscape of today is
 radically different from that of just a few years ago. Advances in
 browser support for CSS have created a new best practice for web
@@ -23,7 +25,9 @@ typography: @font-face. Unlike Cufón, @font-face is part of CSS, handled
 natively and transparently by the browser. @font-face files are loaded
 just like CSS stylesheets, and because they are actual fonts, they can
 be used for body text without any slowdown other than the time required
-for the user’s browser to download the font. This new development in web
+for the user’s browser to download the font. 
+
+This new development in web
 typography is not without issues, however. As mentioned earlier,
 @font-face uses actual fonts, and since everything on the web is open,
 those font files can be easily downloaded by end users. Font foundries
@@ -67,7 +71,9 @@ otherwise you will be violating the font creator's copyright privileges.
 and a number of resources have emerged to make finding licensed fonts
 easier. My personal favorite is [FontSquirrel][], but you should also
 consider looking at other font collections like those from [Google][] or
-[TypeKit][]. Once you've found the font you would like to use, it's time
+[TypeKit][]. 
+
+Once you've found the font you would like to use, it's time
 to get it ready for the web. Browser makers, in an effort to prevent
 font piracy, have created standards in conjunction with font foundries
 that "mangle" a font file so that it can be used on the Web but not
@@ -79,20 +85,25 @@ FontSquirrel, which I mentioned earlier as a great source of
 to every commonly used web font format. It will even provide you with a
 ready-to-use CSS file that will load the font into your website, as well
 as a "web font specimen" that you can open in a browser to see how the
-font performs at different sizes and layouts. So, you've found a font
+font performs at different sizes and layouts. 
+
+So, you've found a font
 you like, converted it into WOFF, EOT, and SVG, and you've included the
 stylesheet into your HTML. How do you actually use the font in your
 design? This is the best part: you just use the standard CSS
 "font-family" property! You can even define fallbacks in a "font stack"
 like you normally would for older browsers that don't support
-@font-face. There are some limitations to keep in mind. You may need to
+@font-face. 
+
+There are some limitations to keep in mind. You may need to
 include multiple fonts in your design to handle bold, italic, or
 bold+italic text, as many browsers will not be able to "fake" these
 styles when using a web font. As a result, you will need to use
 font-family on header elements in your stylesheet to make them use the
-bold version of your font, as well as elements like <strong\> or <em\>.
+bold version of your font, as well as elements like `<strong>` or `<em>`.
 Also, because you are using separate fonts for bold and italic, CSS
 directives like font-weight and font-style may not work as intended.
+
 Overall, though, these are trivial problems when compared to the
 flexibility that @font-face provides you. At long last, we can use just
 about any font available for body text. Just remember, with great power

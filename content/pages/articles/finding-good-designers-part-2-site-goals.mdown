@@ -15,7 +15,9 @@ question-and-answer session between the designer and client.
 Generally, the first topic that a designer should ask their client about
 is the site's **goals**. "But what about the site's colors?" you say, or
 "We haven't even talked about my company's logo!" Those are about the
-least important aspects of your site design. There's a saying that "art
+least important aspects of your site design. 
+
+There's a saying that "art
 is about inspiration; design is about communication." Color, layout,
 logos, these are all aspects of **packaging your particular message**
 before you ship it out to your audience. Does packaging help you to
@@ -85,7 +87,9 @@ take is to contact him about work opportunities, whether through email
 or phone. His one-sentence summary is "a place that shows clients that I
 may be new, but I know what I'm doing and I'm eager to work with you."
 His expected audience is homeowners looking to hire a small contracting
-firm to do home remodeling. What does this tell the designer? Right off
+firm to do home remodeling. 
+
+What does this tell the designer? Right off
 the bat, the designer knows that the most important pieces of the site
 will be a work portfolio and making it easy for people to contact Bob.
 The site should be friendly, to appeal to homeowners who might have
@@ -94,7 +98,9 @@ knowledge of his craft. Anything that appears on the site should be
 geared toward making Bob look like a professional and getting people to
 contact him. That means no Flash animations unless it's a video of Bob
 explaining how to do something, and no business-speak in the site's
-writing unless it's shop talk. These kinds of questions may seem like a
+writing unless it's shop talk. 
+
+These kinds of questions may seem like a
 waste of time, but **every element of a successful design flows from a
 solid understanding of goals.**If your designer never asks about your
 goals for the site, run, don't walk, to find a real designer.
