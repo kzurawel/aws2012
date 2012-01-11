@@ -351,6 +351,34 @@ nav ul li a:visited {
     text-decoration: none;
 }
 
+/* Portfolio detail pages */
+.portfolioitem h2, .portfolioitem h3 {
+    text-align: center;
+}
+.portfolioitem h2 { margin-bottom: 0.1em; }
+.portfolioitem h3 { margin-bottom: 2em; }
+.portfolioitem article { overflow: hidden; }
+.portfolioitem .thumb {
+    width: 40%;
+    margin: 0 5%;
+    float: left;
+}
+.portfolioitem .content {
+    margin: 0 5%;
+}
+.portfolioitem .content h1 {
+    display: none;
+}
+.portfolioitem .content p,
+.portfolioitem .content li {
+    color: #fff;
+    margin-top: 0;
+}
+.portfolioitem footer {
+    clear: both;
+    margin-top: 2em;
+}
+
 /* Category pages */
 .category h2 {
     text-align: center;
@@ -398,12 +426,13 @@ nav ul li a:visited {
   border-width: 2px;
   display: block;
   text-align: center;
+  width: 70%;
 }
 .pagination .previous_page {
-    margin-bottom: 1.4em;
+    margin: 0 auto 1.4em;
 }
 .pagination .next_page {
-    margin-top: 1.4em;
+    margin: 1.4em auto 0;
 }
 
 

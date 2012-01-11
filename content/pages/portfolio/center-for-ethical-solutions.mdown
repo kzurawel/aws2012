@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:38:05 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Design and development
 full_image: centerforethicalsolutions.jpg
 thumb_image: ethicalsolutions.jpg
 site_link: http://ethical-solutions.org

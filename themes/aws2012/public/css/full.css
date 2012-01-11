@@ -50,11 +50,16 @@ body > section {
 #skiplink, #contactbutton { display: none; }
 .home > footer,
 .services > footer,
-.portfolio > footer {
+.portfolio > footer,
+.portfolioitem > footer {
     background: url('../img/testbg.png') no-repeat right bottom;
     height: 528px;
     z-index: 0;
     margin-top: -16em;
+}
+.services > footer,
+.portfolioitem > footer {
+    margin-top: -6em;
 }
 .home .foottext span, .home .foottext span a,
 .services .foottext span, .services .foottext span a,

@@ -1,6 +1,6 @@
 Date: Sun, 27 Feb 2011 22:06:50 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Design and development
 full_image: dr.jamesspacemanpsychologist.jpg
 thumb_image: drspaceman.jpg
 site_link: http://portfolio.arborwebsolutions.com/002

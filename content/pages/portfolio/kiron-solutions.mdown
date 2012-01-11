@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:44:09 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Development
 site_link: http://www.kironsolutions.com/
 thumb_image: kironsolutions62.jpg
 full_image: kironsolutions.jpg

@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:50:31 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Development
 year: 2010
 site_link: http://www.rangerroof.com/
 thumb_image: rangerroof.jpg

@@ -12,8 +12,10 @@ module Nesta
       def body_class
         if request.path == "/"
           return "home"
-        elsif request.path.match(/^\/portfolio/)
+        elsif request.path == "/portfolio"
           return "portfolio"
+        elsif request.path.match(/^\/portfolio/)
+          return "portfolioitem"
         elsif request.path == "/services"
           return "services"
         elsif request.path == "/contact"
@@ -84,5 +86,54 @@ module Nesta
       cache haml(:contact, :format => :xhtml)
     end
 
+    post '/contact' do 
+      require 'pony'
+      require File.expand_path('emailconfig', File.dirname(__FILE__))
+      mailconf = EmailConfig.new
+      body = "Name: " + params[:name] + "\n"
+      body += "Email: " + params[:email] + "\n"
+      body += "Phone: " + params[:phone] + "\n"
+      body += "Message: " + params[:message]
+      Pony.mail(
+        :from => params[:name] + "<" + params[:email] + ">",
+        :to => mailconf.myemail,
+        :subject => "[AWS]: " + params[:name] + " has contacted you",
+        :body => body,
+        :port => '587',
+        :via => :smtp,
+        :via_options => { 
+          :address              => 'smtp.gmail.com', 
+          :port                 => '587', 
+          :enable_starttls_auto => true, 
+          :user_name            => mailconf.username, 
+          :password             => mailconf.password, 
+          :authentication       => :plain, 
+          :domain               => 'localhost.localdomain'
+        })
+      redirect '/success' 
+    end
+
+    post '/quickcontact' do
+      require 'pony'
+      require File.expand_path('emailconfig', File.dirname(__FILE__))
+      mailconf = EmailConfig.new
+      Pony.mail(
+        :from => params[:email],
+        :to => mailconf.myemail,
+        :subject => "[AWS]: Quick contact from " + params[:email],
+        :body => params[:email],
+        :port => '587',
+        :via => :smtp,
+        :via_options => {
+          :address              => 'smtp.gmail.com',
+          :port                 => '587',
+          :enable_starttls_auto => true,
+          :user_name            => mailconf.username,
+          :password             => mailconf.password,
+          :authentication       => :plain,
+          :domain               => 'localhost.localdomain'
+        })
+      redirect '/success'
+    end
   end
 end

@@ -1,5 +1,20 @@
 - if ['home', 'portfolio', 'services', 'contact', 'category home'].include? body_class
   = @page.to_html(self)
+- elsif body_class == 'portfolioitem'
+  %section
+    %header
+      %h2= @page.heading
+      %h3 #{ @page.metadata('worktype') } (#{ @page.metadata('year') })
+    %article
+      - if @page.metadata('site_link')
+        %a(href="#{ @page.metadata('site_link') }")
+          %img.thumb(src="/attachments/#{ @page.metadata('full_image') }")
+      - else
+        %img.thumb(src="/attachments/#{ @page.metadata('full_image') }")
+      .content
+        = preserve @page.to_html(self)
+        - if @page.metadata('site_link')
+          %a(href="#{ @page.metadata('site_link') }") Visit this site
 - else
   %section
     %header

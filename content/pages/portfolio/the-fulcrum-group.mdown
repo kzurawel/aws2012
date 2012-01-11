@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:39:38 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Development
 full_image: fulcrumgroupleadershiptrainingorganizationaldevelopmentconsulting.jpg
 thumb_image: fulcrumgroup.jpg
 site_link: http://fulcrumgroup.org

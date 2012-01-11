@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:51:19 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Design and development
 full_image: peruskichangplc.jpg
 thumb_image: peruskichang.jpg
 site_link: http://peruskichanglaw.com

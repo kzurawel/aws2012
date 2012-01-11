@@ -1,6 +1,6 @@
 Date: Mon, 28 Feb 2011 14:48:11 +0000
 Categories: portfolio
-_mf_write_panel_id: 1
+worktype: Development
 site_link: http://villaleonie.fr/
 thumb_image: villaleonie86.jpg
 full_image: villaleonie.jpg
