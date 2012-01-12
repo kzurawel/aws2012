@@ -1,4 +1,4 @@
-- if ['home', 'portfolio', 'services', 'contact', 'category home'].include? body_class
+- if ['home', 'portfolio', 'services', 'contact', 'category home', 'about'].include? body_class
   = @page.to_html(self)
 - elsif body_class == 'portfolioitem'
   %section

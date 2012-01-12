@@ -44,5 +44,5 @@ well.
 So, that's Design 006. Stay tuned for the License to Kill, Design
 007.
 
-  [image]: /attachments/Coral-Gables-Tribune-201x300.jpg
+  [image]: /attachments/coralgablestribune.jpg
     "Coral Gables Tribune"

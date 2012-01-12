@@ -22,6 +22,8 @@ module Nesta
           return "contact"
         elsif request.path == "/articles" || request.path == "/journal"
           return "category home"
+        elsif request.path == "/about"
+          return "about"
         else
           return "article"
         end
@@ -54,8 +56,8 @@ module Nesta
           current = "articles"
         elsif request.path.match(/^\/journal/)
           current = "journal"
-        elsif request.path.match(/^\/elsewhere/)
-          current = "elsewhere"
+        elsif request.path.match(/^\/about/)
+          current = "about"
         elsif request.path.match(/^\/contact/)
           current = "contact"
         end
