@@ -1,3 +1,77 @@
 Title: About this site - Arbor Web Solutions
 
-%h2 More about Arbor Web Solutions
+%h2 What I've been doing lately.
+
+%section#personal
+  %div
+    %h3 Reading:
+    %ul#goodreads
+      - latest_books(4).each do |b|
+        %li
+          %img(src="#{b[:cover]}")
+          %a(href="#{b[:link]}")= b[:title]
+          %span (#{b[:pubyear]}) #{b[:num_pages]} pages
+          %span
+            - b[:authors].each do |author|
+              = author + ", "
+          %span Rating: #{b[:rating]} / 5
+  %div
+    %h3 Listening to:
+    %ul#music
+      %li
+        %span Todo...
+
+  %div
+    %h3 Photographing:
+    %ul#flickr
+      - latest_flickr(4).each do |p|
+        %li
+          %img(src="#{p[:thumbnail]}")
+          %a(href="#{p[:url]}")= p[:title]
+          %span Taken on #{p[:taken]}, #{p[:views]} views
+
+  %div
+    %h3 Archiving:
+    %ul#favoritetweets
+      - fave_tweets(4).each do |t|
+        %li
+          %img(src="#{t[:img]}")
+          %a(href="http://twitter.com/#{t[:user]}")= t[:user]
+          %p= t[:content]
+          %span= t[:time].strftime("%d %b %Y %I:%M%P")
+
+%section#work
+  %div
+    %h3 Working on:
+    %ul#diydribbble
+      %li Todo...
+
+  %div
+    %h3 Contributing:
+    %ul#github
+      - github_repos(4).each do |r|
+        %li
+          %a(href="#{r[:url]}")= r[:name]
+          - if r[:description]
+            %span= r[:description]
+          %span Last commit: #{format_date(Date.parse(r[:pushed_at]))}
+
+  %div
+    %h3 Speaking on:
+    %ul#slideshare
+      - latest_slideshows(4).each do |s|
+        %li
+          %img(src="#{s[:thumb]}")
+          %a(href="#{s[:url]}")= s[:title]
+          %span= format_date(s[:date])
+
+  %div
+    %h3 Tweeting:
+    %ul#latesttweets
+      - latest_tweets(4).each do |t|
+        %li
+          %img(src="#{t[:img]}")
+          %a(href="http://twitter.com/#{t[:user]}")= t[:user]
+          %p= t[:content]
+          %span= t[:time].strftime("%d %b %Y %I:%M%P")
+

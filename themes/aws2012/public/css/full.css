@@ -55,7 +55,7 @@ body > section {
     background: url('../img/testbg.png') no-repeat right bottom;
     height: 528px;
     z-index: 0;
-    margin-top: -16em;
+    margin-top: -10em;
 }
 .services > footer,
 .portfolioitem > footer {
@@ -317,9 +317,69 @@ footer nav ul li a.current {
     margin-left: -2.25%;
     background: url('../img/branchout.png') no-repeat left center;
 }
+.services ol li:nth-child(4) p { padding: 0 8%; }
 .services ol li h3 { display: block; }
 .services ol li img {
     float: none;
     width: 100%;
     margin-right: 0;
+}
+
+/* About page */
+.about h2 { text-align: center; }
+.about section:after { content: ''; clear: both; }
+.about section div {
+    width: 25%;
+    float: left;
+}
+.about section div h3 {
+    color: #fff;
+}
+.about section div ul {
+    list-style-type: none;
+    padding: 0;
+    width: 86%;
+    margin: 1em auto;
+}
+.about section li {
+    color: #fff;
+}
+.about #goodreads img { float: left; }
+
+/* Media Queries for huge screens */
+@media screen and (min-width: 1000px) {
+    .services ol li:nth-child(4) {
+        width: 80%;
+    }
+    .services ol li:nth-child(4) h3 {
+        margin-left: -2.502%;
+    }
+    .article article, .article aside {
+        width: 60%;
+        margin: 1em 4% 2em;
+        padding: 2% 4%;
+    }
+    .article aside {
+        width: 14%;
+        margin: 1em 2% 2em 0;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+    .home > footer, .services > footer,
+    .portfolio > footer, .portfolioitem > footer {
+        height: auto;
+    }
+    .services ol li:nth-child(4) {
+        width: 60%;
+    }
+    .services ol li:nth-child(4) h3 {
+        margin-left: -3.36%;
+    }
+    .services ol li:nth-child(4) p {
+        padding: 0 10%;
+    }
+
 }
