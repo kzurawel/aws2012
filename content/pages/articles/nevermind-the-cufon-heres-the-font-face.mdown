@@ -8,7 +8,7 @@ Summary: For most users, Cufón is dead. Upgrade to the standard that's been in 
 
 # Nevermind the Cufón, Here’s the @font-face
 
-If you’ve read an article on this site before, there’s an extremely good
+<img src="attachments/nevermindcufon.jpg" alt="" class="alignleft" /> If you’ve read an article on this site before, there’s an extremely good
 chance (about 1 in 3) that it was to learn about using Cufón, a web
 font-replacement technology, either alone or as part of RaphaëlJS. When
 I wrote [that article][], Cufón was by far the best way to use custom

@@ -269,6 +269,17 @@ aside h4 {
     text-align: center;
     list-style-type: none;
     padding-left: 0;
+    margin-top: 0;
+}
+.social { margin-top: 2em; }
+.social #rsslink {
+    display: block;
+    background: url('../img/rss.png') no-repeat left center;
+    text-indent: 32px;
+    margin: 0.6em auto 0;
+    width: 4em;
+    height: 28px;
+    padding-top: 4px;
 }
 
 nav {
@@ -443,6 +454,55 @@ nav ul li a:active {
 .pagination .next_page {
     margin: 1.4em auto 0;
 }
+
+/* About page */
+.about h2 { text-align: center; }
+.about > p {
+    color: #fff;
+    width: 90%;
+    margin: 1em auto;
+}
+.about section { overflow: hidden; }
+.about section > div { margin-bottom: 4em; }
+.about section div ul {
+    list-style-type: none;
+    padding: 0;
+    width: 90%;
+    margin: 1em auto 0;
+}
+.about section div h3 {
+    color: #fff;
+    font-size: 1.2em;
+}
+.about section li {
+    color: #fff;
+    overflow: hidden;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #bbd;
+}
+.about section li div {
+    overflow: hidden;
+}
+.about section h3 span {
+    color: #fff;
+    font-size: 0.5em;
+}
+.about ul li span {
+    display: block;
+}
+.about #goodreads img,
+.about #music img,
+.about #flickr img,
+.about #favoritetweets img { float: left; margin-right: 1em; }
+.about #music span { display: block; }
+.about #flickr a { display: block; }
+.about #favoritetweets p,
+.about #favoritetweets span {
+    font-size: 0.8em;
+    margin: 0;
+    color: #fff;
+}
+.about #github span { display: block; }
 
 
 /* ==|== small media queries ================================================ */

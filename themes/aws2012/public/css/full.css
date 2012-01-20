@@ -39,7 +39,8 @@ body > section {
 .home > section article div h3 a {
     text-decoration: none;
 }
-.home > section article div p {
+.home > section article div p,
+.home > section article div span {
     color: #f6f6f6;
     text-shadow: 0 -1px 0 #333;
 }
@@ -213,10 +214,15 @@ footer nav ul li a.current {
     font-size: 2em;
     color: #c9c9c9;
 }
+.article aside h5 {
+    font-size: 1.2em;
+    color: #c9c9c9;
+    margin-bottom: 0;
+}
 .article article p,
 .article article li,
 .article aside li {
-    color: #e0e0e0;
+    color: #e0f0e0;
     margin-top: 0;
 }
 .article article blockquote p {
@@ -326,25 +332,17 @@ footer nav ul li a.current {
 }
 
 /* About page */
-.about h2 { text-align: center; }
-.about section:after { content: ''; clear: both; }
-.about section div {
-    width: 25%;
+.about > p {
+    width: 60%;
+}
+.about section > div {
+    width: 50%;
     float: left;
-}
-.about section div h3 {
-    color: #fff;
-}
-.about section div ul {
-    list-style-type: none;
-    padding: 0;
-    width: 86%;
-    margin: 1em auto;
+    margin-bottom: 4em;
 }
 .about section li {
-    color: #fff;
+    height: 7em;
 }
-.about #goodreads img { float: left; }
 
 /* Media Queries for huge screens */
 @media screen and (min-width: 1000px) {
@@ -362,6 +360,9 @@ footer nav ul li a.current {
     .article aside {
         width: 14%;
         margin: 1em 2% 2em 0;
+    }
+    .about section li {
+        height: 6em;
     }
 }
 @media screen and (min-width: 1200px) {

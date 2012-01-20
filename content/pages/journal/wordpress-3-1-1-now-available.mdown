@@ -8,7 +8,7 @@ Summary: Get your update on.
 
 # WordPress 3.1.1 Now Available
 
-Six weeks after WordPress 3.1, the WordPress core team have released a
+<img src="/attachments/grey-l.png" alt="WordPress logo" class="alignleft" /> Six weeks after WordPress 3.1, the WordPress core team have released a
 maintenance update that fixes several security, performance, and
 behavior bugs. If you're running a local install of WordPress on your
 site, take a few minutes and go update it now before something bad

@@ -7,6 +7,6 @@ year: 2009
 featured_project: false
 Permalink: http://arborwebsolutions.com/2011/02/arbor-web-solutions-previous-theme/
 
-# Arbor Web Solutions (2009)
+# Arbor Web Solutions (Late 2009)
 
-
+When Arbor Web Solutions moved from Ann Arbor, MI to Miami, FL in 2009, the occasion called for a new look that streamlined our branding and put our most important work at the forefront. This design also incorporated seasonal elements (the wintry header graphic that blends into the logo) which could be altered to keep the site looking current.

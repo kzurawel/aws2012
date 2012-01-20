@@ -10,4 +10,6 @@ Permalink: http://arborwebsolutions.com/2011/02/umn-nanoparticle-physics-laborat
 
 # UMN Nanoparticle Physics Laboratory
 
+The Nanoparticle Physics Laboratory at the University of Minnesota faced a difficult challenge: they needed a website to showcase their work in a fresh and original way, but the site needed to fit within the University's existing branding. Additionally, due to server constraints, the site had to be written as straight HTML while remaining easily editable.
 
+Arbor Web Solutions came through with a design that used the richness of UMN's school colors as a starting point for a bold visual look. By using modular, standards-compliant HTML, researchers at the Nanoparticle Physics Library can easily update their own site even without a "control panel" website.

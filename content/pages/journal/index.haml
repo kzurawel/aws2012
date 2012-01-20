@@ -8,6 +8,7 @@ Title: Journal - Arbor Web Solutions
       %div
         %h3
           %a(href="/journal/#{post.permalink}")= post.heading
+        %span= format_date(post.date)
         = post.summary
         %a(href="/journal/#{post.permalink}")= post.read_more
 = will_paginate posts

@@ -3,11 +3,12 @@ Categories: portfolio
 worktype: Design and development
 full_image: peruskichangplc.jpg
 thumb_image: peruskichang.jpg
-site_link: http://peruskichanglaw.com
 year: 2010
 featured_project: true
 Permalink: http://arborwebsolutions.com/2011/02/peruski-chang-plc/
 
 # Peruski & Chang, PLC
 
+Peruski & Chang, PLC, an up-and-coming boutique law firm in Ypsilanti, MI, needed a site that would present their knowledge of the law to potential clients in a way that highlighted their local community ties.
 
+Arbor Web Solutions built a WordPress site with a custom theme that utilized rotating header images of Ypsilanti, a prominently focused blog showcasing the legal team's experience, and the ability for users to easily get in touch.

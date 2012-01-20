@@ -49,8 +49,7 @@ module Nesta
           item = {:title => info.title,
                   :thumbnail => FlickRaw.url_s(info),
                   :url => "http://flic.kr/p/#{Base58.encode(info.id.to_i)}",
-                  :taken => info.dates.taken,
-                  :views => info.views
+                  :taken => Date.parse(info.dates.taken),
                 }
           photoset << item
         end
@@ -62,6 +61,7 @@ module Nesta
         apiconf = ApiConfig.new
         gh = Github::Repos.new
         repos = gh.repos(:user => apiconf.githubuser)
+        repos.reverse!
         repolist = Array.new
         (0...num_repos).collect do |i|
           r = repos[i]
@@ -110,7 +110,7 @@ module Nesta
       def latest_books(num_books)
         require File.expand_path('apiconfig', File.dirname(__FILE__))
         apiconf = ApiConfig.new
-        doc = Nokogiri::XML(open("http://www.goodreads.com/review/list.xml?v=2&page=1&sort=date_updated&order=d&shelf=read&id=#{apiconf.goodreadsid}&key=#{apiconf.goodreadsapi}&per_page=#{num_books}"))
+        doc = Nokogiri::XML(open("http://www.goodreads.com/review/list.xml?v=2&page=1&sort=date_read&order=d&shelf=read&id=#{apiconf.goodreadsid}&key=#{apiconf.goodreadsapi}&per_page=#{num_books}"))
         books = doc.search('book')
         booklist = Array.new
         books.each do |book|
@@ -119,7 +119,11 @@ module Nesta
           authors.search('author').each do |a|
             authorlist << a.search('name').text
           end
-          item = {:title => book.search('title').first.text,
+          title = book.search('title').first.text
+          if title.length > 40
+            title = title[0...40] + "..."
+          end
+          item = {:title => title,
                   :link => book.search('link').first.text,
                   :cover => book.search('small_image_url').first.text,
                   :num_pages => book.search('num_pages'),

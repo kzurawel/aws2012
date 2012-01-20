@@ -10,4 +10,6 @@ Permalink: http://arborwebsolutions.com/2011/02/quinn-co/
 
 # Quinn & Co.
 
+Quinn & Co., a well-known PR firm focusing on food + wine, real estate, and travel-related businesses, needed to escape from its existing Flash-based website in order to maintain an effective web presence in an increasingly mobile era. They approached Logic By Design to design a new experience that would showcase their achievements in a clean, modern style.
 
+Arbor Web Solutions turned the resulting design into a fully-functional WordPress theme, integrating a blog and multiple external news feeds into the "Newsroom" page displayed here. Quinn & Co. now have everything they need to continue attracting top-tier clients.

@@ -8,7 +8,7 @@ Summary: More than just a passing fad, responsive design is here to stay.
 
 # Responsive Design is an Official W3C Recommendation
 
-The [W3C][] (World Wide Web Consortium) is like the United Nations of
+<img src="/attachments/w3c.jpg" alt="" class="alignleft" /> The [W3C][] (World Wide Web Consortium) is like the United Nations of
 web development: a consortium of browser makers and interested parties
 that generates recommendations and resolutions. Also like the United
 Nations, the W3C's resolutions and recommendations have no legal power

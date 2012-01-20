@@ -8,7 +8,7 @@ Summary: Django is powerful, but you have to work hard to bend it to your will.
 
 # Blogging in Django (or Why I'm Still On WordPress)
 
-Back in September 2010, I started reading about responsive web design. I
+<img src="/attachments/django-pony.jpg" alt="" class="alignleft" /> Back in September 2010, I started reading about responsive web design. I
 had already read Ethan Marcotte's seminal "[Responsive Web Design][]"
 article back in May in [A List Apart][], but at the time it didn't
 really strike me as anything more than a bleeding-edge technique for

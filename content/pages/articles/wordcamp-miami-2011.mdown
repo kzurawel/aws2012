@@ -1,13 +1,14 @@
 Date: Sat, 05 Mar 2011 17:03:57 +0000
-Categories: misc
+Categories: articles
 Tags: 2011,css3,media queries,mobile design,modernizr,news,responsive design,techniques,tutorials,wcmia,wordcamp miami
 _thumbnail_id: 440
 dsq_thread_id: 421962361
 Permalink: http://arborwebsolutions.com/2011/03/wordcamp-miami-2011/
+Summary: Follow-up on my talk this morning.
 
 # WordCamp Miami 2011
 
-Thanks to everyone who was able to attend my presentation this morning
+<img src="/attachments/WCMIA2011Welcome.jpg" alt="" class="alignleft" /> Thanks to everyone who was able to attend my presentation this morning
 on responsive web design. Here's a set of links and resources for
 responsive web design, feature detection, and CSS3:
 

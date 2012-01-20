@@ -6,7 +6,7 @@ Summary: How to get back in the saddle when you lose your creative mojo.
 
 # So You're Stuck In a Rut. What Now?
 
-![Stuck In a Rut][]Like it or not, everyone occasionally comes to a
+<img src="/attachments/stuck.jpg" alt="Stuck In a Rut" class="alignleft" /> Like it or not, everyone occasionally comes to a
 point where they just lose interest in doing their normal everyday work.
 Some call it "burnout", some call it "designer's block"; regardless of
 what it's called, it's a fact of life as a creative professional that
@@ -59,5 +59,4 @@ burnout even rears its ugly head. Take care of your brain, and it will
 take care of you. Are there any tips I'm missing? What are your
 strategies for avoiding a work meltdown? *Photo by [megwills][]*
 
-  [Stuck In a Rut]: /attachments/stuck.jpg "Stuck In a Rut"
   [megwills]: http://www.flickr.com/photos/whatmegsaid/

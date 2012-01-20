@@ -7,7 +7,7 @@ Summary: Choice is a good thing.
 
 # So Long, Firefox?
 
-![image][] I first began using Linux on a regular basis in 2003 (when
+<img src="/attachments/chrome-logo-elements-300x248.png" alt="" class="alignleft" /> I first began using Linux on a regular basis in 2003 (when
 [Gentoo][] was all the rage), and with it I began using Mozilla's
 Firefox browser. Firefox grew and evolved from its pre-1.0 releases over
 the years, adding powerful extensions like [Firebug][] and the [Web
@@ -60,8 +60,6 @@ switching back if I'm suitably impressed. It's so wonderful to live in a
 time where we have real competition between browser makers!) *Image
 from [Google Blogoscoped][]*
 
-  [image]: /attachments/chrome-logo-elements-300x248.png
-    "chrome-logo-elements"
   [Gentoo]: http://www.gentoo.org
   [Firebug]: http://www.getfirebug.com/
   [Web Developer Toolbar]: https://addons.mozilla.org/en-US/firefox/addon/60

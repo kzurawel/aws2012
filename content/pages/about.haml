@@ -1,44 +1,72 @@
 Title: About this site - Arbor Web Solutions
 
+%h2 What it's all about.
+
+%p 
+  Arbor Web Solutions is a web design and development studio founded by Kevin Zurawel. For over
+  six years, I've been creating simple and elegant websites for clients large and small. I have been
+  a speaker at WordCamp Miami 2011, the winner of the First Annual Design Miami design competition,
+  and a competitor in the 2011 UnmatchedStyle CSSOff. I look forward to putting my experience to
+  work for you.
+
 %h2 What I've been doing lately.
 
 %section#personal
   %div
-    %h3 Reading:
+    %h3 Reading: <span>via <a href="http://www.goodreads.com/user/show/6934901-kevin">Goodreads</a></span>
     %ul#goodreads
       - latest_books(4).each do |b|
         %li
           %img(src="#{b[:cover]}")
-          %a(href="#{b[:link]}")= b[:title]
-          %span (#{b[:pubyear]}) #{b[:num_pages]} pages
-          %span
-            - b[:authors].each do |author|
-              = author + ", "
-          %span Rating: #{b[:rating]} / 5
+          %div
+            %a(href="#{b[:link]}")= b[:title]
+            %span= b[:authors].join(', ') + " (#{b[:pubyear]})"
+            %span #{b[:num_pages]} pages; rating: #{b[:rating]} / 5
   %div
     %h3 Listening to:
     %ul#music
       %li
-        %span Todo...
+        %img(src="/attachments/music/holstplanets.jpg")
+        %span Holst: The Planets / Vaughan Williams: Fantasias
+        %span
+          %em Leonard Slatkin, Philharmonia Orchestra
+      %li
+        %img(src="/attachments/music/childrenclone.jpg")
+        %span Children of the Clone
+        %span
+          %em Jim Guthrie
+        %span
+          "Heart of the World" is on repeat.
+      %li
+        %img(src="/attachments/music/bagraiders.jpg")
+        %span Bag Raiders
+        %span
+          %em Bag Raiders
+      %li
+        %img(src="/attachments/music/goldfish.jpg")
+        %span Get Busy Living
+        %span
+          %em Goldfish
 
   %div
-    %h3 Photographing:
+    %h3 Photographing: <span>via <a href="http://www.flickr.com/photos/54905989@N08/">Flickr</a></span>
     %ul#flickr
       - latest_flickr(4).each do |p|
         %li
           %img(src="#{p[:thumbnail]}")
           %a(href="#{p[:url]}")= p[:title]
-          %span Taken on #{p[:taken]}, #{p[:views]} views
+          %span= format_date(p[:taken])
 
   %div
-    %h3 Archiving:
+    %h3 Archiving: <span><a href="http://twitter.com/#!/kzurawel/favorites">favorite tweets</a></span>
     %ul#favoritetweets
       - fave_tweets(4).each do |t|
         %li
           %img(src="#{t[:img]}")
-          %a(href="http://twitter.com/#{t[:user]}")= t[:user]
-          %p= t[:content]
-          %span= t[:time].strftime("%d %b %Y %I:%M%P")
+          %div
+            %a(href="http://twitter.com/#{t[:user]}")= t[:user]
+            %p= t[:content]
+            %span= t[:time].strftime("%d %b %Y %I:%M%P")
 
 %section#work
   %div
@@ -47,7 +75,7 @@ Title: About this site - Arbor Web Solutions
       %li Todo...
 
   %div
-    %h3 Contributing:
+    %h3 Contributing: <span>Latest <a href="https://github.com/kzurawel">Github</a> repos</span>
     %ul#github
       - github_repos(4).each do |r|
         %li
@@ -57,7 +85,7 @@ Title: About this site - Arbor Web Solutions
           %span Last commit: #{format_date(Date.parse(r[:pushed_at]))}
 
   %div
-    %h3 Speaking on:
+    %h3 Speaking on: <span>via <a href="http://www.slideshare.net/arborwebsolutions">SlideShare</a></span>
     %ul#slideshare
       - latest_slideshows(4).each do |s|
         %li
@@ -66,12 +94,13 @@ Title: About this site - Arbor Web Solutions
           %span= format_date(s[:date])
 
   %div
-    %h3 Tweeting:
+    %h3 Tweeting: <span><a href="http://twitter.com/#!/kzurawel">latest tweets</a></span>
     %ul#latesttweets
       - latest_tweets(4).each do |t|
         %li
           %img(src="#{t[:img]}")
-          %a(href="http://twitter.com/#{t[:user]}")= t[:user]
-          %p= t[:content]
-          %span= t[:time].strftime("%d %b %Y %I:%M%P")
+          %div
+            %a(href="http://twitter.com/#{t[:user]}")= t[:user]
+            %p= t[:content]
+            %span= t[:time].strftime("%d %b %Y %I:%M%P")
 

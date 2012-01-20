@@ -10,4 +10,6 @@ Permalink: http://arborwebsolutions.com/2011/02/center-for-ethical-solutions/
 
 # Center for Ethical Solutions
 
+The Center for Ethical Solutions is a non-profit organization dedicated to investigating the problems of the modern health care system and finding ethical, non-partisan solutions. The Center had a severely outdated web presence, and sought a new platform to contact researchers, collaborators, and donors.
 
+Arbor Web Solutions created a WordPress-powered site engine, including integrated news feeds and a blog. The result was a sharp increase in donations, as well as renewed interest in Center programs.

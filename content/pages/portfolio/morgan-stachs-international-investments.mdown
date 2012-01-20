@@ -10,4 +10,4 @@ Permalink: http://arborwebsolutions.com/2011/02/morgan-stachs-international-inve
 
 # Morgan Stachs International Investments
 
-
+This Shinevine client needed several portions of their ExpressionEngine-based site converted from Flash to JavaScript-based interaction. Arbor Web Solutions integrated these changes through the use of jQuery and custom scripting, modernizing the site and making it easier for Morgan Stachs to update.

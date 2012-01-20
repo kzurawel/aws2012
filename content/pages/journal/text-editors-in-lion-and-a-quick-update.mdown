@@ -3,72 +3,9 @@ Categories: journal
 Tags: blogofile,lion,text editors,vim,wordpress,xcode
 dsq_thread_id: 421741902
 Permalink: http://arborwebsolutions.com/2011/09/text-editors-in-lion-and-a-quick-update/
-Summary: In which I test out Coderay highlighting, talk about coming home to Vim, and spill some details on what's next for Arbor Web Solutions.
+Summary: In which I talk about coming home to Vim, and spill some details on what's next for Arbor Web Solutions.
 
 # Text Editors in Lion, and a Quick Update
-
-Testing code blocks. Ruby code:
-
-    :::ruby
-    require 'rubygems'
-    require 'bundler/setup'
-    
-    Bundler.require(:default)
-    
-    require 'nesta/env'
-    Nesta::Env.root = ::File.expand_path('.', ::File.dirname(__FILE__))
-    
-    require 'nesta/app'
-    
-    use Rack::Codehighlighter, :coderay,
-        :element => "pre>code", :markdown => true
-    
-    run Nesta::App
-
-Python code:
-
-    :::python
-    import xml.dom.minidom as minidom
-
-    def myfunc(x):
-        f = open('file.xml')
-        doc = minidom.parse(f)
-
-HTML:
-
-    :::html  
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Title of My Document</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-    
-    </body>
-    </html>
- 
-
-CSS:
-
-    :::css  
-    header h1 {
-        font-size: 2.8em;
-    }
-
-    input[type="search"] {
-        background-color: #fff;
-    }
-    #maincontent .extra {
-        font-family: "Helvetica Neue";
-    }
-
-JavaScript:
-
-    :::javascript
-    $('#logo').click(function(e) {
-        $(this).fadeOut('slow')
-    });
 
 A few days ago I moved to a new computer, and with it I upgraded to Mac
 OS X Lion. Lion's new full-screen mode is great, especially when

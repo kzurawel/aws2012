@@ -7,7 +7,7 @@ Summary: Follow-up on my Design Miami talk.
 
 # Digital Publishing with EPUB
 
-I would like to thank everyone who came to hear me talk about EPUB last
+<img src="/attachments/epub-logo-icon.gif" alt="ePub logo" class="alignleft" /> I would like to thank everyone who came to hear me talk about EPUB last
 night at Miami Design. We had a great turnout, mostly from people who I
 hadn't met before, which is (almost) always a good thing. I got some
 great feedback and many questions about marketing digital books that I

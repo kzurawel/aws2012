@@ -6,7 +6,7 @@ Summary: The tools I use to do what it is that I do.
 
 # My Ultimate Mac Software Setup
 
-![Mac apps][]I got my first Mac, a unibody 13" Macbook (aluminum, just
+<img src="/attachments/macapps.jpg" alt="Mac apps" class="alignleft" /> I got my first Mac, a unibody 13" Macbook (aluminum, just
 before they became Macbook Pros), a little over a year ago. In that
 time, I've fallen in love with the quality of the hardware, the
 usefulness of Mac OS X, and - especially - the software available for
@@ -62,7 +62,6 @@ Mac, or Linux, leave your own list in the comments below; I'll make a
 round-up of crowd favorites in a later post. *Photo by
 [guidosportaal][]*
 
-  [Mac apps]: /attachments/macapps.jpg "Mac apps"
   [Espresso]: http://macrabbit.com/espresso/
   [Photoshop CS4]: http://www.adobe.com/products/photoshop/family/?promoid=BPDEK
   [NetNewsWire]: http://www.newsgator.com/individuals/netnewswire/default.aspx

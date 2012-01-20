@@ -7,7 +7,7 @@ Summary: What X-COM can teach us about using simplicity in your designs.
 
 # The Power of Simplicity (and Heavy Plasmas)
 
-![X-COM: UFO Defense box cover][]One of the best PC games of my youth
+<img src="/attachments/xcom.jpg" alt="X-COM box art" class="alignleft" /> One of the best PC games of my youth
 was [X-COM: UFO Defense][] (known in the UK as "UFO: Enemy Unknown").
 Released in 1993, it instantly became a favorite among players and
 critics alike. The game tasked players with commanding a secret,
@@ -89,7 +89,5 @@ single hit) with a fairly high rate of accuracy. Once you can start
 using heavy plasmas, you really don't have to use any other weapon for
 the rest of the game. Another example of simplicity in action.
 
-  [X-COM: UFO Defense box cover]: /attachments/xcom.jpg
-    "X-COM: UFO Defense box cover"
   [X-COM: UFO Defense]: http://www.mobygames.com/game/dos/x-com-ufo-defense
   [Web Design is Dead]: http://webdesignfromscratch.com/blog/web-design-is-dead.php

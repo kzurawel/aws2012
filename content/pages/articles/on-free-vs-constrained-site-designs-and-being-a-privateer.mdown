@@ -6,7 +6,7 @@ Summary: How to match a site's organization to its goals.
 
 # On "Free" vs. "Constrained" Site Designs (and Being a Privateer)
 
-![Wing Commander: Privateer box art][]To continue on my [retro kick][],
+<img src="/attachments/privateer.jpg" alt="Wing Commander: Privateer box art" class="alignleft" /> To continue on my [retro kick][],
 today I'll be look at Origin Systems' "[Wing Commander: Privateer][]"
 and how it relates to web design. Origin was a prolific publisher of DOS
 games, creating the entire Ultima series in addition to a line of Wing
@@ -79,9 +79,7 @@ So, readers, have you had any choices like
 this come up recently? What did you decide to use, and why? Leave a
 comment below! And if all else fails, talk to Sandoval, in New Detroit.
 
-  [Wing Commander: Privateer box art]: /attachments/privateer.jpg
-    "Wing Commander: Privateer box art"
-  [retro kick]: http://arborwebsolutions.com/2009/12/the-power-of-simplicity-and-heavy-plasmas/
+  [retro kick]: /articles/the-power-of-simplicity-and-heavy-plasmas/
   [Wing Commander: Privateer]: http://www.mobygames.com/game/dos/wing-commander-privateer
   [Basecamp's web site]: http://basecamphq.com/
   [xkcd]: http://xkcd.com/214/

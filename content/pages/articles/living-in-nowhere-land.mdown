@@ -6,7 +6,7 @@ Summary: On the death of "place" in news media.
 
 # Living in Nowhere-Land
 
-![The Paper Boy][]Those of you who have been reading this blog for a
+<img src="/attachments/newspaper.jpg" alt="The Paper Boy" class="alignleft" /> Those of you who have been reading this blog for a
 while may know that I have a strong interest in the looming [death of
 printed newspapers][]. So I found a recent article from Harpers Online
 particularly interesting. Richard Rodriguez' "[Final Edition: Twilight
@@ -96,7 +96,6 @@ readers? Are you still firmly rooted in place-ness, or have you cut free
 of your physical shackles? (How's that working out for you?) *Photo
 by* [Mike Bailey-Gates][].
 
-  [The Paper Boy]: /attachments/newspaper.jpg "The Paper Boy"
   [death of printed newspapers]: http://arborwebsolutions.com/2009/09/news-wikis-ann-arbor-style/
   [Final Edition: Twilight of the American Newspaper]: http://www.harpers.org/archive/2009/11/0082712
   [Mike Bailey-Gates]: http://www.flickr.com/photos/mbg_photos/

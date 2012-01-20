@@ -1,14 +1,13 @@
 Date: Thu, 28 Jul 2011 19:32:12 +0000
 Categories: articles
 Tags: android,gimmicks,ios,ipad,lock-in,proprietary,software
-_thumbnail_id: 609
 dsq_thread_id: 427237200
 Permalink: http://arborwebsolutions.com/2011/07/android-tablets-as-a-reflection-of-the-early-2000s-laptop-market/
 Summary: Why a gimmick - even a really good gimmick - won't win you sales.
 
 # Android Tablets as a Reflection of the Early 2000's Laptop Market
 
-In the early years of the 21st century, laptops were just becoming
+<img src="/attachments/evoview-sprint-MoreViews-1969.png" alt="HTC Evo View" class="alignleft" /> In the early years of the 21st century, laptops were just becoming
 popular, and laptop makers sought to differentiate themselves from their
 rivals in an attempt to take the lion's share of the market. Computers
 were still fairly new, and scary to a large portion of the population.

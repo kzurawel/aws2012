@@ -7,7 +7,7 @@ Permalink: http://arborwebsolutions.com/2011/03/ruby-saves-tokyo/
 
 # Ruby Saves Tokyo
 
-Apparently Tokyo Gas uses a Ruby app called "[SUPREME][]" (SUPer-dense
+<img src="/attachments/supreme.jpg" alt="" class="alignleft" /> Apparently Tokyo Gas uses a Ruby app called "[SUPREME][]" (SUPer-dense
 REaltime Monitoring of Earthquakes) to automatically shut off natural
 gas lines when an earthquake happens. Ruby probably saved thousands of
 lives in the aftermath of the 9.0 magnitude earthquake a few days ago. I

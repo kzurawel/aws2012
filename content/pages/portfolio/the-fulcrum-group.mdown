@@ -3,11 +3,12 @@ Categories: portfolio
 worktype: Development
 full_image: fulcrumgroupleadershiptrainingorganizationaldevelopmentconsulting.jpg
 thumb_image: fulcrumgroup.jpg
-site_link: http://fulcrumgroup.org
 year: 2009
 featured_project: false
 Permalink: http://arborwebsolutions.com/2011/02/the-fulcrum-group/
 
 # The Fulcrum Group
 
+When this site was designed and built by Surface Theory, web design was a very different industry. The Fulcrum Group site was built on a table-based layout that proved inflexible at adapting to changes in the site's content.
 
+As part of a site-wide content audit, Arbor Web Solutions converted the rigid tables of the original site by using a standards-based approach to markup, resulting in nearly one third less code and much faster and easier editing.

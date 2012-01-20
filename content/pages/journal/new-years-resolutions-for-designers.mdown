@@ -6,7 +6,7 @@ Summary: Making the most of a new year of opportunities.
 
 # New Year's Resolutions for Designers
 
-![This is 2010][] Another year is rapidly drawing to a close, and as
+<img src="/attachments/401557980_8c3153a5d3_m.jpg" alt="This is 2010" class="alignleft" /> Another year is rapidly drawing to a close, and as
 always, the topic on everyone's minds is what to change in the new year.
 While the general public talks about exercising more and spending less,
 what should designers be doing differently? I've been thinking about
@@ -23,5 +23,4 @@ Photoshop comp but something that actually shows my skills. What are
 your plans for 2010? Leave a comment about your brilliant ideas for next
 year. *Photo by [ீ ๑ Adam][]*
 
-  [This is 2010]: /attachments/401557980_8c3153a5d3_m.jpg "This is 2010"
   [ீ ๑ Adam]: http://www.flickr.com/photos/nyctrip/
