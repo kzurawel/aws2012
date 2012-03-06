@@ -2,7 +2,7 @@ Title: About this site - Arbor Web Solutions
 
 %h2 What it's all about.
 
-%p 
+%p.description 
   Arbor Web Solutions is a web design and development studio founded by Kevin Zurawel. For over
   six years, I've been creating simple and elegant websites for clients large and small. I have been
   a speaker at WordCamp Miami 2011, the winner of the First Annual Design Miami design competition,
@@ -11,7 +11,7 @@ Title: About this site - Arbor Web Solutions
 
 %h2 What I've been doing lately.
 
-%section#personal
+%section#categories
   %div
     %h3 Reading: <span>via <a href="http://www.goodreads.com/user/show/6934901-kevin">Goodreads</a></span>
     %ul#goodreads
@@ -26,6 +26,11 @@ Title: About this site - Arbor Web Solutions
     %h3 Listening to:
     %ul#music
       %li
+        %img(src="/attachments/music/axelay.jpg")
+        %span Axelay
+        %span
+          %em Taro Kudou / Konami
+      %li
         %img(src="/attachments/music/holstplanets.jpg")
         %span Holst: The Planets / Vaughan Williams: Fantasias
         %span
@@ -35,8 +40,6 @@ Title: About this site - Arbor Web Solutions
         %span Children of the Clone
         %span
           %em Jim Guthrie
-        %span
-          "Heart of the World" is on repeat.
       %li
         %img(src="/attachments/music/bagraiders.jpg")
         %span Bag Raiders
@@ -58,6 +61,17 @@ Title: About this site - Arbor Web Solutions
           %span= format_date(p[:taken])
 
   %div
+    %h3 Tweeting: <span><a href="http://twitter.com/#!/kzurawel">latest tweets &amp; retweets</a></span>
+    %ul#latesttweets
+      - latest_tweets(4).each do |t|
+        %li
+          %img(src="#{t[:img]}")
+          %div
+            %a(href="http://twitter.com/#{t[:user]}")= t[:user]
+            %p= t[:content]
+            %span= t[:time].strftime("%d %b %Y %I:%M%P")
+
+  %div
     %h3 Archiving: <span><a href="http://twitter.com/#!/kzurawel/favorites">favorite tweets</a></span>
     %ul#favoritetweets
       - fave_tweets(4).each do |t|
@@ -68,11 +82,11 @@ Title: About this site - Arbor Web Solutions
             %p= t[:content]
             %span= t[:time].strftime("%d %b %Y %I:%M%P")
 
-%section#work
-  %div
-    %h3 Working on:
-    %ul#diydribbble
-      %li Todo...
+  -#
+    %div
+      %h3 Working on:
+      %ul#diydribbble
+        %li Todo...
 
   %div
     %h3 Contributing: <span>Latest <a href="https://github.com/kzurawel">Github</a> repos</span>
@@ -92,15 +106,4 @@ Title: About this site - Arbor Web Solutions
           %img(src="#{s[:thumb]}")
           %a(href="#{s[:url]}")= s[:title]
           %span= format_date(s[:date])
-
-  %div
-    %h3 Tweeting: <span><a href="http://twitter.com/#!/kzurawel">latest tweets</a></span>
-    %ul#latesttweets
-      - latest_tweets(4).each do |t|
-        %li
-          %img(src="#{t[:img]}")
-          %div
-            %a(href="http://twitter.com/#{t[:user]}")= t[:user]
-            %p= t[:content]
-            %span= t[:time].strftime("%d %b %Y %I:%M%P")
 

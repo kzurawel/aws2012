@@ -1,0 +1,19 @@
+Date: Saturday, 18 Feb 2012 15:00
+Categories: articles
+Tags: WordCamp,WordPress,structured content,magic fields,markdown
+Summary: More information about my talk at WordCamp Miami 2012.
+
+# Structured Content in WordPress
+
+Thank you to everyone who came to my [WordCamp Miami 2012](http://2012.miami.wordcamp.org) talk today on structured content. Here are some links and resources if you want to learn more:
+
+- **Slides**. You can find the exact website I used to give my presentation today at [wcmia.arborwebsolutions.com](http://wcmia.arborwebsolutions.com). You'll need a relatively recent browser (Safari 4+, Chrome, Firefox 9+, IE 9+, maybe Opera 11.60; does not work on mobile / tablet browsers) to see all of the animations.
+- **Structured content**. The concept of structured content comes from the broader field of _content strategy_. If you want to know more about content strategy, look for books and blog posts by practitioners like Karen McGrane (mentioned in my talk), Kristina Halvorson, or Erin Kissane.
+- **Magic Fields**. I was using Magic Fields 2. You can add Magic Fields to your own site through the Plugins part of your admin (just click "Add new plugin", search for "Magic Fields", and install "Magic Fields 2"). You can get documentation for Magic Fields at their site, [magicfields.org](http://magicfields.org).
+- **Search Everything**. Again, you can install Search Everything through the Plugins section of your admin site.
+- **Markdown**. The canonical source of information on Markdown is creator Jon Gruber's site, [Daring Fireball](http://daringfireball.net/projects/markdown).
+- **Markdown on Save**. Install this plugin by (wait for it…) searching for it through the Plugins section of your admin site. You may also want to try Markdown on Save Improved; the "improved" part is making Markdown the default entry method.
+
+Finally, if you attended my talk this afternoon, please take a moment to leave me some feedback at [SpeakerRate](http://spkr8.com/t/9285). I'd really appreciate it!
+
+Thanks again, and I hope you all enjoyed this year's WordCamp Miami!

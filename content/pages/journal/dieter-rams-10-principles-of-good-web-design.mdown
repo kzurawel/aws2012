@@ -1,0 +1,9 @@
+Date: Wed, 25 Jan 2012 11:00:00
+Categories: journal
+Summary: Rules for good site design.
+
+# Dieter Rams' 10 principles of good web design
+
+I couldn't have said this any better than .net Magazine. This list is golden.
+
+[Dieter Rams' 10 principles of good web design](http://m.netmagazine.com/features/dieter-rams-10-principles-good-web-design)

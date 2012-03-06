@@ -25,7 +25,8 @@
         = preserve @page.to_html(self)
       %aside
         %div
-          %h4= format_date(@page.date)
+          %h4
+            %time(datetime="#{@page.date}" pubdate)= format_date(@page.date)
           - if @page.metadata('tags')
             %h5 Tags:
             %ul.tags

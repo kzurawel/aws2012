@@ -1,0 +1,15 @@
+Date: 20 November 2011 12:00:00
+Categories: portfolio
+worktype: Mobile / responsive design; development
+site_link: http://cssoff.wr4.us
+year: 2011
+full_image: cssoff2011.jpg
+thumb_image: cssoff2011thumb.jpg
+
+# Triple Dare (CSSOff 2011)
+
+For the 2011 [UnmatchedStyle](http://unmatchedstyle.com) CSSOff competition, the designers at Paravel created this single-page design for a fictional TV show, "Triple Dare". Contestants in the CSSOff had to convert a PSD of the design into a fully-working site, with a panel of judges scoring each contestant on the quality of their markup, its usability and appearance across multiple devices and browsers, total file size and more.
+
+In approaching this challenge, I started with a mobile re-design of the layout, progressively adding styling to end up at the design as provided. CSS3 allowed me to size images appropriately for every screen size, and heavily-optimized 8-bit PNG images provided small file sizes (as well as transparency support in Internet Explorer 6). I used CSS3 3D transforms to create fun interactive effects, and a small amount of JavaScript to animate the countdown timer at the bottom of the page.
+
+The result is a fast-loading site that is extremely light on file size, making for a site that works well on everything from a mobile phone to a widescreen TV.

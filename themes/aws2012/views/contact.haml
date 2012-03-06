@@ -1,19 +1,49 @@
 %section
-  %h2 Talk to us, we'll listen.
-  %section.contactform
+  %h2 Let's talk about sites.
+  %h3#clients Arbor Web Solutions is currently <span class="open">accepting</span> new clients.
+  %section#contacttext
+    %h3 We're here for you.
+    %p
+      If your current site isn't cutting it, or if you don't have a site yet, Arbor Web Solutions
+      can help. But before we can get to work, we need to hear from you! Get in touch with us by
+      filling out one of the forms on this page, or:
+    %ul
+      %li
+        %span Email us:
+        %a(href="mailto:hello@arborwebsolutions.com") hello@arborwebsolutions.com
+      %li
+        %span Skype:
+        arborwebsolutions
+      %li
+        %span Twitter:
+        %a(href="http://twitter.com/kzurawel") @kzurawel
+  %section#contactforms
+    %h3 Send us a message.
     %form(action="/contact" method="post")
-      %label(for="name") Your name:
-      %input(type="text" id="name" name="name")/
-      %label(for="email") Your email:
-      %input(type="email" id="email" name="email")/
-      %label(for="phone") Your phone #:
-      %input(type="tel" id="phone" name="phone")/
-      %label(for="message") How can we help you?
-      %textarea(id="message" name="message")
-      %input(type="submit" value="Drop us a line")
+      %ul
+        %li
+          %label(for="name") Your name:
+          %input(type="text" id="name" name="name")/
+        %li
+          %label(for="email") Your email:
+          %input(type="email" id="email" name="email")/
+        %li
+          %label(for="phone") Your phone #:
+          %input(type="tel" id="phone" name="phone")/
+        %li
+          %label(for="message") How can we help?
+          %textarea(id="message" name="message" rows="5")
+        %li
+          %input(type="submit" value="Send it")
 
-    %h3 In a hurry? Enter your email address and we'll get back to you!
+    %h3 In a hurry?
+    %span
+      Just enter your email address and we'll get back to you! We won't sell your email address
+      or sign you up for anything, promise.
     %form(action="/quickcontact" method="post")
-      %label(for="qcemail") Your email address:
-      %input(type="email" id="qcemail" name="qcemail")/
-      %input(type="submit" value="Drop us a line")
+      %ul
+        %li
+          %label(for="qcemail") Your email:
+          %input(type="email" id="qcemail" name="qcemail")/
+        %li
+          %input(type="submit" value="Drop us a line")

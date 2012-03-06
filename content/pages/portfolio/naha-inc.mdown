@@ -1,0 +1,13 @@
+Date: June 01, 2011 12:00:00
+Categories: portfolio
+worktype: Development
+site_link: http://naha-inc.org
+full_image: nahainc.jpg
+thumb_image: nahathumb.jpg
+year: 2010
+
+# NAHA, Inc.
+
+The Native American Heritage Association works tirelessly to improve the lives of Native Americans living on reservations in South Dakota. As a Charity Navigator 4-star non-profit, they needed a website that reflected the scope of their work.
+
+Logic By Design created a new design that incorporated modern touches like textured backgrounds, gradients, and shadows. Arbor Web Solutions then took this design and created a fully-functional WordPress site that incorporates image galleries, a blog, and built-in donation processing through the use of the Shopp e-commerce plugin.

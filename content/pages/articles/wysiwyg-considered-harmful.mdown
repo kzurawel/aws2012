@@ -1,0 +1,36 @@
+Date: Monday, 27 February 2012 16:03:00
+Categories: articles
+Tags: markup,structured content,HTML,Markdown
+Summary: Mandy Brown with another take on why visual editors need to change.
+
+# WYSIWYG Considered Harmful
+
+If you attended my [WordCamp Miami 2012 presentation](/articles/wordcamp-miami-2012), then you already know my thoughts on the WordPress visual editor: every time we show it to a user, we are telling them a lie. The visual editor's interface looks like Microsoft Word, and users know how to use Word. They know that in Word, if you want to change the way something looks, you just highlight it with the mouse and make your changes. Word doesn't have a notion of "meaning" for parts of your document (unless you are a fairly advanced Word user, which is perhaps 1% of the people who use Word on a regular basis).
+
+The problem with the visual editor looking like Word is that it is _not_ Word. On the Web, content (HTML) and presentation (CSS) are separate. _**The way content is written actually has meaning**_. And when our users enter content for their sites, whether they use the visual editor or not, that content will at some point be transformed into HTML markup.
+
+Mandy Brown ([@aworkinglibrary](http://twitter.com/aworkinglibrary)) has been releasing a series of articles lately on the content industry, and I was quite pleased to see that her thoughts on the subject mirror my own:
+
+> It’s time content people of all stripes recognized the WYSIWYG editor 
+> for what it really is: not a convenient shortcut, but a dangerous 
+> obstacle placed between you and the actual content. Because content on 
+> the web is going to be marked up one way or another: you either take 
+> control of it or you cede it to the software, but you can’t avoid it. 
+> WYSIWYG editors are fine for amateurs, but if you are an editor, or 
+> copywriter, or journalist, or any number of the kinds of people who work 
+> with content on the web, you cannot afford to be an amateur.
+
+Mandy suggests learning HTML:
+
+> Fortunately, there’s a plus side to all this: HTML is easy to learn. 
+> Even if you never peeked at the source for a website, never so much as 
+> authored an anchor tag, you already know most of the principles behind 
+> it, because they emerged from the texts themselves. You do need to learn 
+> a new syntax—a new way of expressing what the text means. But syntax is 
+> where editors excel.
+
+_(Source link: [a working library: Markup](http://aworkinglibrary.com/library/archives/markup/))_
+
+While it is true that HTML is a new way of expressing familiar ideas for authors and editors, the average WordPress user is neither. That's why I recommend teaching your users [Markdown](http://daringfireball.net/projects/markdown) instead - the "meaning" of the text is still hidden from your user, but you separate their content from its presentation. The only way to "emphasize" something in Markdown is to use Markdown syntax; no changing the font-size from a dropdown or giving it a different color.
+
+In either case, WYSIWYG editors are not doing us or our users any favors. Unless your users steadfastly refuse to try something new, turn off the visual editor in WordPress and put your users on the path to better Web content.

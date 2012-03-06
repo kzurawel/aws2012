@@ -4,6 +4,8 @@ gem 'nesta', '0.9.11'
 gem 'haml'
 gem 'coderay'
 gem 'rack-codehighlighter', :require => "rack/codehighlighter"
+gem 'dalli'
+gem 'rack-cache', :require => "rack/cache"
 gem 'will_paginate'
 gem 'pony'
 gem 'twitter'

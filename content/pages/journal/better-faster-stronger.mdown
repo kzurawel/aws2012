@@ -1,0 +1,22 @@
+Date: Mon, 23 Jan 2012 20:13:00
+Categories: journal
+Tags: nestacms,sinatra,ruby
+Summary: Gentlemen, we can rebuild it. The new Arbor Web Solutions is born.
+
+# Better. Faster. Stronger.
+
+About four months ago, I [wrote](/journal/text-editors-in-lion-and-a-quick-update) about my plans to move Arbor Web Solutions from WordPress to Blogofile. Well, as always happens, new solutions presented themselves as I was working. What you are reading now is the new Arbor Web Solutions, rebuilt from the ground up and running on [NestaCMS](http://nestacms.com).
+
+Nesta leverages the power of [Sinatra](http://sinatrarb.com), a Ruby-based DSL for web applications, to create a hybrid between fully-dynamic site engines like [WordPress](http://wordpress.org) and static site generators like [Jekyll](http://jekyllrb.com/). Pages and posts are just text files, marked up using a language like Markdown or Haml. Those text files are run through a template on demand and served up as web pages.
+
+Why did I move to this setup? Basically, it fits my workflow and preferences better than the WordPress site I was using previously. All my content is in plain text files that are easily searchable and back-uppable (in my case, on [Github](https://github.com/kzurawel/aws2012)), and I can make and edit posts from any device with a text editor and an internet connection. That means I get *full* access to every aspect of my blogging system from both iPad and iPhone.
+
+If you've visited this site before, you will probably notice a few differences. First, the old site's "articles" have been split into two categories - Articles and Journal. Articles will be the home of tutorials, how-tos, and more in-depth writing on specific topics. Journal, where this post is located, will contain site news, brief posts on a variety of topics, quotes, and links.
+
+Second, I have removed comments from this site. Before you get worked up about this, I would like to offer a compromise. If you would like your comments listed on this site, write your response on any publicly-available forum - your own blog, Twitter, Google+, you name it - and send me a link. I will add the link to your reply on the relevant page of my site.
+
+Finally, the new site should be fully functional in the majority of web browsers out there - including mobiles, tablets, and desktops. However, there are some known issues viewing this site in Internet Explorer. Rest assured that I am resolving these bugs as quickly as possible, and that while some parts of this site may look less than attractive, the entire site is functional in all browsers.
+
+That is all for now. I will be writing a series of articles on the technologies underlying this new site and how it came to be over the next few weeks.
+
+Thank you for reading this, and I hope you will visit regularly!

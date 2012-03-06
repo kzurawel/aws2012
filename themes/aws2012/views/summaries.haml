@@ -1,10 +1,13 @@
 - unless pages.empty?
+  - even = true
   - pages.each do |page|
-    %article
+    - even = !even
+    %article{:class => even ? 'even' : 'odd'}
       %div
         %h3
           %a(href="#{page.abspath}")= page.heading
-        %span= format_date(page.date)
+        %time(datetime="#{page.date}" pubdate)
+          %span= format_date(page.date)
         - if page.summary.nil? || page.summary.empty?
           ~ page.body(self)
         - else

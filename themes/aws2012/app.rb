@@ -18,9 +18,7 @@ module Nesta
 
     helpers do
       def body_class
-        if request.path == "/"
-          return "home"
-        elsif request.path == "/portfolio"
+        if request.path == "/portfolio"
           return "portfolio"
         elsif request.path.match(/^\/portfolio/)
           return "portfolioitem"
@@ -32,8 +30,12 @@ module Nesta
           return "category home"
         elsif request.path == "/about"
           return "about"
-        else
+        elsif request.path.match(/^\/articles/) || request.path.match(/^\/journal/)
           return "article"
+        elsif request.path == "/"
+          return "home"
+        else
+          return "other"
         end
       end
 
@@ -82,10 +84,19 @@ module Nesta
         tweets.each do |t|
           gmttime = DateTime.parse(t.attrs['created_at'])
           time = DateTime.new(gmttime.year, gmttime.mon, gmttime.mday, gmttime.hour - 5, gmttime.min)
-          item = {:user => t.attrs['user']['screen_name'],
+          if t.attrs['retweeted_status']
+            user = t.attrs['retweeted_status']['user']['screen_name']
+            img = t.attrs['retweeted_status']['user']['profile_image_url']
+            text = t.attrs['retweeted_status']['text']
+          else
+            user = t.attrs['user']['screen_name']
+            img = t.attrs['user']['profile_image_url']
+            text = t.attrs['text']
+          end
+          item = {:user => user,
                   :time => time,
-                  :content => t.attrs['text'],
-                  :img => t.attrs['user']['profile_image_url']}
+                  :content => text,
+                  :img => img}
           tweetlist << item
         end
         tweetlist
@@ -202,6 +213,20 @@ module Nesta
       end
     end
 
+    before do
+      expires 900, :public
+    end
+
+    not_found do
+      set_common_variables
+      haml(:not_found)
+    end
+
+    error do
+      set_common_variables
+      haml(:error)
+    end
+
     # get '/css/:sheet.css' do
     #  content_type 'text/css', :charset => 'utf-8'
     #  cache stylesheet(params[:sheet].to_sym)
@@ -260,6 +285,67 @@ module Nesta
           :domain               => 'localhost.localdomain'
         })
       redirect '/success'
+    end
+
+    # Redirects for popular posts
+    get '/2009/11/css-frameworks-and-compilers-the-new-breed' do
+      redirect '/articles/css-frameworks-and-compilers-the-new-breed'
+    end
+
+    get '/2011/03/blogging-in-django-or-why-im-still-on-wordpress' do
+      redirect '/articles/blogging-in-django-or-why-im-still-on-wordpress'
+    end
+
+    get '/2010/04/comprehensive-guide-to-using-cufon-text-with-raphael' do
+      redirect '/articles/comprehensive-guide-to-using-cufon-text-with-raphael'
+    end
+
+    get '/2011/06/nevermind-the-cufon-here’s-the-font-face' do
+      redirect '/articles/nevermind-the-cufon-heres-the-font-face'
+    end
+
+    get '/2010/05/akihabara-replacing-flash-games-with-javascript' do
+      redirect '/articles/akihabara-replacing-flash-games-with-javascript'
+    end
+
+    get '/2011/09/text-editors-in-lion-and-a-quick-update' do
+      redirect '/journal/text-editors-in-lion-and-a-quick-update'
+    end
+
+    get '/2011/04/responsive-design-is-an-official-w3c-recommendation' do
+      redirect '/articles/responsive-design-is-an-official-w3c-recommendation'
+    end
+
+    get '/2011/06/digital-publishing-with-epub' do
+      redirect '/journal/digital-publishing-with-epub'
+    end
+
+    get '/2011/02/umn-nanoparticle-physics-laboratory' do
+      redirect '/portfolio/umn-nanoparticle-physics-laboratory'
+    end
+
+    get '/2011/02/westlake-plastic-surgery' do
+      redirect '/portfolio/westlake-plastic-surgery'
+    end
+
+    get '/2011/02/peruski-chang-plc' do
+      redirect '/portfolio/peruski-chang-plc'
+    end
+
+    get '/2011/02/quinn-co' do
+      redirect '/portfolio/quinn-co'
+    end
+
+    get '/2009/11/perfect-apostrophes-and-freelance-work' do
+      redirect '/articles/perfect-apostrophes-and-freelance-work'
+    end
+
+    get '/2011/03/yet-another-reason-to-design-responsively' do
+      redirect '/journal/yet-another-reason-to-design-responsively'
+    end
+
+    get '/2011/07/android-tablets-as-a-reflection-of-the-early-2000s-laptop-market' do
+      redirect '/articles/android-tablets-as-a-reflection-of-the-early-2000s-laptop-market'
     end
   end
 end

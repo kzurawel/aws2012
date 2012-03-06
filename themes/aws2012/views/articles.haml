@@ -6,6 +6,8 @@
     %article
       %div
         %h3
-          %a(href="#{post.permalink}")= post.title
+          %a(href="#{post.abspath}")= post.title
+        %time(datetime="#{post.date}" pubdate)
+          %span= format_date(post.date)
         = post.summary
         %a(href="#{post.permalink}")= post.read_more

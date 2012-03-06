@@ -1,13 +1,7 @@
-.breadcrumb
-  %a{ :href => "/" } Home
-
-#content
-  %h1 Page not found
+%section
+  %h2 Well this is embarrassing.
 
   %p
-    Please try another page or, if you think something is wrong with our site,
-    do get in touch and let us know.
+    We can't seem to find the page you requested. Our bad.
+  %p Perhaps you'd like to check out <a href="/">the home page</a>?
 
-#sidebar
-  = haml :categories, :layout => false
-  = haml :feed, :layout => false

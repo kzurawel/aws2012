@@ -1,0 +1,52 @@
+Date: Wed, 25 Jan 2012 07:48:00
+Categories: articles
+Tags: sinatra,haml,ruby
+Summary: Because a zebra-striped table is a terrible thing to lose.
+
+# Using Alternating Classes in Sinatra Templates
+
+When I started working on this site's redesign, I made a conscious decision to try to make my markup as lean as possible. I was going to use all the new HTML5 semantic elements, and if a CSS selector could get to the item I needed, I would try to avoid using a class or id on an element. So I wrote a lot of style rules like this one:
+
+    :::css
+    .services ol li:nth-child(4) {
+        /* do stuff here */
+    }
+
+`:nth-child` is incredibly helpful, but there's a problem: it's not supported in Internet Explorer 8 and below. Yes, IE6 is practically dead, and IE9 is the new shiny hotness, but IE7 and IE8 still make up a sizable percentage of web users that few websites can afford to ignore. What to do?
+
+The answer is to go back to older ways of accomplishing the same result - namely, by adding more classes and ids to your elements to provide styling hooks.
+
+### A digression on zebra striping.
+
+This brings us to one of the more common uses for `:nth-child`. One way to enhance the readability of a table is to use alternating background colors on each row, so that the eye can more easily scan a table from left to right. With CSS3, this is easy to accomplish:
+
+    :::css
+    table tr:nth-child(even) {
+        background: #ccc;
+    }
+    table tr:nth-child(odd) {
+        background: #eee;
+    }
+
+But the scourge of old IE raises its ugly head again - no support for `:nth-child`. So we need a way to add class names like `.even` and `.odd` to each `<tr>`.
+
+### Programming to the rescue
+
+Adding all those class names to your markup yourself is a pain. Thankfully, programmers are good at being lazy and there are a number of ways to make the server do all the work for you.
+
+My pages are using [Haml](http://haml-lang.com), so I needed to find a solution in Ruby. Searching the internet, I quickly found this approach:
+
+    :::haml
+    %tr{ :class => cycle('odd', 'even') }
+
+But using this approach in Sinatra doesn't work, because `cycle` here is a Rails function, and we're not using Rails, so the interpreter throws a small fit because it can't find the function definition. Again, what to do?
+
+Just like before, we go back to older ways of doing things. Here is the code I ended up using:
+
+    :::haml
+    - even = true
+    - for page in pages
+        - even = !even
+        %tr{ :class => even ? 'even' : 'odd' }
+
+I set up a variable, `even`, and set it to true. Then, on each trip through the loop, I change `even` to the opposite value. I add a class to my `<tr>` with the _ternary operator_, `?`. This tests the value of `even`, and if it is true, adds class 'even', and if not, adds class 'odd'. The result is zebra striping in old versions of Internet Explorer!

@@ -13,12 +13,26 @@
   %title= @title
   %meta(name="viewport" content="width=device-width, initial-scale=1.0")
   %link(href="/css/base.css" media="screen" rel="stylesheet")
-  %link(href="/css/full.css" media="screen and (min-width: 720px)" rel="stylesheet")
   %link(href="/articles.xml" rel="alternate" type="application/atom+xml")
   %script(src="/js/libs/modernizr-2.0.6.min.js")
+  %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+  %script
+    window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>');
+  /[if lte IE 8]
+    %script(src="/js/libs/respond.min.js")
+  :javascript
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1929346-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
 %body(class="#{body_class}")
   %a#top
-  %header
+  %header#mainheader
     %a(href="/")
       %h1 Arbor <span>web solutions</span>
     - if body_class == 'home'
@@ -53,12 +67,10 @@
     .foottext
       %a.logo(href="/") Arbor Web Solutions
       %p
-        %span.copyright Copyright &copy;2011 Arbor Web Solutions.
+        %span.copyright Copyright &copy;2012 Arbor Web Solutions.
         %span.contact
           Contact Us: 
           %a(href="mailto:hello@arborwebsolutions.com") hello@arborwebsolutions.com
-  %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
-  %script
-    window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>');
+  
   %script(src="/js/libs/jquery.isotope.min.js")
   %script(src="/js/script.js")

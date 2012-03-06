@@ -3,12 +3,15 @@ Title: Journal - Arbor Web Solutions
 %h2 Opinions and news on tech and other subjects.
 %section
   - posts = @page.articles.paginate(:page => params[:page] ? params[:page] : 1, :per_page => 6)
+  - even = true
   - posts.each do |post|
-    %article
+    - even = !even
+    %article{:class => even ? 'even' : 'odd'}
       %div
         %h3
           %a(href="/journal/#{post.permalink}")= post.heading
-        %span= format_date(post.date)
+        %time(datetime="#{post.date}" pubdate)
+          %span= format_date(post.date)
         = post.summary
         %a(href="/journal/#{post.permalink}")= post.read_more
 = will_paginate posts
